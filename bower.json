@@ -1,0 +1,14 @@
+{
+    "name": "meduseld-build",
+    "version": "1.0.0",
+    "keywords":
+        [
+            "meduseld",
+            "sass",
+            "library"
+        ],
+    "dependencies": {
+        "jquery": "~1.11.0",
+        "modernizr": "~2.7.1"
+    }
+}

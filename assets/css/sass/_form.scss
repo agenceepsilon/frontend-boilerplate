@@ -1,0 +1,83 @@
+// =============================================================== //
+//                        FORMS CSS STYLES                         //
+// =============================================================== //
+
+// ------------------------------------------- //
+// GENERAL STYLE
+// ------------------------------------------- //
+
+.btn,
+label,
+input,
+textarea,
+select {
+    display: block;
+    margin-bottom: 10px;
+    outline: none;
+}
+.btn,
+button,
+textarea,
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=button] {
+    background: none;
+    height: 30px;
+    width: 100%;
+    @include rem-size(13);
+    padding: 0 5px;
+    border: solid 1px #CCCCCC;
+    border-radius: 0;
+    @include box-sizing(border-box, true);
+}
+input[type=text],
+input[type=password] {
+    @if $oldie {
+        *height: 22px;
+        *width: 98%;
+        *padding: 0 6px;
+        padding-top: 6px;
+    }
+}
+label {
+    @include rem-size(13);
+}
+textarea {
+    height: 150px;
+    min-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 5px;
+    @if $oldie {
+        min-width: 98%;
+        max-width: 98%;
+        width: 98%;
+        padding: 6px;
+    }
+}
+input[disabled=disabled] {
+    color: #B8B8B8;
+}
+.btn,
+input.btn {
+    color: #000000;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    & > a,
+    & > span {
+        display: block;
+        line-height: 28px;
+        color: #000000;
+        text-decoration: none;
+    }
+}
+
+// ------------------------------------------- //
+// FORM BLOCK
+// ------------------------------------------- //
+
+.form-block {
+    padding: 10px;
+}

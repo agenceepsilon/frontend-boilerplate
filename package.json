@@ -1,0 +1,11 @@
+{
+  "name": "meduseld",
+  "version": "2.5.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-compass": "~0.7.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-browser-sync": "~0.5.6",
+    "grunt-bowercopy": "~0.7.1"
+  }
+}

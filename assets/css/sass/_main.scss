@@ -1,0 +1,150 @@
+// =============================================================== //
+//                         MAIN CSS STYLE                          //
+// =============================================================== //
+
+html,
+body {
+    background: #E6E6E6;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 100%;
+    color: #333;
+}
+
+@include selection(#8F0B49, #FFF, true);
+
+// ------------------------------------------- //
+// LAYOUT - GENERAL
+// ------------------------------------------- //
+
+.l-col {
+    width: 100%;
+    float: none;
+    @include breakpoint($medium) {
+        float: left;
+    }
+}
+
+// Colonne centrale //
+.l-spalte-2-l,
+.l-spalte-2-r {
+    @include breakpoint($medium, $large) {
+        & .main-content {
+            width: 75%;
+        }
+    }
+    @include breakpoint($large) {
+        & .main-content {
+            width: 720px;
+        }
+    }
+}
+.l-spalte-3 {
+    @include breakpoint($medium, $large) {
+        & .main-content {
+            width: 50%;
+        }
+    }
+    @include breakpoint($large) {
+        & .main-content {
+            width: 480px;
+        }
+    }
+}
+
+// Colonne de Gauche //
+.l-spalte-2-l,
+.l-spalte-3 {
+    @include breakpoint($medium, $large) {
+        & .col-left {
+            width: 25%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        & .main-content {
+            margin-left: 25%;
+        }
+    }
+    @include breakpoint($large) {
+        & .col-left {
+            width: 240px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        & .main-content {
+            margin-left: 240px;
+        }
+    }
+}
+
+// Colonne de Droite //
+.l-spalte-2-r,
+.l-spalte-3 {
+    @include breakpoint($medium, $large) {
+        & .col-right {
+            width: 25%;
+        }
+    }
+    @include breakpoint($large) {
+        & .col-right {
+            width: 240px;
+        }
+    }
+}
+
+// ------------------------------------------- //
+// STYLE GENERIQUE
+// ------------------------------------------- //
+
+#header,
+#wrapper,
+#footer {
+    position: relative;
+    z-index: 5;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    @if $oldie {
+        width: 960px;
+    }
+}
+.main-content {
+    background: #FFF;
+}
+.col-left {
+    background: red;
+}
+.col-right {
+    background: blue;
+}
+
+// ------------------------------------------- //
+// HEADER
+// ------------------------------------------- //
+
+#header {
+}
+
+// ------------------------------------------- //
+// WRAPPER
+// ------------------------------------------- //
+
+#wrapper {
+}
+
+// ------------------------------------------- //
+// FOOTER
+// ------------------------------------------- //
+
+#footer {
+}
+
+// ------------------------------------------- //
+// MODULES - GENERAL
+// ------------------------------------------- //
+
+.module {
+}
