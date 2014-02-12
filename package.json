@@ -1,6 +1,6 @@
 {
-  "name": "meduseld",
-  "version": "2.5.0",
+  "name": "meduseld-build",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-compass": "~0.7.1",
