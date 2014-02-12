@@ -1,0 +1,3 @@
+[submodule "assets/css/sass/libs"]
+	path = assets/css/sass/libs
+	url = git://github.com/agenceepsilon/meduseld.git
