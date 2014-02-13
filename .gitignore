@@ -2,3 +2,5 @@
 .sass-cache/*
 bower_components/*
 node_modules/*
+assets/js/libs/*
+assets/css/sass/libs/*

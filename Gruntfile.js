@@ -74,6 +74,14 @@ module.exports = function(grunt){
                     'jquery.js': 'jquery/jquery.js',
                     'modernizr.js': 'modernizr/modernizr.js'
                 }
+            },
+            folders: {
+                options: {
+                    destPrefix: 'assets/css/sass/libs'
+                },
+                files: {
+                    'meduseld': 'meduseld'
+                }
             }
         }
     });
