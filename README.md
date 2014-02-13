@@ -7,23 +7,23 @@
 | [Sass](http://sass-lang.com/)        | <= 3.2.0  |
 | [Compass](http://compass-style.org)  | <= 0.12.0 |
 | [Node.js](http://nodejs.org)         | <= 0.10.0 |
-| [Grunt.js](http://gruntjs.com)       | <= 0.4.0  |
+| [Grunt.js](http://gruntjs.com)       | <= 0.4.1  |
 
 ## Grunt plugins
 
-| Plugins               | Versions |
-| --------------------- | -------- |
-| grunt-contrib-compass | 0.7.2    |
-| grunt-contrib-watch   | 0.2.3    |
-| grunt-browser-sync    | 0.5.7    |
+| Plugins                                                                   | Versions |
+| ------------------------------------------------------------------------- | -------- |
+| [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | 0.7.2    |
+| [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | 0.2.3    |
+| [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | 0.5.7    |
 
 ## Bower dependencies
 
-| Libraries | Versions |
-| --------- | -------- |
-| jquery    | 1.11.0   |
-| modernizr | 2.7.1    |
-| meduseld  | 3.0.0    |
+| Libraries                                              | Versions |
+| ------------------------------------------------------ | -------- |
+| [jquery](http://jquery.com/)                           | 1.11.0   |
+| [modernizr](http://modernizr.com/)                     | 2.7.1    |
+| [meduseld](https://github.com/agenceepsilon/meduseld)  | 3.0.0    |
 
 ## Changelog
 
