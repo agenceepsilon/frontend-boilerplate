@@ -57,21 +57,6 @@ module.exports = function(grunt){
                     baseDir: "app"
                 }
             }
-        },
-
-        bowercopy: {
-            options: {
-                clean: true
-            },
-            js: {
-                options: {
-                    destPrefix: 'assets/js/libs'
-                },
-                files: {
-                    'jquery.js': 'jquery/jquery.js',
-                    'modernizr.js': 'modernizr/modernizr.js'
-                }
-            }
         }
     });
 
