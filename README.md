@@ -1,4 +1,4 @@
-# Meduseld [![GitHub version](https://badge.fury.io/gh/agenceepsilon%2Fmeduseld.png)](http://badge.fury.io/gh/agenceepsilon%2Fmeduseld) [![Bower version](https://badge.fury.io/bo/meduseld.png)](http://badge.fury.io/bo/meduseld) [![devDependency Status](https://david-dm.org/agenceepsilon/meduseld/dev-status.png)](https://david-dm.org/agenceepsilon/meduseld#info=devDependencies)
+# Meduseld Build [![GitHub version](https://badge.fury.io/gh/agenceepsilon%2Fmeduseld-build.png)](http://badge.fury.io/gh/agenceepsilon%2Fmeduseld-build) [![devDependency Status](https://david-dm.org/agenceepsilon/meduseld-build/dev-status.png)](https://david-dm.org/agenceepsilon/meduseld-build#info=devDependencies)
 
 ## Requirements
 
