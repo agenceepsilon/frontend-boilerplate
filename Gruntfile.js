@@ -75,7 +75,7 @@ module.exports = function(grunt){
                     'modernizr.js': 'modernizr/modernizr.js'
                 }
             },
-            folders: {
+            sass: {
                 options: {
                     destPrefix: 'assets/css/sass/libs'
                 },
