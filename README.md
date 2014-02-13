@@ -20,6 +20,8 @@
 
 ## Bower dependencies
 
+Use the grunt command to download the dependencies Bower : ``grunt bower``
+
 | Libraries                                              | Versions |
 | ------------------------------------------------------ | -------- |
 | [jquery](http://jquery.com/)                           | 1.11.0   |

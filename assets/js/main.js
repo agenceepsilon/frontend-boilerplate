@@ -1,20 +1,20 @@
 // --------------------------------------------------------------------------------------------- //
 // CHECK INSTANCE
 // --------------------------------------------------------------------------------------------- //
-if(typeof teq == 'undefined' || !teq){
-    var teq = {};
+if(typeof tep == 'undefined' || !tep){
+    var tep = {};
 }
-if(typeof teq.MEDUSELD == 'undefined' || !teq.MEDUSELD){
-    teq.MEDUSELD = {};
+if(typeof tep.MEDUSELDBUILD == 'undefined' || !tep.MEDUSELDBUILD){
+    tep.MEDUSELDBUILD = {};
 }
-teq.MEDUSELD.Main = function(){
+tep.MEDUSELDBUILD.Main = function(){
     this.init();
 };
 
 // --------------------------------------------------------------------------------------------- //
 // PROTOTYPE
 // --------------------------------------------------------------------------------------------- //
-teq.MEDUSELD.Main.prototype = {
+tep.MEDUSELDBUILD.Main.prototype = {
     init: function(){
         jQuery(document).ready(jQuery.proxy(this, 'onDocumentReady'));
         jQuery(window).load(jQuery.proxy(this, 'onWindowLoad'));
@@ -40,4 +40,4 @@ teq.MEDUSELD.Main.prototype = {
 // --------------------------------------------------------------------------------------------- //
 // RUN INSTANCE
 // --------------------------------------------------------------------------------------------- //
-var teqMEDUSELD = new teq.MEDUSELD.Main();
+var tepMEDUSELDBUILD = new tep.MEDUSELDBUILD.Main();
