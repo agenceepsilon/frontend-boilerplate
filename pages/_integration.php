@@ -69,9 +69,10 @@
             <div class="page-inte">
                 <div class="note">
                     <p><strong>Note</strong> : ce projet utilise <a href="http://sass-lang.com" target="_blank">Sass</a>
-                        avec
-                        <a href="http://compass-style.org" target="_blank">Compass</a>
+                        avec <a href="http://compass-style.org" target="_blank">Compass</a>
                         et combiné avec <a href="http://gruntjs.com" target="_blank">Grunt</a>.</p>
+
+                    <p>Bower : faire un update des dépendances bower avant de travailler. </p>
                 </div>
                 <h2>Pages</h2>
                 <ul>
