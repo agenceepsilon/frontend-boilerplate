@@ -5,7 +5,7 @@
     // Option :
 ?>
 <section id="wrapper">
-    <div class="container l-spalte-2-l clearfix">
+    <div class="container l-col-2-l clearfix">
         <section class="l-col main-content">
             <?php include 'pages/'.$page.'.php'; ?>
         </section>

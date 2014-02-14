@@ -25,8 +25,8 @@ body {
 }
 
 // Colonne centrale //
-.l-spalte-2-l,
-.l-spalte-2-r {
+.l-col-2-l,
+.l-col-2-r {
     @include breakpoint($medium, $large) {
         & .main-content {
             width: 75%;
@@ -38,7 +38,7 @@ body {
         }
     }
 }
-.l-spalte-3 {
+.l-col-3 {
     @include breakpoint($medium, $large) {
         & .main-content {
             width: 50%;
@@ -52,8 +52,8 @@ body {
 }
 
 // Colonne de Gauche //
-.l-spalte-2-l,
-.l-spalte-3 {
+.l-col-2-l,
+.l-col-3 {
     @include breakpoint($medium, $large) {
         & .col-left {
             width: 25%;
@@ -79,8 +79,8 @@ body {
 }
 
 // Colonne de Droite //
-.l-spalte-2-r,
-.l-spalte-3 {
+.l-col-2-r,
+.l-col-3 {
     @include breakpoint($medium, $large) {
         & .col-right {
             width: 25%;
