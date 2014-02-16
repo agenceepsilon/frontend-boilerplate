@@ -10,7 +10,7 @@
     <h2>Inputs / Textarea</h2>
     <input type="text" placeholder="Type Text">
     <input type="password" value="Type Password">
-    <textarea></textarea>
+    <textarea placeholder="Textarea"></textarea>
 
     <h2>Buttons</h2>
     <button class="btn">Balise Button</button>
