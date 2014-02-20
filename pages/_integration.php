@@ -80,7 +80,7 @@
                         <a href="index.php?layout=hp&page=hp">Accueil</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-2col-l&page=wysiwyg">WYSIWYG général</a>
+                        <a href="index.php?layout=int-1col&page=wysiwyg">WYSIWYG général</a>
 
                         <div class="note">
                             <p>Classe : ".editor"</p>
