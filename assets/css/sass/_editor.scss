@@ -11,7 +11,7 @@ table {
 
 p {
     margin: 0 0 15px 0;
-    @extend %clearfix;
+    @extend .clearfix;
 }
 
 ul,
@@ -72,7 +72,7 @@ blockquote {
     & p {
         margin-bottom: 0;
         position: relative;
-        @extend %clearfix-reset;
+        @extend .clearfix-reset;
     }
     @if $oldie {
         *margin: 8px 20px;
@@ -118,14 +118,14 @@ table {
 
 .alignleft {
     margin-right: 10px;
-    @extend %left;
+    @extend .left;
 }
 .alignright {
     margin-left: 10px;
-    @extend %right;
+    @extend .right;
 }
 .aligncenter {
-    @extend %center;
+    @extend .center;
 }
 .wp-caption {
     & .wp-caption-text {

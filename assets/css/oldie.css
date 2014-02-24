@@ -1,3 +1,4 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -391,33 +392,26 @@ th {
   padding: 0;
 }
 
-.editor .alignleft,
-.left {
+.left, .editor .alignleft {
   float: left;
 }
 
-.editor .alignright,
-.right {
+.right, .editor .alignright {
   float: right;
 }
 
-.editor .aligncenter,
-.center {
+.center, .editor .aligncenter {
   margin: 0 auto;
 }
 
-.editor p,
-.clearfix {
+.clearfix, .editor p {
   *zoom: 1;
 }
-.editor p:before, .editor p:after,
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .editor p:before, .clearfix:after, .editor p:after {
   content: " ";
   display: table;
 }
-.editor p:after,
-.clearfix:after {
+.clearfix:after, .editor p:after {
   clear: both;
 }
 
@@ -425,18 +419,14 @@ th {
   clear: both;
 }
 
-.editor blockquote p,
-.clearfix-reset {
+.clearfix-reset, .editor blockquote p {
   *zoom: normal;
 }
-.editor blockquote p:before, .editor blockquote p:after,
-.clearfix-reset:before,
-.clearfix-reset:after {
+.clearfix-reset:before, .editor blockquote p:before, .clearfix-reset:after, .editor blockquote p:after {
   content: "";
   display: inline;
 }
-.editor blockquote p:after,
-.clearfix-reset:after {
+.clearfix-reset:after, .editor blockquote p:after {
   clear: none;
 }
 
@@ -444,8 +434,7 @@ th {
   clear: none;
 }
 
-.hidden-mobile,
-.hidden {
+.hidden, .hidden-mobile {
   display: none;
 }
 
