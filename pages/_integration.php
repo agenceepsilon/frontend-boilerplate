@@ -15,14 +15,13 @@
                 }
                 strong {
                     font-weight: bold;
+                    color: #C23E00;
                 }
                 ul,
                 li {
-                    display: block;
                     margin: 0;
                     padding: 0;
                     list-style-type: none;
-                    overflow: hidden;
                 }
                 li:nth-child(2n+1) {
                     background: #eeeeee;
@@ -41,8 +40,7 @@
                 }
                 .note {
                     background: #FBFBFB;
-                    font-size: 12px;
-                    font-weight: bold;
+                    font-size: 11px;
                     color: #777777;
                     padding: 10px 15px;
                     border-top: dashed 1px #CCCCCC;
@@ -57,7 +55,7 @@
                 .note ul:first-child {
                     margin-top: 0;
                 }
-                .note li {
+                .note ul > li {
                     background: none;
                     list-style-type: disc;
                     margin: 5px 0 0 25px;
@@ -68,11 +66,13 @@
             </style>
             <div class="page-inte">
                 <div class="note">
-                    <p><strong>Note</strong> : ce projet utilise <a href="http://sass-lang.com" target="_blank">Sass</a>
-                        avec <a href="http://compass-style.org" target="_blank">Compass</a>
-                        et combiné avec <a href="http://gruntjs.com" target="_blank">Grunt</a>.</p>
-
-                    <p>Bower : faire un update des dépendances bower avant de travailler. </p>
+                    <p><strong>NOTE</strong> : ce projet utilise <em><a href="http://sass-lang.com" target="_blank">Sass</a></em>
+                        avec <em><a href="http://compass-style.org" target="_blank">Compass</a></em>
+                        et combiné avec <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em>. </p>
+                    <ul>
+                        <li>Lancer <em><strong>"npm install"</strong></em> pour télécharger les modules de <strong>Grunt</strong></li>
+                        <li>Lancer <em><strong>"bower install"</strong></em> pour télécharger les modules de <strong>Bower</strong></li>
+                    </ul>
                 </div>
                 <h2>Pages</h2>
                 <ul>
@@ -80,7 +80,7 @@
                         <a href="index.php?layout=hp&page=hp">Accueil</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-2col-l&page=wysiwyg">WYSIWYG général</a>
+                        <a href="index.php?layout=int-1col&page=wysiwyg">WYSIWYG général</a>
 
                         <div class="note">
                             <p>Classe : ".editor"</p>

@@ -1,5 +1,5 @@
 <!-- JS libraries files -->
-<script src="assets/js/libs/jquery.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 
 <!-- JS main file -->
 <script src="assets/js/main.js"></script>

@@ -57,32 +57,6 @@ module.exports = function(grunt){
                     baseDir: "app"
                 }
             }
-        },
-
-        // ------------------------------------------------------------------ //
-        // BOWER
-        // ------------------------------------------------------------------ //
-        bowercopy: {
-            options: {
-                clean: true
-            },
-            js: {
-                options: {
-                    destPrefix: 'assets/js/libs'
-                },
-                files: {
-                    'jquery.min.js': 'jquery/jquery.min.js',
-                    'modernizr.js': 'modernizr/modernizr.js'
-                }
-            },
-            sass: {
-                options: {
-                    destPrefix: 'assets/css/sass/libs'
-                },
-                files: {
-                    'meduseld': 'meduseld'
-                }
-            }
         }
     });
 
@@ -92,12 +66,10 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browser-sync');
-    grunt.loadNpmTasks('grunt-bowercopy');
 
     // ------------------------------------------ //
     // TACHES PAR DEFAUTS
     // ------------------------------------------ //
     grunt.registerTask('default', ['browser_sync', 'watch']);
-    grunt.registerTask('bower', ['bowercopy']);
 
 };

@@ -6,4 +6,4 @@
 <![endif]-->
 
 <!-- JS files -->
-<script src="assets/js/libs/modernizr.js"></script>
+<script src="bower_components/modernizr/modernizr.js"></script>

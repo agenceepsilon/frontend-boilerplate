@@ -8,7 +8,7 @@
     <h1 class="title"><?php echo((isset($pageTitle[$page])) ? $pageTitle[$page].' ' : 'Page : '.$page.' '); ?></h1>
 
     <div class="editor">
-        <h2>Titre H2</h2>
+        <h2>H2. Heading</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Sed condimentum tristique tortor, ut
                 vulputate ligula mollis scelerisque</strong>. Suspendisse tincidunt, dui et dignissim posuere, diam
@@ -19,12 +19,14 @@
             Curabitur id urna nisl, sed cursus ante. Cras tincidunt neque sit amet nunc pellentesque tempus. Fusce
             suscipit velit id turpis euismod ac accumsan velit tincidunt.</p>
 
-        <h3>Titre H3</h3>
-        <h4>Titre H4</h4>
-        <h5>Titre H5</h5>
-        <h6>Titre H6</h6>
+        <h2>H2. Heading</h2>
 
-        <h2>Titre H2</h2>
+        <h3>H3. Heading</h3>
+        <h4>H4. Heading</h4>
+        <h5>H5. Heading</h5>
+        <h6>H6. Heading</h6>
+
+        <h2>H2. Heading</h2>
 
         <p><img class="alignleft" alt="" src="http://placehold.it/100x100" height="100" width="100">Praesent purus
             tortor, volutpat eu elementum rhoncus, facilisis eget dolor.Cras ut est magna, in mattis nulla. Etiam ut
@@ -33,7 +35,7 @@
             neque diam pulvinar dui. Aliquam malesuada, dolor sit amet gravida vulputate, nisl urna placerat nisl, in
             hendrerit libero turpis ut lectus. Curabitur non arcu felis, sit amet elementum eros.</p>
 
-        <h3><img class="alignleft" alt="" src="http://placehold.it/100x100" height="100" width="100">Titre H3</h3>
+        <h3><img class="alignleft" alt="" src="http://placehold.it/100x100" height="100" width="100">H3. Heading</h3>
 
         <p>Quisque vitae velit lectus, sed tempus elit. Etiam in est libero, vitae rhoncus diam. Maecenas et purus ante.
             Maecenas euismod mi sit amet odio porta convallis. Pellentesque porta nisl euismod diam sodales at
@@ -46,7 +48,7 @@
         <p>
             <img class="aligncenter" alt="" src="http://placehold.it/360x150" height="150" width="360">
         </p>
-        <h4>Titre H4</h4>
+        <h4>H4. Heading</h4>
         <ul>
             <li>Etiam a egestas sem</li>
             <li><a title="Titre du lien" href="#" target="_blank">Etiam a egestas sem</a></li>
@@ -68,7 +70,7 @@
                 Donec pretium mollis metus, ut pretium mi aliquet eget. Nullam vehicula vehicula iaculis. Suspendisse
                 pharetra nulla id arcu volutpat sit amet cursus elit fringilla. Sed ut erat in metus auctor ultricies id
                 eu est. Quisque vitae sapien ut enim sagittis ullamcorper vitae in purus.</p></blockquote>
-        <h5>Titre H5</h5>
+        <h5>H5. Heading</h5>
 
         <p><img class="alignright" alt="" src="http://placehold.it/100x100" height="100" width="100">Nullam velit ante,
             facilisis ut pellentesque nec, sollicitudin ac nunc. Aenean vestibulum velit id mauris laoreet non
@@ -103,7 +105,7 @@
             molestie mattis erat, feugiat sodales justo ornare a. Nulla facilisi. Aenean quam turpis, dignissim ac
             elementum eu, viverra hendrerit nisl. Donec tortor lorem, malesuada ac sagittis sit amet, ornare in
             ipsum.</p>
-        <h6>Titre H6</h6>
+        <h6>H6. Heading</h6>
         <table>
             <tbody>
             <tr>
