@@ -11,7 +11,7 @@
     <div class="container l-col-2-r clearfix">
         <section class="l-col main-content">
             <?php
-                foreach($modules[1] as $module){
+                foreach($modules['main'] as $module){
                     if(file_exists('pages/modules/'.$module.'.php')){
                         include('pages/modules/'.$module.'.php');
                     }
@@ -20,7 +20,7 @@
         </section>
         <aside class="l-col col-right">
             <?php
-                foreach($modules[3] as $module){
+                foreach($modules['right'] as $module){
                     if(file_exists('pages/modules/'.$module.'.php')){
                         include('pages/modules/'.$module.'.php');
                     }

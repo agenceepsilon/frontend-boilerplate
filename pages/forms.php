@@ -3,13 +3,13 @@
     // Page : Forms general style
 
     $modules = array(
-        '1' => array(
+        'main' => array(
             '1' => 'mod-forms'
         ),
-        '2' => array(
+        'left' => array(
             '1' => ''
         ),
-        '3' => array(
+        'right' => array(
             '1' => ''
         )
     );

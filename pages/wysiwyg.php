@@ -3,13 +3,13 @@
     // Page : WYSIWYG
 
     $modules = array(
-        '1' => array(
+        'main' => array(
             '1' => 'mod-tiny'
         ),
-        '2' => array(
+        'left' => array(
             '1' => ''
         ),
-        '3' => array(
+        'right' => array(
             '1' => ''
         )
     );

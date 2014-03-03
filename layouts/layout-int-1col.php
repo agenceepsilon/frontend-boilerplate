@@ -11,7 +11,7 @@
     <div class="container l-col-1 clearfix">
         <section class="l-col main-content">
             <?php
-                foreach($modules[1] as $module){
+                foreach($modules['main'] as $module){
                     if(file_exists('pages/modules/'.$module.'.php')){
                         include('pages/modules/'.$module.'.php');
                     }

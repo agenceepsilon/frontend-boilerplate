@@ -66,12 +66,16 @@
             </style>
             <div class="page-inte">
                 <div class="note">
-                    <p><strong>NOTE</strong> : ce projet utilise <em><a href="http://sass-lang.com" target="_blank">Sass</a></em>
+                    <p><strong>NOTE</strong> : ce projet utilise
+                        <em><a href="http://sass-lang.com" target="_blank">Sass</a></em>
                         avec <em><a href="http://compass-style.org" target="_blank">Compass</a></em>
                         combiné à <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em>. </p>
                     <ul>
-                        <li>Lancer <em><strong>"npm install"</strong></em> pour télécharger les modules de <strong>Grunt</strong></li>
-                        <li>Lancer <em><strong>"bower install"</strong></em> pour télécharger les modules de <strong>Bower</strong></li>
+                        <li>Lancer <em><strong>"npm install"</strong></em> pour télécharger les modules de
+                            <strong>Grunt</strong>
+                        </li>
+                        <li>Lancer <em><strong>"bower install"</strong></em> pour télécharger les modules de <strong>Bower</strong>
+                        </li>
                     </ul>
                 </div>
                 <h2>Pages</h2>
