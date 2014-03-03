@@ -5,28 +5,28 @@
                 .page-inte {
                     padding: 20px;
                 }
-                h2 {
+                .page-inte h2 {
                     height: 30px;
                     line-height: 30px;
                     font-size: 20px;
                 }
-                h2:first-child {
+                .page-inte h2:first-child {
                     margin-top: 0;
                 }
-                strong {
+                .page-inte strong {
                     font-weight: bold;
                     color: #C23E00;
                 }
-                ul,
-                li {
+                .page-inte ul,
+                .page-inte li {
                     margin: 0;
                     padding: 0;
                     list-style-type: none;
                 }
-                li:nth-child(2n+1) {
+                .page-inte li:nth-child(2n+1) {
                     background: #eeeeee;
                 }
-                ul li a {
+                .page-inte ul li a {
                     display: block;
                     height: 40px;
                     line-height: 42px;
@@ -35,10 +35,10 @@
                     text-decoration: none;
                     padding: 0 15px;
                 }
-                ul li a:hover {
+                .page-inte ul li a:hover {
                     text-decoration: none;
                 }
-                .note {
+                .page-inte .note {
                     background: #FBFBFB;
                     font-size: 11px;
                     color: #777777;
@@ -46,21 +46,21 @@
                     border-top: dashed 1px #CCCCCC;
                     border-bottom: dashed 1px #CCCCCC;
                 }
-                .note p,
-                .note ul {
+                .page-inte .note p,
+                .page-inte .note ul {
                     margin-top: 10px;
                     margin-bottom: 0;
                 }
-                .note p:first-child,
-                .note ul:first-child {
+                .page-inte .note p:first-child,
+                .page-inte .note ul:first-child {
                     margin-top: 0;
                 }
-                .note ul > li {
+                .page-inte .note ul > li {
                     background: none;
                     list-style-type: disc;
                     margin: 5px 0 0 25px;
                 }
-                li .note {
+                .page-inte li .note {
                     margin: 0 15px 15px 15px;
                 }
             </style>
@@ -68,7 +68,7 @@
                 <div class="note">
                     <p><strong>NOTE</strong> : ce projet utilise <em><a href="http://sass-lang.com" target="_blank">Sass</a></em>
                         avec <em><a href="http://compass-style.org" target="_blank">Compass</a></em>
-                        et combiné avec <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em>. </p>
+                        combiné à <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em>. </p>
                     <ul>
                         <li>Lancer <em><strong>"npm install"</strong></em> pour télécharger les modules de <strong>Grunt</strong></li>
                         <li>Lancer <em><strong>"bower install"</strong></em> pour télécharger les modules de <strong>Bower</strong></li>
