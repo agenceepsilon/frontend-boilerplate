@@ -122,6 +122,40 @@ body {
 }
 
 // ------------------------------------------- //
+// GRID TEST
+// ------------------------------------------- //
+
+.mod-grid {
+    @include grid(12, true);
+}
+.grid-6-col {
+    @include grid(6, true);
+}
+.grid-row {
+    height: auto;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    &:first-child {
+        margin-top: 0;
+    }
+    @include breakpoint($medium) {
+        height: 30px;
+    }
+}
+.grid-col {
+    background: rgba(255, 0, 0, 0.5);
+    margin-top: 10px;
+    &:first-child {
+        margin-top: 0;
+    }
+    @include box-sizing(border-box);
+    @include breakpoint($medium) {
+        margin-top: 0;
+    }
+}
+
+// ------------------------------------------- //
 // HEADER
 // ------------------------------------------- //
 

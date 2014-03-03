@@ -569,6 +569,313 @@ body {
   background: blue;
 }
 
+@media all and (min-width: 768px) {
+  .mod-grid .grid-1-col {
+    width: 8.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-2-col {
+    width: 16.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-3-col {
+    width: 25%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-4-col {
+    width: 33.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-5-col {
+    width: 41.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-6-col {
+    width: 50%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-7-col {
+    width: 58.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-8-col {
+    width: 66.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-9-col {
+    width: 75%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-10-col {
+    width: 83.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-11-col {
+    width: 91.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-12-col {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-1 {
+    margin-left: 8.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-2 {
+    margin-left: 16.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-3 {
+    margin-left: 25%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-4 {
+    margin-left: 33.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-5 {
+    margin-left: 41.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-6 {
+    margin-left: 50%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-7 {
+    margin-left: 58.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-8 {
+    margin-left: 66.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-9 {
+    margin-left: 75%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-10 {
+    margin-left: 83.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .prefix-11 {
+    margin-left: 91.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-1 {
+    margin-right: 8.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-2 {
+    margin-right: 16.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-3 {
+    margin-right: 25%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-4 {
+    margin-right: 33.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-5 {
+    margin-right: 41.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-6 {
+    margin-right: 50%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-7 {
+    margin-right: 58.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-8 {
+    margin-right: 66.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-9 {
+    margin-right: 75%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-10 {
+    margin-right: 83.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid .suffix-11 {
+    margin-right: 91.66667%;
+  }
+}
+.mod-grid .grid-col {
+  float: none;
+}
+@media all and (min-width: 768px) {
+  .mod-grid .grid-col {
+    float: left;
+  }
+}
+@media all and (min-width: 768px) {
+  .mod-grid.grid-rtl .grid-col {
+    float: right;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-1-col {
+    width: 16.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-2-col {
+    width: 33.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-3-col {
+    width: 50%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-4-col {
+    width: 66.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-5-col {
+    width: 83.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-6-col {
+    width: 100%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .prefix-1 {
+    margin-left: 16.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .prefix-2 {
+    margin-left: 33.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .prefix-3 {
+    margin-left: 50%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .prefix-4 {
+    margin-left: 66.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .prefix-5 {
+    margin-left: 83.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .suffix-1 {
+    margin-right: 16.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .suffix-2 {
+    margin-right: 33.33333%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .suffix-3 {
+    margin-right: 50%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .suffix-4 {
+    margin-right: 66.66667%;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .suffix-5 {
+    margin-right: 83.33333%;
+  }
+}
+.grid-6-col .grid-col {
+  float: none;
+}
+@media all and (min-width: 768px) {
+  .grid-6-col .grid-col {
+    float: left;
+  }
+}
+@media all and (min-width: 768px) {
+  .grid-6-col.grid-rtl .grid-col {
+    float: right;
+  }
+}
+
+.grid-row {
+  height: auto;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+.grid-row:first-child {
+  margin-top: 0;
+}
+@media all and (min-width: 768px) {
+  .grid-row {
+    height: 30px;
+  }
+}
+
+.grid-col {
+  background: rgba(255, 0, 0, 0.5);
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.grid-col:first-child {
+  margin-top: 0;
+}
+@media all and (min-width: 768px) {
+  .grid-col {
+    margin-top: 0;
+  }
+}
+
 .btn,
 label,
 input,
