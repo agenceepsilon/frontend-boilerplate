@@ -21,12 +21,12 @@ tep.MEDUSELDBUILD.Main.prototype = {
         jQuery(window).resize(jQuery.proxy(this, 'onWindowResize'));
     },
     // ----------------------------------------------------------------------------------------- //
-    // Script à lancer au chargement de la page, après l'affichage des images
+    // Script à lancer au chargement de la page
     // ----------------------------------------------------------------------------------------- //
     onDocumentReady: function(){
     },
     // ----------------------------------------------------------------------------------------- //
-    // Script à lancer au chargement de la page
+    // Script à lancer au chargement de la page, après l'affichage des images
     // ----------------------------------------------------------------------------------------- //
     onWindowLoad: function(){
     },

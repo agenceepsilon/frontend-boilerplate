@@ -2,4 +2,14 @@
     // INT to DEV
     // Page : WYSIWYG
 
-    include("modules/mod-tiny.php");
+    $modules = array(
+        '1' => array(
+            '1' => 'mod-tiny'
+        ),
+        '2' => array(
+            '1' => ''
+        ),
+        '3' => array(
+            '1' => ''
+        )
+    );

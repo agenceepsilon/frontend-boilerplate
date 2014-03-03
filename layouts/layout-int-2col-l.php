@@ -3,17 +3,29 @@
     // Layout : Intérieur
     // Colonne : 2 colonnes - Left
     // Option :
+
+    // Chargement de la page des modules
+    include 'pages/'.$page.'.php';
 ?>
 <section id="wrapper">
     <div class="container l-col-2-l clearfix">
         <section class="l-col main-content">
-            <?php include 'pages/'.$page.'.php'; ?>
+            <?php
+                foreach($modules[1] as $module){
+                    if(file_exists('pages/modules/'.$module.'.php')){
+                        include('pages/modules/'.$module.'.php');
+                    }
+                }
+            ?>
         </section>
         <aside class="l-col col-left">
-            Col left...
-            <?php if($page && file_exists('pages/'.$page.'-col-left.php')){
-                include 'pages/'.$page.'-col-left.php';
-            } ?>
+            <?php
+                foreach($modules[2] as $module){
+                    if(file_exists('pages/modules/'.$module.'.php')){
+                        include('pages/modules/'.$module.'.php');
+                    }
+                }
+            ?>
         </aside>
     </div>
 </section>

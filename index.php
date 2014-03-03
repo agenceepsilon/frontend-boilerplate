@@ -3,7 +3,7 @@
     $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
 ?>
 <!DOCTYPE html>
-<html class="no-js" lang="fr">
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
