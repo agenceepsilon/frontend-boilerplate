@@ -1,7 +1,7 @@
 <div id="wrapper" class="clearfix">
     <div class="container l-spalte-1 clearfix">
         <section class="l-col main-content">
-            <style>
+            <style scoped="scoped">
                 .page-inte {
                     padding: 20px;
                 }
@@ -77,10 +77,10 @@
                 <h2>Pages</h2>
                 <ul>
                     <li>
-                        <a href="index.php?layout=hp&page=hp">Accueil</a>
+                        <a href="index.php?layout=hp&amp;page=hp">Accueil</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-1col&page=wysiwyg">WYSIWYG général</a>
+                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG général</a>
 
                         <div class="note">
                             <p>Classe : ".editor"</p>
@@ -90,22 +90,22 @@
                 <h2>Styles généreaux</h2>
                 <ul>
                     <li>
-                        <a href="index.php?layout=int-2col-r&page=forms">Formulaires</a>
+                        <a href="index.php?layout=int-2col-r&amp;page=forms">Formulaires</a>
                     </li>
                 </ul>
                 <h2>Layouts exemples</h2>
                 <ul>
                     <li>
-                        <a href="index.php?layout=int-1col&page=wysiwyg">Layout 1 colonne</a>
+                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">Layout 1 colonne</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-2col-l&page=wysiwyg">Layout 2 colonnes - Left</a>
+                        <a href="index.php?layout=int-2col-l&amp;page=wysiwyg">Layout 2 colonnes - Left</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-2col-r&page=wysiwyg">Layout 2 colonnes - Right</a>
+                        <a href="index.php?layout=int-2col-r&amp;page=wysiwyg">Layout 2 colonnes - Right</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-3col&page=wysiwyg">Layout 3 colonnes</a>
+                        <a href="index.php?layout=int-3col&amp;page=wysiwyg">Layout 3 colonnes</a>
                     </li>
                 </ul>
             </div>
