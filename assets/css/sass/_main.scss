@@ -128,7 +128,9 @@ body {
 .mod-grid {
     @include grid(12, true);
 }
-
+.grid-6-col {
+    @include grid(6, true);
+}
 .grid-row {
     height: auto;
     line-height: 30px;

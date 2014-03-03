@@ -650,7 +650,7 @@ body {
   float: none;
   float: left;
 }
-.grid-rtl .mod-grid .grid-col {
+.mod-grid.grid-rtl .grid-col {
   float: right;
 }
 
