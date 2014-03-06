@@ -2,7 +2,6 @@
     // INT to DEV
     // Layout : Intérieur
     // Colonne : 2 colonnes - Right
-    // Option :
 
     // Chargement de la page des modules
     include 'pages/'.$page.'.php';
