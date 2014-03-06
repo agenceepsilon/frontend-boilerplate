@@ -6,6 +6,6 @@
         "modernizr": "~2.7.1"
     },
     "devDependencies": {
-        "meduseld": "~2.5.0"
+        "meduseld": "~3.0.0"
     }
 }
