@@ -8,7 +8,7 @@
 ?>
 <section id="wrapper">
     <div class="container l-col-1 clearfix">
-        <section class="l-col main-content">
+        <section class="main-content l-col">
             <?php
                 foreach($modules['main'] as $module){
                     if(file_exists('pages/modules/'.$module.'.php')){

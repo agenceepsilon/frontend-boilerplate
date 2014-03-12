@@ -22,75 +22,6 @@ body {
     }
 }
 
-// Colonne centrale //
-.l-col-2-l,
-.l-col-2-r {
-    @include breakpoint($medium, $large) {
-        & .main-content {
-            width: 75%;
-        }
-    }
-    @include breakpoint($large) {
-        & .main-content {
-            width: 720px;
-        }
-    }
-}
-.l-col-3 {
-    @include breakpoint($medium, $large) {
-        & .main-content {
-            width: 50%;
-        }
-    }
-    @include breakpoint($large) {
-        & .main-content {
-            width: 480px;
-        }
-    }
-}
-
-// Colonne de Gauche //
-.l-col-2-l,
-.l-col-3 {
-    @include breakpoint($medium, $large) {
-        & .col-left {
-            width: 25%;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        & .main-content {
-            margin-left: 25%;
-        }
-    }
-    @include breakpoint($large) {
-        & .col-left {
-            width: 240px;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        & .main-content {
-            margin-left: 240px;
-        }
-    }
-}
-
-// Colonne de Droite //
-.l-col-2-r,
-.l-col-3 {
-    @include breakpoint($medium, $large) {
-        & .col-right {
-            width: 25%;
-        }
-    }
-    @include breakpoint($large) {
-        & .col-right {
-            width: 240px;
-        }
-    }
-}
-
 // ------------------------------------------- //
 // STYLE GENERIQUE
 // ------------------------------------------- //
@@ -110,12 +41,6 @@ body {
     }
 }
 .main-content {
-    background: #FFF;
-}
-.col-left {
-    background: #FFF;
-}
-.col-right {
     background: #FFF;
 }
 

@@ -1,6 +1,6 @@
-<div id="wrapper" class="clearfix">
-    <div class="container l-spalte-1 clearfix">
-        <section class="l-col main-content">
+<section id="wrapper">
+    <div class="container l-col-1 clearfix">
+        <section class="main-content l-col">
             <style scoped="scoped">
                 .page-inte {
                     padding: 20px;
@@ -97,22 +97,13 @@
                         <a href="index.php?layout=int-2col-r&amp;page=forms">Formulaires</a>
                     </li>
                 </ul>
-                <h2>Layouts exemples</h2>
+                <h2>Layouts</h2>
                 <ul>
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=wysiwyg">Layout 1 colonne</a>
-                    </li>
-                    <li>
-                        <a href="index.php?layout=int-2col-l&amp;page=wysiwyg">Layout 2 colonnes - Left</a>
-                    </li>
-                    <li>
-                        <a href="index.php?layout=int-2col-r&amp;page=wysiwyg">Layout 2 colonnes - Right</a>
-                    </li>
-                    <li>
-                        <a href="index.php?layout=int-3col&amp;page=wysiwyg">Layout 3 colonnes</a>
                     </li>
                 </ul>
             </div>
         </section>
     </div>
-</div>
+</section>
