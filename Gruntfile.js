@@ -49,15 +49,16 @@ module.exports = function(grunt){
         // ------------------------------------------------------------------ //
         // BROWSER SYNC
         // ------------------------------------------------------------------ //
-        browser_sync: {
-            files: {
-                src: [
-                    'assets/css/*.css',
-                    'assets/css/images/*.jpg',
-                    'assets/css/images/*.png',
-                    'assets/js/*.js'
-                ]
-            },
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src: [
+                        'assets/css/*.css',
+                        'assets/css/images/*.jpg',
+                        'assets/css/images/*.png',
+                        'assets/js/*.js'
+                    ]
+                }},
             options: {
                 watchTask: true,
                 server: {
@@ -77,6 +78,6 @@ module.exports = function(grunt){
     // ------------------------------------------ //
     // TACHES PAR DEFAUTS
     // ------------------------------------------ //
-    grunt.registerTask('default', ['browser_sync', 'watch']);
+    grunt.registerTask('default', ['browserSync', 'watch']);
 
 };
