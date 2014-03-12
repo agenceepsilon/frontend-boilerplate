@@ -11,7 +11,7 @@ module.exports = function(grunt){
         compass: {
             options: {
                 cssDir: 'assets/css',
-                sassDir: 'assets/css/sass',
+                sassDir: 'assets/sass',
                 imagesDir: 'assets/css/images',
                 fontsPath: 'assets/css/fonts',
                 javascriptsDir: 'assets/js',
@@ -26,6 +26,9 @@ module.exports = function(grunt){
                     debugInfo: false,
                     outputStyle: 'expanded'
                 }
+            },
+            dev: {
+                // ....
             }
         },
 
@@ -38,7 +41,7 @@ module.exports = function(grunt){
             },
             css: {
                 files: [
-                    'assets/css/sass/**/*.scss'
+                    'assets/sass/**/*.scss'
                 ],
                 tasks: [
                     'compass:inte'
