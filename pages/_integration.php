@@ -94,7 +94,7 @@
                 <h2>Styles généreaux</h2>
                 <ul>
                     <li>
-                        <a href="index.php?layout=int-2col-r&amp;page=forms">Formulaires</a>
+                        <a href="index.php?layout=int-1col&amp;page=forms">Formulaires</a>
                     </li>
                 </ul>
                 <h2>Layouts</h2>
