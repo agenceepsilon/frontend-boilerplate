@@ -26,9 +26,6 @@ module.exports = function(grunt){
                     debugInfo: false,
                     outputStyle: 'expanded'
                 }
-            },
-            dev: {
-                // ....
             }
         },
 

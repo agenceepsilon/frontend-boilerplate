@@ -1,20 +1,20 @@
 // --------------------------------------------------------------------------------------------- //
 // CHECK INSTANCE
 // --------------------------------------------------------------------------------------------- //
-if(typeof tep == 'undefined' || !tep){
-    var tep = {};
+if(typeof teq == 'undefined' || !teq){
+    var teq = {};
 }
-if(typeof tep.MEDUSELDBUILD == 'undefined' || !tep.MEDUSELDBUILD){
-    tep.MEDUSELDBUILD = {};
+if(typeof teq.BOILERPLATE == 'undefined' || !teq.BOILERPLATE){
+    teq.BOILERPLATE = {};
 }
-tep.MEDUSELDBUILD.Main = function(){
+teq.BOILERPLATE.Main = function(){
     this.init();
 };
 
 // --------------------------------------------------------------------------------------------- //
 // PROTOTYPE
 // --------------------------------------------------------------------------------------------- //
-tep.MEDUSELDBUILD.Main.prototype = {
+teq.BOILERPLATE.Main.prototype = {
     init: function(){
         jQuery(document).ready(jQuery.proxy(this, 'onDocumentReady'));
         jQuery(window).load(jQuery.proxy(this, 'onWindowLoad'));
@@ -40,4 +40,4 @@ tep.MEDUSELDBUILD.Main.prototype = {
 // --------------------------------------------------------------------------------------------- //
 // RUN INSTANCE
 // --------------------------------------------------------------------------------------------- //
-var tepMEDUSELDBUILD = new tep.MEDUSELDBUILD.Main();
+var teqBOILERPLATE = new teq.BOILERPLATE.Main();

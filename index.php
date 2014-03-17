@@ -10,7 +10,7 @@
     <meta name="robots" content="all">
     <meta name="viewport" content="initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Meduseld Project.</title>
+    <title>Meduseld Boilerplate.</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <?php include("assets/files-header.php"); ?>
 </head>
