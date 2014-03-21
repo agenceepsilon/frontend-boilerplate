@@ -20,12 +20,6 @@ module.exports = function(grunt){
                 debugInfo: false,
                 noLineComments: true,
                 force: true
-            },
-            inte: {
-                options: {
-                    debugInfo: false,
-                    outputStyle: 'expanded'
-                }
             }
         },
 
@@ -41,7 +35,7 @@ module.exports = function(grunt){
                     'assets/sass/**/*.scss'
                 ],
                 tasks: [
-                    'compass:inte'
+                    'compass'
                 ]
             }
         },
@@ -78,6 +72,9 @@ module.exports = function(grunt){
     // ------------------------------------------ //
     // TACHES PAR DEFAUTS
     // ------------------------------------------ //
-    grunt.registerTask('default', ['browserSync', 'watch']);
+    grunt.registerTask('default', [
+        'browserSync',
+        'watch'
+    ]);
 
 };
