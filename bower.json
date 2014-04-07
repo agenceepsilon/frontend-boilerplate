@@ -6,6 +6,6 @@
         "modernizr": "~2.7.1"
     },
     "devDependencies": {
-        "meduseld": "~3.0.0"
+        "sass-mercury": "~1.0.0"
     }
 }

@@ -10,16 +10,18 @@ module.exports = function(grunt){
         // ------------------------------------------------------- //
         compass: {
             options: {
+                outputStyle: 'expanded',
+                relativeAssets: true,
+                noLineComments: true,
+                force: true
+            },
+            theme: {
                 cssDir: 'assets/css',
                 sassDir: 'assets/sass',
                 imagesDir: 'assets/css/images',
                 fontsPath: 'assets/css/fonts',
                 javascriptsDir: 'assets/js',
-                outputStyle: 'expanded',
-                relativeAssets: true,
-                debugInfo: false,
-                noLineComments: true,
-                force: true
+                debugInfo: false
             }
         },
 

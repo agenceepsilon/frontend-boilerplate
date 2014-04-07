@@ -4,15 +4,15 @@
 //                   WYSIWYG CSS STYLES IN BACK                    //
 // =============================================================== //
 
-$media-queries: false;
 $oldie: true;
+$media-queries: false;
 
 // ------------------------------------------- //
 // MAIN LIBRARIES
 // ------------------------------------------- //
 
-@import "../../bower_components/meduseld/_meduseld";
-@import "../../bower_components/meduseld/_helpers";
+@import "../../bower_components/sass-mercury/_mercury";
+@import "../../bower_components/sass-mercury/_helpers";
 
 // ------------------------------------------- //
 // CSS IMPORTS
