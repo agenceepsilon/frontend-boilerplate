@@ -11,8 +11,8 @@
         <section class="main-content l-col">
             <?php
                 foreach($modules['main'] as $module){
-                    if(file_exists('pages/modules/'.$module.'.php')){
-                        include('pages/modules/'.$module.'.php');
+                    if(file_exists('components/modules/'.$module.'.php')){
+                        include('components/modules/'.$module.'.php');
                     }
                 }
             ?>

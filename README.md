@@ -7,7 +7,7 @@
 | [Sass](http://sass-lang.com/)       | ~3.2.0   |
 | [Compass](http://compass-style.org) | ~0.12.0  |
 | [Node.js](http://nodejs.org)        | ~0.10.0  |
-| [Grunt.js](http://gruntjs.com)      | ~0.4.1   |
+| [Grunt.js](http://gruntjs.com)      | ~0.4.4   |
 
 ## Grunt plugins
 
@@ -17,7 +17,7 @@ Use the ``npm`` command to download the Grunt dependencies : ``npm install``.
 | ------------------------------------------------------------------------- | -------- |
 | [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.7.2   |
 | [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | ~0.6.1   |
-| [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | ~0.7.2   |
+| [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | ~0.7.4   |
 
 ## Bower dependencies
 
