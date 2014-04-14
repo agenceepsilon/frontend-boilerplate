@@ -76,7 +76,8 @@ ol {
 li {
   margin-left: 40px;
 }
-li > ul, li > ol {
+li > ul,
+li > ol {
   margin-bottom: 0;
 }
 
@@ -124,25 +125,21 @@ blockquote {
   margin: 20px 40px;
   *margin: 8px 20px;
   *padding: 15px;
-  *border: dashed 1px #333333;
+  *border: dashed 1px #333;
 }
 blockquote p {
   margin-bottom: 0;
   position: relative;
 }
-
-blockquote p:before,
-blockquote p:after {
+blockquote p:before, blockquote p:after {
   font-size: 60px;
   position: absolute;
 }
-
 blockquote p:before {
   content: open-quote;
   left: -30px;
   top: -15px;
 }
-
 blockquote p:after {
   content: close-quote;
   margin: -8px 0 0 10px;
@@ -152,7 +149,8 @@ table {
   width: 100%;
   text-align: left;
 }
-table th, table td {
+table th,
+table td {
   padding: 10px;
   border: solid 1px #EBEBEB;
 }
@@ -169,7 +167,7 @@ table th, table td {
   font-size: 12px;
   margin: 0 10px 0 0;
   padding: 5px;
-  border: dashed 1px #333333;
+  border: dashed 1px #333;
   border-top: none;
 }
 .wp-caption.alignleft {

@@ -4,6 +4,6 @@
 
     $modules = array(
         'main' => array(
-            '1' => 'mod-forms'
+            '1' => 'sample-forms'
         )
     );
