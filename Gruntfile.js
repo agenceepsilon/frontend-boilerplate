@@ -1,75 +1,31 @@
 module.exports = function(grunt){
-    grunt.initConfig({
-        // -------------------------------------------------------- //
-        // Importer les métadonnées JSON stockées dans package.json
-        // -------------------------------------------------------- //
+    // -------------------------------------------------------- //
+    // Importer les métadonnées JSON stockées dans package.json
+    // -------------------------------------------------------- //
+    var config = {
         pkg: grunt.file.readJSON('package.json'),
+        env: process.env
+    };
+    grunt.util._.extend(config, loadConfig('./grunt-tasks/'));
+    grunt.initConfig(config);
 
-        // ------------------------------------------------------- //
-        // COMPASS
-        // ------------------------------------------------------- //
-        compass: {
-            options: {
-                outputStyle: 'expanded',
-                relativeAssets: true,
-                noLineComments: true,
-                force: true
-            },
-            theme: {
-                cssDir: 'assets/css',
-                sassDir: 'assets/sass',
-                imagesDir: 'assets/css/images',
-                fontsPath: 'assets/css/fonts',
-                javascriptsDir: 'assets/js',
-                debugInfo: false
-            }
-        },
+    function loadConfig(path){
+        var glob = require('glob');
+        var object = {};
+        var key;
 
-        // ------------------------------------------------------------------ //
-        // WATCH
-        // ------------------------------------------------------------------ //
-        watch: {
-            options: {
-                livereload: false
-            },
-            css: {
-                files: [
-                    'assets/sass/**/*.scss'
-                ],
-                tasks: [
-                    'compass'
-                ]
-            }
-        },
+        glob.sync('*', {cwd: path}).forEach(function(option){
+            key = option.replace(/\.js$/, '');
+            object[key] = require(path + option);
+        });
 
-        // ------------------------------------------------------------------ //
-        // BROWSER SYNC
-        // ------------------------------------------------------------------ //
-        browserSync: {
-            dev: {
-                bsFiles: {
-                    src: [
-                        'assets/css/*.css',
-                        'assets/css/images/*.jpg',
-                        'assets/css/images/*.png',
-                        'assets/js/*.js'
-                    ]
-                }},
-            options: {
-                watchTask: true,
-                server: {
-                    baseDir: "app"
-                }
-            }
-        }
-    });
+        return object;
+    }
 
     // ------------------------------------------ //
     // CHARGEMENT DES PLUGINS
     // ------------------------------------------ //
-    grunt.loadNpmTasks('grunt-contrib-compass');
-    grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-browser-sync');
+    require('load-grunt-tasks')(grunt);
 
     // ------------------------------------------ //
     // TACHES PAR DEFAUTS
