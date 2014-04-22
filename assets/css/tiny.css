@@ -25,35 +25,39 @@
   clear: both;
 }
 
-.clearfix-reset, blockquote p {
+.clearfix--reset, blockquote p {
   *zoom: normal;
 }
-.clearfix-reset:before, blockquote p:before, .clearfix-reset:after, blockquote p:after {
+.clearfix--reset:before, blockquote p:before, .clearfix--reset:after, blockquote p:after {
   content: "";
   display: inline;
 }
-.clearfix-reset:after, blockquote p:after {
+.clearfix--reset:after, blockquote p:after {
   clear: none;
 }
 
-.clear-reset {
+.clear--reset {
   clear: none;
 }
 
-.hidden, .hidden-mobile {
+.hidden, .hidden--mobile {
   display: none;
+  visibility: hidden;
 }
 
-.hidden-mobile {
+.hidden--mobile {
   display: block;
+  visibility: visible;
 }
 
-.hidden-tablet {
+.hidden--tablet {
   display: none;
+  visibility: hidden;
 }
 
-.hidden-desktop {
+.hidden--desktop {
   display: none;
+  visibility: hidden;
 }
 
 p,

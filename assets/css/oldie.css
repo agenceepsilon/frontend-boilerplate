@@ -421,35 +421,39 @@ th {
   clear: both;
 }
 
-.clearfix-reset, .editor blockquote p {
+.clearfix--reset, .editor blockquote p {
   *zoom: normal;
 }
-.clearfix-reset:before, .editor blockquote p:before, .clearfix-reset:after, .editor blockquote p:after {
+.clearfix--reset:before, .editor blockquote p:before, .clearfix--reset:after, .editor blockquote p:after {
   content: "";
   display: inline;
 }
-.clearfix-reset:after, .editor blockquote p:after {
+.clearfix--reset:after, .editor blockquote p:after {
   clear: none;
 }
 
-.clear-reset {
+.clear--reset {
   clear: none;
 }
 
-.hidden, .hidden-mobile {
+.hidden, .hidden--mobile {
   display: none;
+  visibility: hidden;
 }
 
-.hidden-mobile {
+.hidden--mobile {
   display: block;
+  visibility: visible;
 }
 
-.hidden-tablet {
+.hidden--tablet {
   display: none;
+  visibility: hidden;
 }
 
-.hidden-desktop {
+.hidden--desktop {
   display: none;
+  visibility: hidden;
 }
 
 html,

@@ -418,37 +418,41 @@ th {
   clear: both;
 }
 
-.clearfix-reset:before, .editor blockquote p:before, .clearfix-reset:after, .editor blockquote p:after {
+.clearfix--reset:before, .editor blockquote p:before, .clearfix--reset:after, .editor blockquote p:after {
   content: "";
   display: inline;
 }
-.clearfix-reset:after, .editor blockquote p:after {
+.clearfix--reset:after, .editor blockquote p:after {
   clear: none;
 }
 
-.clear-reset {
+.clear--reset {
   clear: none;
 }
 
-.hidden, .hidden-mobile {
+.hidden, .hidden--mobile {
   display: none;
+  visibility: hidden;
 }
 
 @media all and (min-width: 768px) {
-  .hidden-mobile {
+  .hidden--mobile {
     display: block;
+    visibility: visible;
   }
 }
 
 @media all and (min-width: 768px) and (max-width: 960px) {
-  .hidden-tablet {
+  .hidden--tablet {
     display: none;
+    visibility: hidden;
   }
 }
 
 @media all and (min-width: 960px) {
-  .hidden-desktop {
+  .hidden--desktop {
     display: none;
+    visibility: hidden;
   }
 }
 

@@ -72,7 +72,7 @@ blockquote {
     p {
         margin-bottom: 0;
         position: relative;
-        @extend .clearfix-reset;
+        @extend .clearfix--reset;
         &:before,
         &:after {
             @include rem-size(60);
