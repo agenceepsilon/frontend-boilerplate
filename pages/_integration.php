@@ -9,6 +9,7 @@
                     height: 30px;
                     line-height: 30px;
                     font-size: 20px;
+                    margin: 10px 0;
                 }
                 .page-inte h2:first-child {
                     margin-top: 0;
@@ -24,14 +25,14 @@
                     list-style-type: none;
                 }
                 .page-inte li:nth-child(2n+1) {
-                    background: #eeeeee;
+                    background: #EEE;
                 }
                 .page-inte ul li a {
                     display: block;
                     height: 40px;
                     line-height: 42px;
                     font-size: 13px;
-                    color: #000000;
+                    color: #000;
                     text-decoration: none;
                     padding: 0 15px;
                 }
@@ -43,8 +44,8 @@
                     font-size: 11px;
                     color: #777777;
                     padding: 10px 15px;
-                    border-top: dashed 1px #CCCCCC;
-                    border-bottom: dashed 1px #CCCCCC;
+                    border-top: dashed 1px #CCC;
+                    border-bottom: dashed 1px #CCC;
                 }
                 .page-inte .note p,
                 .page-inte .note ul {
@@ -83,7 +84,7 @@
                     <li>
                         <a href="index.php?layout=hp&amp;page=hp">Accueil</a>
                     </li>
-                    <li>
+                    <li class="clearfix">
                         <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG général</a>
 
                         <div class="note">
