@@ -97,12 +97,6 @@
                         <a href="index.php?layout=int-1col&amp;page=forms">Formulaires</a>
                     </li>
                 </ul>
-                <h2>Layouts</h2>
-                <ul>
-                    <li>
-                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">Layout 1 colonne</a>
-                    </li>
-                </ul>
             </div>
         </section>
     </div>
