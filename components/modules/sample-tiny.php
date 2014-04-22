@@ -1,7 +1,7 @@
 <?php
     // INT to DEV
     // Module : Style WYSIWYG général
-    // Option : class "editor" obligatoire
+    // Option : class "editor" obligatoire pour la zone WYSIWYG
 ?>
 
 <article class="module article">

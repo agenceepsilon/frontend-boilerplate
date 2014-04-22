@@ -1,3 +1,8 @@
+<?php
+    // INT to DEV
+    // Header
+?>
+
 <header id="header">
     <div class="container">
         <div class="logo">
