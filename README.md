@@ -42,6 +42,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 * Forms:
     * New HTML structure
 * Cleaning HTML/CSS
+* PHP Optimization
 
 ### 1.0.0
 
