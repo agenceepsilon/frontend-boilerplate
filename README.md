@@ -33,6 +33,16 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.1.0
+
+* Grunt:
+    * Seperation on unique file for each tasks
+* Bower:
+    * ``sass-mercury`` replace ``meduseld``
+* Forms:
+    * New HTML structure
+* Cleaning HTML/CSS
+
 ### 1.0.0
 
 * Stable release
