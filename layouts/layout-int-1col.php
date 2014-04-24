@@ -7,7 +7,7 @@
     include 'pages/'.$page.'.php';
 ?>
 <section id="wrapper">
-    <div class="container l-col-1 clearfix">
+    <div class="container l-1col clearfix">
         <section class="main-content l-col">
             <?php
                 foreach($modules['main'] as $module){

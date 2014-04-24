@@ -1,7 +1,4 @@
-<?php
-    $layout = (isset($_GET['layout'])) ? $_GET['layout'] : FALSE;
-    $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
-?>
+<?php include("functions.php"); ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -17,27 +14,27 @@
 <body>
 <?php
     // HEADER - En fonction du header choisi
-    if($layout && file_exists('components/header-'.$layout.'.php')){
+    if(file_exists('components/header-'.$layout.'.php')){
         include 'components/header-'.$layout.'.php';
     } else {
         include 'components/header.php';
     }
 
     // MAIN - Si le layout n'existe pas ou n'est pas appellé, on charge la page d'intégration
-    if($layout && file_exists('layouts/layout-'.$layout.'.php')){
+    if(file_exists('layouts/layout-'.$layout.'.php')){
         include 'layouts/layout-'.$layout.'.php';
     } else {
         include 'pages/_integration.php';
     }
 
     // FOOTER - En fonction du footer choisi
-    if($layout && file_exists('components/footer-'.$layout.'.php')){
+    if(file_exists('components/footer-'.$layout.'.php')){
         include 'components/footer-'.$layout.'.php';
     } else {
         include 'components/footer.php';
     }
 
-    // Chargement en dernier des JS
+    // Load JavaScript files
     include("assets/files-footer.php");
 ?>
 </body>

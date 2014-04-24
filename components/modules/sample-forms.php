@@ -3,7 +3,7 @@
     // Module : Forms general style sample
 ?>
 
-<div class="module mod-form-sample">
+<div class="mod mod--form-sample">
     <form class="form" action="#" method="post">
         <div class="form-row">
             <label>Inputs / Textarea</label>

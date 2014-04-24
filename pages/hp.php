@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Page : HP
+    // Page : H.P.
 
     $modules = array(
         'main' => array(

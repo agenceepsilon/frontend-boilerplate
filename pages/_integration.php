@@ -1,5 +1,5 @@
 <section id="wrapper">
-    <div class="container l-col-1 clearfix">
+    <div class="container l-1col clearfix">
         <section class="main-content l-col">
             <style scoped="scoped">
                 .page-inte {

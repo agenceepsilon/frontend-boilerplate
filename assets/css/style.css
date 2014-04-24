@@ -464,6 +464,18 @@ body {
   color: #000;
 }
 
+::selection {
+  background: #c23e00;
+  color: white;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #c23e00;
+  color: white;
+  text-shadow: none;
+}
+
 .l-col {
   width: 100%;
   float: none;
