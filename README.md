@@ -15,11 +15,11 @@ Use the ``npm`` command to download the Grunt dependencies : ``npm install``.
 
 | Plugins                                                                   | Versions |
 | ------------------------------------------------------------------------- | -------- |
+| [glob](https://github.com/isaacs/node-glob)                               | ~3.2.9   |
+| [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.4.0   |
 | [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.7.2   |
 | [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | ~0.6.1   |
 | [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | ~0.8.2   |
-| [glob](https://github.com/isaacs/node-glob)                               | ~3.2.9   |
-| [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.4.0   |
 
 ## Bower dependencies
 
