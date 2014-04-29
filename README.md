@@ -29,7 +29,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 | ------------------------------------------------------------- | -------- |
 | [jquery](http://jquery.com/)                                  | ~1.11.0  |
 | [modernizr](http://modernizr.com/)                            | ~2.7.2   |
-| [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.0.0   |
+| [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.0.1   |
 
 ## Changelog
 
