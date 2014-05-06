@@ -33,6 +33,12 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.0
+
+* Removal of the requirement of the class ``.editor`` for WYSIWYG style
+* Bower updates to latest dependencies versions
+* Cleaning HTML/CSS
+
 ### 1.1.0
 
 * Grunt:
