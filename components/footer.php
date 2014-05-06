@@ -4,7 +4,5 @@
 ?>
 
 <footer id="footer">
-    <div class="container">
-        Footer
-    </div>
+    <div class="container"></div>
 </footer>
