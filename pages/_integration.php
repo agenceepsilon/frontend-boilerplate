@@ -24,7 +24,7 @@
                     padding: 0;
                     list-style-type: none;
                 }
-                .page-inte li:nth-child(2n+1) {
+                .page-inte li:nth-child(odd) {
                     background: #EEE;
                 }
                 .page-inte ul li a {
@@ -41,11 +41,14 @@
                 }
                 .page-inte .note {
                     background: #FBFBFB;
-                    font-size: 11px;
                     color: #777777;
                     padding: 10px 15px;
                     border-top: dashed 1px #CCC;
                     border-bottom: dashed 1px #CCC;
+                }
+                .page-inte .note p,
+                .page-inte .note li {
+                    font-size: 11px;
                 }
                 .page-inte .note p,
                 .page-inte .note ul {
@@ -59,7 +62,7 @@
                 .page-inte .note ul > li {
                     background: none;
                     list-style-type: disc;
-                    margin: 5px 0 0 25px;
+                    margin: 5px 0 0 20px;
                 }
                 .page-inte li .note {
                     margin: 0 15px 15px 15px;
@@ -70,7 +73,8 @@
                     <p><strong>NOTE</strong> : ce projet utilise
                         <em><a href="http://sass-lang.com" target="_blank">Sass</a></em>
                         avec <em><a href="http://compass-style.org" target="_blank">Compass</a></em>
-                        combiné à <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em>. </p>
+                        combiné à <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em> et la gestion des dépendances est faite avec <em><a href="http://bower.io" target="_blank">Bower</a></em>.</p>
+                    <p>Pour initilaiser le projet :</p>
                     <ul>
                         <li>Lancer <em><strong>"npm install"</strong></em> pour télécharger les modules de
                             <strong>Grunt</strong>

@@ -19,14 +19,7 @@
 @import "fonts";
 @import "main";
 @import "form";
-
-// ------------------------------------------- //
-// WYSIWYG
-// ------------------------------------------- //
-
-.editor {
-    @import "editor";
-}
+@import "modules";
 @import "templates";
 
 // ------------------------------------------- //

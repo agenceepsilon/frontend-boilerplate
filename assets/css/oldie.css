@@ -394,26 +394,26 @@ th {
   padding: 0;
 }
 
-.left, .editor .alignleft {
+.left, .alignleft {
   float: left;
 }
 
-.right, .editor .alignright {
+.right, .alignright {
   float: right;
 }
 
-.center, .editor .aligncenter {
+.center, .aligncenter {
   margin: 0 auto;
 }
 
-.clearfix, .editor p {
+.clearfix, p {
   *zoom: 1;
 }
-.clearfix:before, .editor p:before, .clearfix:after, .editor p:after {
+.clearfix:before, p:before, .clearfix:after, p:after {
   content: " ";
   display: table;
 }
-.clearfix:after, .editor p:after {
+.clearfix:after, p:after {
   clear: both;
 }
 
@@ -421,14 +421,14 @@ th {
   clear: both;
 }
 
-.clearfix--reset, .editor blockquote p {
+.clearfix--reset, blockquote p {
   *zoom: normal;
 }
-.clearfix--reset:before, .editor blockquote p:before, .clearfix--reset:after, .editor blockquote p:after {
+.clearfix--reset:before, blockquote p:before, .clearfix--reset:after, blockquote p:after {
   content: "";
   display: inline;
 }
-.clearfix--reset:after, .editor blockquote p:after {
+.clearfix--reset:after, blockquote p:after {
   clear: none;
 }
 
@@ -468,6 +468,130 @@ body {
   background: #c23e00;
   color: white;
   text-shadow: none;
+}
+
+::-moz-selection {
+  background: #c23e00;
+  color: white;
+  text-shadow: none;
+}
+
+p,
+li,
+table {
+  font-size: 12px;
+  text-align: justify;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+ul,
+ol {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 15px;
+}
+li > ul,
+li > ol {
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0 10px 0;
+}
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+blockquote {
+  quotes: "\201C" "\201D";
+  margin: 20px 40px;
+  *margin: 8px 20px;
+  *padding: 15px;
+  *border: dashed 1px #333;
+}
+blockquote p {
+  margin-bottom: 0;
+  position: relative;
+}
+blockquote p:before, blockquote p:after {
+  font-size: 60px;
+  position: absolute;
+}
+blockquote p:before {
+  content: open-quote;
+  left: -30px;
+  top: -15px;
+}
+blockquote p:after {
+  content: close-quote;
+  margin: -8px 0 0 10px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+table th,
+table td {
+  padding: 10px;
+  border: solid 1px #EBEBEB;
+}
+
+.alignleft {
+  margin-right: 10px;
+}
+
+.alignright {
+  margin-left: 10px;
+}
+
+.wp-caption .wp-caption-text {
+  font-size: 12px;
+  margin: 0 10px 0 0;
+  padding: 5px;
+  border: dashed 1px #333;
+  border-top: none;
+}
+.wp-caption.alignleft {
+  margin-right: 0;
 }
 
 .l-col {
@@ -518,6 +642,8 @@ input[type=button] {
   border: solid 1px #CCC;
   border-radius: 0;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 input[type=text],
@@ -569,109 +695,6 @@ input.btn > span {
 }
 .form-row:first-child {
   margin-top: 0;
-}
-
-.editor p,
-.editor li,
-.editor table {
-  font-size: 12px;
-  text-align: justify;
-}
-.editor p {
-  margin: 0 0 15px 0;
-}
-.editor ul,
-.editor ol {
-  margin: 0 0 15px 0;
-  padding: 0;
-}
-.editor li {
-  margin-left: 15px;
-}
-.editor li > ul,
-.editor li > ol {
-  margin-bottom: 0;
-}
-.editor img {
-  display: block;
-}
-.editor h2,
-.editor h3,
-.editor h4,
-.editor h5,
-.editor h6 {
-  margin: 20px 0 10px 0;
-}
-.editor h2:first-child,
-.editor h3:first-child,
-.editor h4:first-child,
-.editor h5:first-child,
-.editor h6:first-child {
-  margin-top: 0;
-}
-.editor h2 {
-  font-size: 22px;
-}
-.editor h3 {
-  font-size: 20px;
-}
-.editor h4 {
-  font-size: 18px;
-}
-.editor h5 {
-  font-size: 16px;
-}
-.editor h6 {
-  font-size: 14px;
-}
-.editor blockquote {
-  quotes: "\201C" "\201D";
-  margin: 20px 40px;
-  *margin: 8px 20px;
-  *padding: 15px;
-  *border: dashed 1px #333;
-}
-.editor blockquote p {
-  margin-bottom: 0;
-  position: relative;
-}
-.editor blockquote p:before, .editor blockquote p:after {
-  font-size: 60px;
-  position: absolute;
-}
-.editor blockquote p:before {
-  content: open-quote;
-  left: -30px;
-  top: -15px;
-}
-.editor blockquote p:after {
-  content: close-quote;
-  margin: -8px 0 0 10px;
-}
-.editor table {
-  width: 100%;
-  text-align: left;
-}
-.editor table th,
-.editor table td {
-  padding: 10px;
-  border: solid 1px #EBEBEB;
-}
-.editor .alignleft {
-  margin-right: 10px;
-}
-.editor .alignright {
-  margin-left: 10px;
-}
-.editor .wp-caption .wp-caption-text {
-  font-size: 12px;
-  margin: 0 10px 0 0;
-  padding: 5px;
-  border: dashed 1px #333;
-  border-top: none;
-}
-.editor .wp-caption.alignleft {
-  margin-right: 0;
 }
 
 @media print {
