@@ -1,13 +1,12 @@
 <?php
     // INT to DEV
-    // Module : Style WYSIWYG général
-    // Option : class "editor" obligatoire pour la zone WYSIWYG
+    // Module : WYSIWYG general style sample
 ?>
 
-<article class="mod mod--article">
-    <h1 class="title"><?php echo((isset($pageTitle[$page])) ? $pageTitle[$page].' ' : 'Page : '.$page.' '); ?></h1>
+<article class="mod article">
+    <h1 class="article_title"><?php echo((isset($pageTitle[$page])) ? $pageTitle[$page].' ' : 'Page : '.$page.' '); ?></h1>
 
-    <div class="editor">
+    <div class="article_content editor">
         <h2>H2. Heading</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Sed condimentum tristique tortor, ut

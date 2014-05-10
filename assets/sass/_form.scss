@@ -72,10 +72,9 @@ input.btn {
     label {
         @include rem-size(13);
     }
-}
-.form-row {
-    margin-top: 10px;
-    &:first-child {
-        margin-top: 0;
+    &-row {
+        + .form-row {
+            margin-top: 10px;
+        }
     }
 }

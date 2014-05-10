@@ -4,7 +4,7 @@
 
 | Requirements                        | Versions |
 | ----------------------------------- | -------- |
-| [Sass](http://sass-lang.com/)       | ~3.2.0   |
+| [Sass](http://sass-lang.com)        | ~3.2.0   |
 | [Compass](http://compass-style.org) | ~0.12.0  |
 | [Node.js](http://nodejs.org)        | ~0.10.0  |
 | [Grunt.js](http://gruntjs.com)      | ~0.4.4   |
@@ -27,8 +27,8 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 | Libraries                                                     | Versions |
 | ------------------------------------------------------------- | -------- |
-| [jquery](http://jquery.com/)                                  | ~1.11.0  |
-| [modernizr](http://modernizr.com/)                            | ~2.7.2   |
+| [jquery](http://jquery.com)                                   | ~1.11.1  |
+| [modernizr](http://modernizr.com)                             | ~2.8.1   |
 | [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.0.1   |
 
 ## Changelog

@@ -677,12 +677,8 @@ input.btn > span {
 .form label {
   font-size: 0.8125rem;
 }
-
-.form-row {
+.form-row + .form-row {
   margin-top: 10px;
-}
-.form-row:first-child {
-  margin-top: 0;
 }
 
 @media print {
