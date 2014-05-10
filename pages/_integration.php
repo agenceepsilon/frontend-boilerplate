@@ -90,7 +90,7 @@
                         <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG général</a>
 
                         <div class="note">
-                            <p>Classe : ".editor"</p>
+                            <p>Note...</p>
                         </div>
                     </li>
                 </ul>
