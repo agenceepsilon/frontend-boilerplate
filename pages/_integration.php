@@ -20,18 +20,19 @@
                 }
                 .page-inte ul,
                 .page-inte li {
+                    font-size: 11px;
+                    list-style-type: none;
                     margin: 0;
                     padding: 0;
-                    list-style-type: none;
                 }
-                .page-inte li:nth-child(odd) {
+                .page-inte li:nth-child(2n+1) {
                     background: #EEE;
                 }
                 .page-inte ul li a {
                     display: block;
                     height: 40px;
                     line-height: 42px;
-                    font-size: 13px;
+                    font-size: 12px;
                     color: #000;
                     text-decoration: none;
                     padding: 0 15px;
@@ -41,17 +42,14 @@
                 }
                 .page-inte .note {
                     background: #FBFBFB;
-                    color: #777777;
+                    color: #777;
                     padding: 10px 15px;
                     border-top: dashed 1px #CCC;
                     border-bottom: dashed 1px #CCC;
                 }
                 .page-inte .note p,
-                .page-inte .note li {
-                    font-size: 11px;
-                }
-                .page-inte .note p,
                 .page-inte .note ul {
+                    font-size: 11px;
                     margin-top: 10px;
                     margin-bottom: 0;
                 }
@@ -62,7 +60,7 @@
                 .page-inte .note ul > li {
                     background: none;
                     list-style-type: disc;
-                    margin: 5px 0 0 20px;
+                    margin: 5px 0 0 25px;
                 }
                 .page-inte li .note {
                     margin: 0 15px 15px 15px;
@@ -96,7 +94,7 @@
                         </div>
                     </li>
                 </ul>
-                <h2>Styles généreaux</h2>
+                <h2>Styles généraux</h2>
                 <ul>
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=forms">Formulaires</a>
