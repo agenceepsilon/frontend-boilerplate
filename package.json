@@ -1,12 +1,12 @@
 {
   "name": "meduseld-boilerplate",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "devDependencies": {
-    "grunt": "~0.4.4",
+    "grunt": "~0.4.5",
     "glob": "~3.2.9",
     "load-grunt-tasks": "~0.4.0",
     "grunt-contrib-compass": "~0.7.2",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-browser-sync": "~0.8.2"
+    "grunt-browser-sync": "~0.9.1"
   }
 }

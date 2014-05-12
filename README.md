@@ -33,6 +33,12 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.1
+
+* NPM Packages updates:
+    * Grunt 0.4.5
+    * BrowserSync 0.9.1
+
 ### 1.2.0
 
 * Removal of the requirement of the class ``.editor`` for WYSIWYG style
