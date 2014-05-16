@@ -627,69 +627,13 @@ select {
   outline: none;
 }
 
-.btn,
-button,
-textarea,
-input[type=text],
-input[type=password],
-input[type=submit],
-input[type=button] {
-  background: none;
-  height: 30px;
-  width: 100%;
-  font-size: 13px;
-  padding: 0 5px;
-  border: solid 1px #CCC;
-  border-radius: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-}
-
-input[type=text],
-input[type=password] {
-  *height: 22px;
-  *width: 98%;
-  *padding: 0 6px;
-  padding-top: 6px;
-}
-
-textarea {
-  height: 150px;
-  min-height: 150px;
-  min-width: 100%;
-  max-width: 100%;
-  padding: 5px;
-  min-width: 98%;
-  max-width: 98%;
-  width: 98%;
-  padding: 6px;
-}
-
-.btn,
-input.btn {
-  color: #000;
-  text-align: center;
-  padding: 0;
-  cursor: pointer;
-}
-.btn > a,
-.btn > span,
-input.btn > a,
-input.btn > span {
-  display: block;
-  line-height: 28px;
-  color: #000;
-  text-decoration: none;
-}
-
 .form {
   padding: 10px;
 }
 .form label {
   font-size: 13px;
 }
-.form-row + .form-row {
+.form_row + .form_row {
   margin-top: 10px;
 }
 

@@ -10,58 +10,6 @@ select {
     display: block;
     outline: none;
 }
-.btn,
-button,
-textarea,
-input[type=text],
-input[type=password],
-input[type=submit],
-input[type=button] {
-    background: none;
-    height: 30px;
-    width: 100%;
-    @include rem-size(13);
-    padding: 0 5px;
-    border: solid 1px #CCC;
-    border-radius: 0;
-    @include box-sizing(border-box, true);
-}
-input[type=text],
-input[type=password] {
-    @if $oldie {
-        *height: 22px;
-        *width: 98%;
-        *padding: 0 6px;
-        padding-top: 6px;
-    }
-}
-textarea {
-    height: 150px;
-    min-height: 150px;
-    min-width: 100%;
-    max-width: 100%;
-    padding: 5px;
-    @if $oldie {
-        min-width: 98%;
-        max-width: 98%;
-        width: 98%;
-        padding: 6px;
-    }
-}
-.btn,
-input.btn {
-    color: #000;
-    text-align: center;
-    padding: 0;
-    cursor: pointer;
-    > a,
-    > span {
-        display: block;
-        line-height: 28px;
-        color: #000;
-        text-decoration: none;
-    }
-}
 
 // ------------------------------------------- //
 // FORM GENERAL
@@ -72,8 +20,8 @@ input.btn {
     label {
         @include rem-size(13);
     }
-    &-row {
-        + .form-row {
+    &_row {
+        + .form_row {
             margin-top: 10px;
         }
     }
