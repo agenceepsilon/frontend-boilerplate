@@ -4,6 +4,6 @@
 
     $modules = array(
         'main' => array(
-            '1' => 'sample-tiny'
+            '1' => '_sample-tiny'
         )
     );

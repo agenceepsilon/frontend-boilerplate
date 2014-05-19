@@ -83,15 +83,15 @@
                 </div>
                 <h2>Pages</h2>
                 <ul>
-                    <li>
-                        <a href="index.php?layout=hp&amp;page=hp">Accueil</a>
-                    </li>
                     <li class="clearfix">
-                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG général</a>
+                        <a href="index.php?layout=hp&amp;page=hp">Accueil</a>
 
                         <div class="note">
                             <p>Note...</p>
                         </div>
+                    </li>
+                    <li class="clearfix">
+                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG général</a>
                     </li>
                 </ul>
                 <h2>Styles généraux</h2>

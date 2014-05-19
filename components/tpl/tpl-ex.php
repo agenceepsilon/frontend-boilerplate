@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Template WYSIWYG :
+    // Template WYSIWYG : template example
 ?>
 
 <div class="tpl tpl--?">
