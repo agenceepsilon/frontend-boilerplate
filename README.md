@@ -4,10 +4,10 @@
 
 | Requirements                        | Versions |
 | ----------------------------------- | -------- |
-| [Sass](http://sass-lang.com)        | ~3.2.0   |
+| [Sass](http://sass-lang.com)        | ~3.3.0   |
 | [Compass](http://compass-style.org) | ~0.12.0  |
 | [Node.js](http://nodejs.org)        | ~0.10.0  |
-| [Grunt.js](http://gruntjs.com)      | ~0.4.4   |
+| [Grunt.js](http://gruntjs.com)      | ~0.4.5   |
 
 ## Grunt plugins
 
@@ -17,9 +17,9 @@ Use the ``npm`` command to download the Grunt dependencies : ``npm install``.
 | ------------------------------------------------------------------------- | -------- |
 | [glob](https://github.com/isaacs/node-glob)                               | ~3.2.9   |
 | [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.4.0   |
-| [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.7.2   |
+| [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.8.0   |
 | [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | ~0.6.1   |
-| [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | ~0.8.2   |
+| [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | ~0.9.1   |
 
 ## Bower dependencies
 
@@ -32,6 +32,11 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 | [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.0.1   |
 
 ## Changelog
+
+### 1.2.2
+
+* NPM Packages updates:
+    * Grunt Compass 0.8.0
 
 ### 1.2.1
 
