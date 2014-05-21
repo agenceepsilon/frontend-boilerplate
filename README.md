@@ -15,7 +15,7 @@ Use the ``npm`` command to download the Grunt dependencies : ``npm install``.
 
 | Plugins                                                                   | Versions |
 | ------------------------------------------------------------------------- | -------- |
-| [glob](https://github.com/isaacs/node-glob)                               | ~3.2.10  |
+| [glob](https://github.com/isaacs/node-glob)                               | ~0.4.0   |
 | [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.4.0   |
 | [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.8.0   |
 | [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | ~0.6.1   |
