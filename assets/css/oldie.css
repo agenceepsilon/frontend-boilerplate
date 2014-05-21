@@ -484,16 +484,25 @@ table {
 }
 
 p {
-  margin: 0 0 15px 0;
+  line-height: 1.5;
+  margin: 15px 0 0 0;
+}
+p:first-child {
+  margin-top: 0;
 }
 
 ul,
 ol {
-  margin: 0 0 15px 0;
+  margin: 15px 0 0 0;
   padding: 0;
+}
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
 }
 
 li {
+  line-height: 1.5;
   margin-left: 15px;
 }
 li > ul,
@@ -558,11 +567,11 @@ blockquote p:before, blockquote p:after {
 blockquote p:before {
   content: open-quote;
   left: -30px;
-  top: -15px;
+  top: -23px;
 }
 blockquote p:after {
   content: close-quote;
-  margin: -8px 0 0 10px;
+  margin: -17px 0 0 10px;
 }
 
 table {

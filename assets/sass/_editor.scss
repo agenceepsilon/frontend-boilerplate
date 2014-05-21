@@ -10,16 +10,24 @@ table {
 }
 
 p {
-    margin: 0 0 15px 0;
+    line-height: 1.5;
+    margin: 15px 0 0 0;
     @extend .clearfix;
+    &:first-child {
+        margin-top: 0;
+    }
 }
 
 ul,
 ol {
-    margin: 0 0 15px 0;
+    margin: 15px 0 0 0;
     padding: 0;
+    &:first-child {
+        margin-top: 0;
+    }
 }
 li {
+    line-height: 1.5;
     margin-left: 15px;
     > ul,
     > ol {
@@ -81,11 +89,11 @@ blockquote {
         &:before {
             content: open-quote;
             left: -30px;
-            top: -15px;
+            top: -23px;
         }
         &:after {
             content: close-quote;
-            margin: -8px 0 0 10px;
+            margin: -17px 0 0 10px;
         }
     }
     @if $oldie {

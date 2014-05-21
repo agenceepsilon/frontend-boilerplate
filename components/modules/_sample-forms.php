@@ -59,11 +59,23 @@
             <div class="form_checkbox">
                 <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
             </div>
+            <div class="form_checkbox">
+                <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
+            </div>
+            <div class="form_checkbox">
+                <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
+            </div>
         </div>
         <div class="form_row">
             <label>Radio</label>
         </div>
         <div class="form_row">
+            <div class="form_radio">
+                <input type="radio" id="radio"> <label for="radio">Radio</label>
+            </div>
+            <div class="form_radio">
+                <input type="radio" id="radio"> <label for="radio">Radio</label>
+            </div>
             <div class="form_radio">
                 <input type="radio" id="radio"> <label for="radio">Radio</label>
             </div>
