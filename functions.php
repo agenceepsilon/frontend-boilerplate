@@ -20,3 +20,10 @@
         $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? 'yes' : 'no');
         return simplexml_load_file($url)->lipsum;
     }
+
+    /**
+     * Load $page modules
+     */
+    if(isset($page) && $page == TRUE){
+        include 'pages/'.$page.'.php';
+    }
