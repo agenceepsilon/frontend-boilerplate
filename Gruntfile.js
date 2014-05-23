@@ -23,12 +23,12 @@ module.exports = function(grunt){
     }
 
     // ------------------------------------------ //
-    // CHARGEMENT DES PLUGINS
+    // CHARGEMENT GLOBAL DES PLUGINS
     // ------------------------------------------ //
     require('load-grunt-tasks')(grunt);
 
     // ------------------------------------------ //
-    // TACHES PAR DEFAUTS
+    // TACHES
     // ------------------------------------------ //
     grunt.registerTask('default', [
         'browserSync',

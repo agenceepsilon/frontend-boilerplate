@@ -7,7 +7,8 @@ module.exports = {
                 "assets/css/images/*.png",
                 "assets/js/*.js"
             ]
-        }},
+        }
+    },
     options: {
         watchTask: true,
         server: {
