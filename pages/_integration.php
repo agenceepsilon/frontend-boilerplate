@@ -90,12 +90,12 @@
                             <p>Note...</p>
                         </div>
                     </li>
-                    <li class="clearfix">
-                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG général</a>
-                    </li>
                 </ul>
                 <h2>Styles généraux</h2>
                 <ul>
+                    <li class="clearfix">
+                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG</a>
+                    </li>
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=forms">Formulaires</a>
                     </li>

@@ -6,6 +6,13 @@
     $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
 
     /**
+     * Load $page modules
+     */
+    if(isset($page) && $page == TRUE){
+        include 'pages/'.$page.'.php';
+    }
+
+    /**
      * Generate Lorem Ipsum text
      *
      * @param int    $minLenght

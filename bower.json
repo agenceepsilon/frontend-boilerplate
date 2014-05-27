@@ -1,9 +1,9 @@
 {
     "name": "meduseld-boilerplate",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "dependencies": {
         "jquery": "~1.11.1",
-        "modernizr": "~2.8.1"
+        "modernizr": "~2.8.2"
     },
     "devDependencies": {
         "sass-mercury": "~1.1.0"

@@ -15,7 +15,7 @@ Use the ``npm`` command to download the Grunt dependencies : ``npm install``.
 
 | Plugins                                                                   | Versions |
 | ------------------------------------------------------------------------- | -------- |
-| [glob](https://github.com/isaacs/node-glob)                               | ~3.2.9   |
+| [glob](https://github.com/isaacs/node-glob)                               | ~4.0.0   |
 | [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.4.0   |
 | [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.8.0   |
 | [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | ~0.6.1   |
@@ -28,10 +28,16 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 | Libraries                                                     | Versions |
 | ------------------------------------------------------------- | -------- |
 | [jquery](http://jquery.com)                                   | ~1.11.1  |
-| [modernizr](http://modernizr.com)                             | ~2.8.1   |
-| [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.0.1   |
+| [modernizr](http://modernizr.com)                             | ~2.8.2   |
+| [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.1.0   |
 
 ## Changelog
+
+### 1.2.3
+
+* NPM Packages updates:
+    * Glob 4.0.0
+* Viewport rollback
 
 ### 1.2.2
 
