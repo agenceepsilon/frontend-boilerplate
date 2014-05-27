@@ -1,7 +1,4 @@
 module.exports = function(grunt){
-    // -------------------------------------------------------- //
-    // Importer les métadonnées JSON stockées dans package.json
-    // -------------------------------------------------------- //
     var config = {
         pkg: grunt.file.readJSON('package.json'),
         env: process.env
@@ -23,12 +20,12 @@ module.exports = function(grunt){
     }
 
     // ------------------------------------------ //
-    // CHARGEMENT GLOBAL DES PLUGINS
+    // GLOBAL PLUGINS LOADING
     // ------------------------------------------ //
     require('load-grunt-tasks')(grunt);
 
     // ------------------------------------------ //
-    // TACHES
+    // TASKS
     // ------------------------------------------ //
     grunt.registerTask('default', [
         'browserSync',
