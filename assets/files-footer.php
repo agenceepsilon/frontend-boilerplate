@@ -2,6 +2,7 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
 <!-- JS main file -->
+<script src="bower_components/jquery.notready/src/jquery.ready.js"></script>
 <script src="assets/js/main.js"></script>
 
 <!-- Grunt Browser Sync - Intégration uniquement -->

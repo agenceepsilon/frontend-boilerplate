@@ -6,4 +6,5 @@
 <![endif]-->
 
 <!-- JS files -->
+<script src="bower_components/jquery.notready/src/jquery.notready.js"></script>
 <script src="bower_components/modernizr/modernizr.js"></script>

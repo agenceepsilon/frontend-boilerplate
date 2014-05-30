@@ -28,6 +28,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 | Libraries                                                     | Versions |
 | ------------------------------------------------------------- | -------- |
 | [jquery](http://jquery.com)                                   | ~1.11.1  |
+| [jquery.notready](http://www.johansatge.fr/jquery-notready)   | ~0.1.0   |
 | [modernizr](http://modernizr.com)                             | ~2.8.2   |
 | [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.1.0   |
 
