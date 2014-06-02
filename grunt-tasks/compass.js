@@ -1,5 +1,6 @@
 module.exports = {
     options: {
+        assetCacheBuster: false,
         outputStyle: "expanded",
         relativeAssets: true,
         noLineComments: true,
