@@ -3,7 +3,7 @@
         <section class="main-content l-col">
             <style scoped="scoped">
                 .page-inte {
-                    padding: 20px;
+                    padding: 10px 0 0 0;
                 }
                 .page-inte h2 {
                     height: 30px;
