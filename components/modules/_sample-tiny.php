@@ -31,6 +31,8 @@
             <?php echo lipsum(70, 90, "words", FALSE); ?>
         </p>
 
+        <p><?php echo lipsum(100, 110, "words", FALSE); ?></p>
+
         <p>
             <img class="alignright" alt="" src="http://placehold.it/100x100" height="100" width="100">
             <?php echo lipsum(100, 120, "words", FALSE); ?>

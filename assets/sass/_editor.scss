@@ -12,7 +12,6 @@ table {
 p {
     line-height: 1.5;
     margin: 15px 0 0 0;
-    @extend .clearfix;
     &:first-child {
         margin-top: 0;
     }
@@ -80,7 +79,6 @@ blockquote {
     p {
         margin-bottom: 0;
         position: relative;
-        @extend .clearfix--reset;
         &:before,
         &:after {
             @include rem-size(60);

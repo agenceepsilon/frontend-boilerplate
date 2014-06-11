@@ -10,14 +10,14 @@
   margin: 0 auto;
 }
 
-.clearfix, p {
+.clearfix {
   *zoom: 1;
 }
-.clearfix:before, p:before, .clearfix:after, p:after {
+.clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-.clearfix:after, p:after {
+.clearfix:after {
   clear: both;
 }
 
@@ -25,14 +25,14 @@
   clear: both;
 }
 
-.clearfix--reset, blockquote p {
+.clearfix--reset {
   *zoom: normal;
 }
-.clearfix--reset:before, blockquote p:before, .clearfix--reset:after, blockquote p:after {
+.clearfix--reset:before, .clearfix--reset:after {
   content: "";
   display: inline;
 }
-.clearfix--reset:after, blockquote p:after {
+.clearfix--reset:after {
   clear: none;
 }
 
