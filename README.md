@@ -34,6 +34,14 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.5
+
+* NPM Packages updates:
+    * ``load-grunt-tasks`` 0.5.0
+* HTML/CSS:
+    * With backgound by default
+    * Delete ``clearfix`` on ``p``
+
 ### 1.2.4
 
 * NPM Packages updates:
