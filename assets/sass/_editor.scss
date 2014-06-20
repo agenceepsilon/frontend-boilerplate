@@ -38,6 +38,15 @@ img {
     display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
 h2,
 h3,
 h4,
@@ -50,23 +59,23 @@ h6 {
 }
 
 h2 {
-    @include rem-size(22);
+    @include rem-size(24);
 }
 
 h3 {
-    @include rem-size(20);
+    @include rem-size(22);
 }
 
 h4 {
-    @include rem-size(18);
+    @include rem-size(20);
 }
 
 h5 {
-    @include rem-size(16);
+    @include rem-size(18);
 }
 
 h6 {
-    @include rem-size(14);
+    @include rem-size(16);
 }
 
 // ------------------------------------------- //
