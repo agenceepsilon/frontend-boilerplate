@@ -4,8 +4,7 @@ module.exports = {
             src: [
                 "assets/css/*.css",
                 "assets/css/images/*.jpg",
-                "assets/css/images/*.png",
-                "assets/js/*.js"
+                "assets/css/images/*.png"
             ]
         }
     },
