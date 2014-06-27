@@ -16,8 +16,8 @@ Use the ``npm`` command to download the Grunt dependencies : ``npm install``.
 | Plugins                                                                   | Versions |
 | ------------------------------------------------------------------------- | -------- |
 | [glob](https://github.com/isaacs/node-glob)                               | ~4.0.2   |
-| [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.4.0   |
-| [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.8.0   |
+| [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks)      | ~0.6.0   |
+| [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) | ~0.9.0   |
 | [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)     | ~0.6.1   |
 | [grunt-browser-sync](https://github.com/shakyshane/grunt-browser-sync)    | ~0.9.1   |
 
@@ -33,6 +33,12 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 | [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.1.0   |
 
 ## Changelog
+
+### 1.2.6
+
+* NPM Packages updates:
+    * ``load-grunt-tasks`` 0.6.0
+    * ``grunt-contrib-compass`` 0.9.0
 
 ### 1.2.5
 
