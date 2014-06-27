@@ -15,7 +15,6 @@
                     margin-top: 0;
                 }
                 .page-inte strong {
-                    font-weight: bold;
                     color: #C23E00;
                 }
                 .page-inte ul,
@@ -58,7 +57,7 @@
                     margin-top: 0;
                 }
                 .page-inte .note ul > li {
-                    background: none;
+                    background-color: transparent;
                     list-style-type: disc;
                     margin: 5px 0 0 25px;
                 }
