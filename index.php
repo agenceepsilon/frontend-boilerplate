@@ -15,7 +15,7 @@
 <?php
     /**
      * HEADER
-     * - En fonction du header choisi
+     * Displays the correct "header" depending on the chosen.
      */
     if(file_exists('components/header-'.$layout.'.php')){
         include 'components/header-'.$layout.'.php';
@@ -25,7 +25,7 @@
 
     /**
      * MAIN
-     * - Si le layout n'existe pas ou n'est pas appellé, on charge la page d'intégration
+     * If the layout does not or is not called there, it loads the "integration" page.
      */
     if(file_exists('layouts/layout-'.$layout.'.php')){
         include 'layouts/layout-'.$layout.'.php';
@@ -35,7 +35,7 @@
 
     /**
      * FOOTER
-     * - En fonction du footer choisi
+     * Displays the correct "footer" depending on the chosen.
      */
     if(file_exists('components/footer-'.$layout.'.php')){
         include 'components/footer-'.$layout.'.php';
