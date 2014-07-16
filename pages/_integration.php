@@ -2,32 +2,32 @@
     <div class="container l-1col clearfix">
         <section class="main-content l-col">
             <style scoped="scoped">
-                .page-inte {
+                .page_inte {
                     padding: 10px 0 0 0;
                 }
-                .page-inte h2 {
+                .page_inte h2 {
                     height: 30px;
                     line-height: 30px;
                     font-size: 20px;
                     margin: 10px 0;
                 }
-                .page-inte h2:first-child {
+                .page_inte h2:first-child {
                     margin-top: 0;
                 }
-                .page-inte strong {
+                .page_inte strong {
                     color: #C23E00;
                 }
-                .page-inte ul,
-                .page-inte li {
+                .page_inte ul,
+                .page_inte li {
                     font-size: 11px;
                     list-style-type: none;
                     margin: 0;
                     padding: 0;
                 }
-                .page-inte li:nth-child(2n+1) {
+                .page_inte li:nth-child(2n+1) {
                     background: #EEE;
                 }
-                .page-inte ul li a {
+                .page_inte ul li a {
                     display: block;
                     height: 40px;
                     line-height: 42px;
@@ -36,67 +36,61 @@
                     text-decoration: none;
                     padding: 0 15px;
                 }
-                .page-inte ul li a:hover {
+                .page_inte ul li a:hover {
                     text-decoration: none;
                 }
-                .page-inte .note {
+                .page_inte .note {
                     background: #FBFBFB;
                     color: #777;
                     padding: 10px 15px;
                     border-top: dashed 1px #CCC;
                     border-bottom: dashed 1px #CCC;
                 }
-                .page-inte .note p,
-                .page-inte .note ul {
+                .page_inte .note p,
+                .page_inte .note ul {
                     font-size: 11px;
                     margin-top: 10px;
                     margin-bottom: 0;
                 }
-                .page-inte .note p:first-child,
-                .page-inte .note ul:first-child {
+                .page_inte .note p:first-child,
+                .page_inte .note ul:first-child {
                     margin-top: 0;
                 }
-                .page-inte .note ul > li {
+                .page_inte .note ul > li {
                     background-color: transparent;
                     list-style-type: disc;
                     margin: 5px 0 0 25px;
                 }
-                .page-inte li .note {
+                .page_inte li .note {
                     margin: 0 15px 15px 15px;
                 }
             </style>
-            <div class="page-inte">
+            <div class="page_inte">
                 <div class="note">
-                    <p><strong>NOTE</strong> : ce projet utilise
-                        <em><a href="http://sass-lang.com" target="_blank">Sass</a></em>
-                        avec <em><a href="http://compass-style.org" target="_blank">Compass</a></em>
-                        combiné à <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em> et la gestion des dépendances est faite avec <em><a href="http://bower.io" target="_blank">Bower</a></em>.</p>
-                    <p>Pour initilaiser le projet :</p>
+                    <p><strong>NOTE</strong>: this project uses <em><a href="http://sass-lang.com" target="_blank">Sass</a></em> with <em><a href="http://compass-style.org" target="_blank">Compass</a></em> combined with <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em> and dependency management is done with <em><a href="http://bower.io" target="_blank">Bower</a></em>.</p>
+                    <p>To initialize the project:</p>
                     <ul>
-                        <li>Lancer <em><strong>"npm install"</strong></em> pour télécharger les modules de
-                            <strong>Grunt</strong>
-                        </li>
-                        <li>Lancer <em><strong>"bower install"</strong></em> pour télécharger les modules de <strong>Bower</strong>
-                        </li>
+                        <li>Run <em><strong>"npm install"</strong></em> to download <strong>Grunt's plugins</strong></li>
+                        <li>Run <em><strong>"bower install"</strong></em> to download <strong>Bower's packages</strong></li>
                     </ul>
                 </div>
                 <h2>Pages</h2>
                 <ul>
                     <li class="clearfix">
-                        <a href="index.php?layout=hp&amp;page=hp">Accueil</a>
+                        <a href="index.php?layout=hp&amp;page=hp">Home</a>
 
                         <div class="note">
                             <p>Note...</p>
                         </div>
                     </li>
                 </ul>
-                <h2>Styles généraux</h2>
+                <h2>Common styles</h2>
                 <ul>
                     <li class="clearfix">
-                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">WYSIWYG</a>
+                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">Typography</a>
                     </li>
                     <li>
-                        <a href="index.php?layout=int-1col&amp;page=forms">Formulaires</a>
+                        <a href="index.php?layout=int-1col&amp;page=forms">Forms</a>
                     </li>
                 </ul>
             </div>
