@@ -1,7 +1,7 @@
 <?php
     // INT to DEV
-    // Layout : Intérieur
-    // Colonne : 1 colonne
+    // Layout : Inside
+    // Column : 1 column
 ?>
 
 <section id="wrapper">

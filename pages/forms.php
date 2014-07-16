@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Page : Forms general style
+    // Page: Forms general style
 
     $modules = array(
         'main' => array(

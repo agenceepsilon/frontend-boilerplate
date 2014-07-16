@@ -21,17 +21,17 @@ teq.BOILERPLATE.Main.prototype = {
         jQuery(window).resize(jQuery.proxy(this, 'onWindowResize'));
     },
     // ----------------------------------------------------------------------------------------- //
-    // Script à lancer au chargement de la page
+    // Script to start loading the page
     // ----------------------------------------------------------------------------------------- //
     onDocumentReady: function(){
     },
     // ----------------------------------------------------------------------------------------- //
-    // Script à lancer au chargement de la page, après l'affichage des images
+    // Script to start loading the page, after loading all images
     // ----------------------------------------------------------------------------------------- //
     onWindowLoad: function(){
     },
     // ----------------------------------------------------------------------------------------- //
-    // Script à lancer au resize de la page
+    // Script to run in resize the page
     // ----------------------------------------------------------------------------------------- //
     onWindowResize: function(){
     }
