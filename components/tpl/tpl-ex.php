@@ -1,8 +1,8 @@
 <?php
     // INT to DEV
-    // Template WYSIWYG : template example
+    // Template : template example
 ?>
 
 <div class="tpl tpl--?">
-    Template WYSIWYG....
+    WYSIWYG template...
 </div>

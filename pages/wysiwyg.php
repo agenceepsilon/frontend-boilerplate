@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Page : WYSIWYG
+    // Page: Typography
 
     $modules = array(
         'main' => array(

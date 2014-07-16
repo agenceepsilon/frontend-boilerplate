@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Module : Forms general style sample
+    // Module : Forms common style sample
 ?>
 
 <div class="mod mod--form-sample">

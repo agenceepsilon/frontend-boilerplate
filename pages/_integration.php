@@ -1,3 +1,7 @@
+<?php
+    // INT to DEV
+    // Page: main pages list
+?>
 <section id="wrapper">
     <div class="container l-1col clearfix">
         <section class="main-content l-col">
