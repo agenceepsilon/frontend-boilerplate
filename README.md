@@ -29,7 +29,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 | ------------------------------------------------------------- | -------- |
 | [jquery](http://jquery.com)                                   | ~1.11.1  |
 | [jquery.notready](http://www.johansatge.fr/jquery-notready)   | ~0.1.0   |
-| [modernizr](http://modernizr.com)                             | ~2.8.2   |
+| [modernizr](http://modernizr.com)                             | ~2.8.3   |
 | [sass-mercury](https://github.com/agenceepsilon/sass-mercury) | ~1.1.0   |
 
 ## Changelog
@@ -37,9 +37,12 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 ### 1.2.7
 
 * Comments in English ([#1](https://github.com/agenceepsilon/meduseld-boilerplate/issues/1))
+* Bower Packages updates:
+    * ``Modernizr`` 2.8.3
 * NPM Packages updates:
     * ``glob`` 4.0.1
     * ``grunt-browser-sync`` 1.3.0 ([#2](https://github.com/agenceepsilon/meduseld-boilerplate/issues/2))
+* PHP small optimization
 
 ### 1.2.6
 

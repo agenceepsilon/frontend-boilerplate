@@ -4,7 +4,7 @@
     "dependencies": {
         "jquery": "~1.11.1",
         "jquery.notready": "latest",
-        "modernizr": "~2.8.2"
+        "modernizr": "~2.8.3"
     },
     "devDependencies": {
         "sass-mercury": "~1.1.0"
