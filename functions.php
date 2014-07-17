@@ -18,12 +18,13 @@
      * @param int    $minLenght
      * @param int    $maxLenght
      * @param string $type (paras, words, bytes & lists)
-     * @param bool   $lorem
+     * @param bool   $lorem (Choose to start with the text "Lorem ipsum...")
      *
      * @return SimpleXMLElement[]
      */
     function lipsum($minLenght = 1, $maxLenght = 10, $type = 'words', $lorem = TRUE){
         $lenght = mt_rand($minLenght, $maxLenght);
         $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? 'yes' : 'no');
+        
         return simplexml_load_file($url)->lipsum;
     }
