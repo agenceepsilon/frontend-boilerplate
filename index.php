@@ -1,4 +1,4 @@
-<?php include("functions.php"); ?>
+<?php require 'functions.php'; ?>
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Front-End Boilerplate.</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <?php include("assets/files-header.php"); ?>
+    <?php require 'assets/files-header.php'; ?>
 </head>
 <body>
 <?php
@@ -18,9 +18,9 @@
      * Displays the correct "header" depending on the chosen.
      */
     if(file_exists('components/header-'.$layout.'.php')){
-        include 'components/header-'.$layout.'.php';
+        require 'components/header-'.$layout.'.php';
     } else {
-        include 'components/header.php';
+        require 'components/header.php';
     }
 
     /**
@@ -28,9 +28,9 @@
      * If the layout does not or is not called there, it loads the "integration" page.
      */
     if(file_exists('layouts/layout-'.$layout.'.php')){
-        include 'layouts/layout-'.$layout.'.php';
+        require 'layouts/layout-'.$layout.'.php';
     } else {
-        include 'pages/_integration.php';
+        require 'pages/_integration.php';
     }
 
     /**
@@ -38,15 +38,15 @@
      * Displays the correct "footer" depending on the chosen.
      */
     if(file_exists('components/footer-'.$layout.'.php')){
-        include 'components/footer-'.$layout.'.php';
+        require 'components/footer-'.$layout.'.php';
     } else {
-        include 'components/footer.php';
+        require 'components/footer.php';
     }
 
     /**
      * JavaScript files
      */
-    include("assets/files-footer.php");
+    require 'assets/files-footer.php';
 ?>
 </body>
 </html>
