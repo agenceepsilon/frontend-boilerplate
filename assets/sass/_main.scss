@@ -9,6 +9,16 @@ body {
     font-size: 100%;
     color: #000;
 }
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
 
 // ------------------------------------------- //
 // MOUSSE SELECTION
