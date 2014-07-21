@@ -40,7 +40,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 * Bower Packages updates:
     * ``Modernizr`` 2.8.3
 * NPM Packages updates:
-    * ``glob`` 4.0.1
+    * ``glob`` 4.0.4
     * ``grunt-browser-sync`` 1.3.0 ([#2](https://github.com/agenceepsilon/meduseld-boilerplate/issues/2))
 * PHP small optimization
 
