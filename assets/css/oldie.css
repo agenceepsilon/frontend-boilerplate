@@ -464,6 +464,17 @@ body {
   color: #000;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
 ::selection {
   background: #c23e00;
   color: white;
