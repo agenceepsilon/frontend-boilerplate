@@ -620,16 +620,6 @@ table td {
   margin-right: 0;
 }
 
-.l-col {
-  width: 100%;
-  float: none;
-}
-@media all and (min-width: 768px) {
-  .l-col {
-    float: left;
-  }
-}
-
 #header,
 #wrapper,
 #footer {
@@ -641,6 +631,16 @@ table td {
   max-width: 960px;
   margin: 0 auto;
   position: relative;
+}
+
+.l-col {
+  width: 100%;
+  float: none;
+}
+@media all and (min-width: 768px) {
+  .l-col {
+    float: left;
+  }
 }
 
 .btn,
