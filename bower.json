@@ -1,6 +1,6 @@
 {
     "name": "meduseld-boilerplate",
-    "version": "1.2.7",
+    "version": "1.2.8",
     "dependencies": {
         "jquery": "~1.11.1",
         "jquery.notready": "latest",
