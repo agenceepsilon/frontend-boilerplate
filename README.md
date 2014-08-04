@@ -34,6 +34,19 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.8
+
+* CSS:
+    * ``box-sizing`` on all elements by default
+    * Small CSS reordering
+* JavaScript:
+    * Move jQuery Not Ready call
+    * Fix URL issue
+* NPM Packages updates:
+    * ``glob`` 4.0.5
+    * ``grunt-browser-sync`` 1.3.2
+    * ``grunt-contrib-compass`` 0.9.1
+
 ### 1.2.7
 
 * Comments in English ([#1](https://github.com/agenceepsilon/meduseld-boilerplate/issues/1))
