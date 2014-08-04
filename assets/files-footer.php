@@ -8,6 +8,6 @@
 <!-- Grunt Browser Sync - NOT for the production -->
 <script type='text/javascript'>
 //<![CDATA[
-    document.write("<script async src='//HOST:3000/browser-sync-client.1.3.0.js'><\/script>".replace(/HOST/g, location.hostname));
+    document.write("<script async src='//HOST:3000/browser-sync-client.1.3.2.js'><\/script>".replace(/HOST/g, location.hostname));
 //]]>
 </script>
