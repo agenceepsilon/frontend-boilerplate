@@ -623,12 +623,6 @@ table td {
   margin-right: 0;
 }
 
-.l-col {
-  width: 100%;
-  float: none;
-  float: left;
-}
-
 #header,
 #wrapper,
 #footer {
@@ -641,6 +635,12 @@ table td {
   margin: 0 auto;
   position: relative;
   width: 960px;
+}
+
+.l-col {
+  width: 100%;
+  float: none;
+  float: left;
 }
 
 .btn,
