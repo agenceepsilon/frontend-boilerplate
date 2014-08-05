@@ -13,7 +13,7 @@ module.exports = {
     },
     theme: {
         options: {
-            debugInfo: false
+            sourcemap: false
         }
     }
 };
