@@ -1,11 +1,16 @@
 <?php
-    /**
+    /*
+     * Active or not BrowserSync code on footer
+     */
+    $browserSync = TRUE;
+
+    /*
      * Get $layout and $page params
      */
     $layout = (isset($_GET['layout'])) ? $_GET['layout'] : FALSE;
     $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
 
-    /**
+    /*
      * Load $page modules
      */
     if(isset($page) && $page == TRUE){
@@ -25,6 +30,6 @@
     function lipsum($minLenght = 1, $maxLenght = 10, $type = 'words', $lorem = TRUE){
         $lenght = mt_rand($minLenght, $maxLenght);
         $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? 'yes' : 'no');
-        
+
         return simplexml_load_file($url)->lipsum;
     }

@@ -6,8 +6,10 @@
 <script src="assets/js/main.js"></script>
 
 <!-- Grunt Browser Sync - NOT for the production -->
-<script type='text/javascript'>
-    //<![CDATA[
-    document.write("<script async src='//HOST:3000/browser-sync-client.1.3.2.js'><\/script>".replace(/HOST/g, location.hostname));
-    //]]>
-</script>
+<?php if(isset($browserSync) && $browserSync == TRUE): ?>
+    <script type='text/javascript'>
+        //<![CDATA[
+        document.write("<script async src='//HOST:3000/browser-sync-client.1.3.2.js'><\/script>".replace(/HOST/g, location.hostname));
+        //]]>
+    </script>
+<?php endif ?>
