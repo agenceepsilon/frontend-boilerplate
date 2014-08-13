@@ -12,7 +12,12 @@ module.exports = {
         force: true
     },
     theme: {
+        /**
+         * The "sourcemap" option replaces the "debug", it is only compatible with Chrome and "dev tool" native Firefox with Firebug not yet.
+         * Choose the "debug" if you're running Firefox with Firebug and FireSass, a mandatory option.
+         */
         options: {
+            //debug: false,
             sourcemap: false
         }
     }
