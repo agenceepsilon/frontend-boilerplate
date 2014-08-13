@@ -13,6 +13,7 @@
                     height: 30px;
                     line-height: 30px;
                     font-size: 20px;
+                    color: #000;
                     margin: 10px 0;
                 }
                 .page_inte h2:first-child {
