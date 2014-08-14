@@ -74,7 +74,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 ### 1.2.4
 
 * NPM Packages updates:
-    * Glob 4.0.2
+    * ``glob`` 4.0.2
 * Bower:
     * jQuery notReady 0.1.0
 * Compass
@@ -83,19 +83,19 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 ### 1.2.3
 
 * NPM Packages updates:
-    * Glob 4.0.0
+    * ``glob`` 4.0.0
 * Viewport rollback
 
 ### 1.2.2
 
 * NPM Packages updates:
-    * Grunt Compass 0.8.0
+    * ``compass`` 0.8.0
 
 ### 1.2.1
 
 * NPM Packages updates:
-    * Grunt 0.4.5
-    * BrowserSync 0.9.1
+    * ``grunt`` 0.4.5
+    * ``browserSync`` 0.9.1
 
 ### 1.2.0
 
@@ -106,7 +106,7 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 ### 1.1.0
 
 * Grunt:
-    * Seperation on unique file for each tasks
+    * Separation on unique file for each tasks
 * Bower:
     * ``sass-mercury`` replace ``meduseld``
 * Forms:
