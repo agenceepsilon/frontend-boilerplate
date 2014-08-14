@@ -89,13 +89,13 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 ### 1.2.2
 
 * NPM Packages updates:
-    * ``compass`` 0.8.0
+    * ``grunt-contrib-compass`` 0.8.0
 
 ### 1.2.1
 
 * NPM Packages updates:
     * ``grunt`` 0.4.5
-    * ``browserSync`` 0.9.1
+    * ``grunt-browser-sync`` 0.9.1
 
 ### 1.2.0
 
