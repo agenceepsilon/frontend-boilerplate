@@ -33,3 +33,13 @@
 
         return simplexml_load_file($url)->lipsum;
     }
+
+    /*
+     * Find Browser Sync version
+     */
+    $file_url  = "node_modules/grunt-browser-sync/package.json";
+    $file_open = fopen($file_url, "r");
+    $file_read = fread($file_open, filesize($file_url));
+    fclose($file_open);
+    $json = json_decode($file_read);
+    $browserSync_version = $json->version;
