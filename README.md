@@ -34,6 +34,16 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.9
+
+* Functions:
+    * Enable/disable BrowerSync with ``true`` or ``false`` option directly in function.php
+    * Update BrowserSync version on script in footer automatically with php
+* Compass:
+    * SourceMap option
+* NPM Packages updates:
+    * ``grunt-browser-sync`` 1.3.5
+
 ### 1.2.8
 
 * CSS:
