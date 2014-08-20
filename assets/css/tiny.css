@@ -174,7 +174,13 @@ table {
 table th,
 table td {
   padding: 10px;
-  border: solid 1px #EBEBEB;
+  border: solid 1px #ECECEC;
+}
+table tr:nth-child(even) {
+  background: #F9F9F9;
+}
+table tr:nth-child(odd) {
+  background: #FFF;
 }
 
 .alignleft {
