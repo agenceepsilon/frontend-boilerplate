@@ -44,7 +44,7 @@
             <label>Selects</label>
         </div>
         <div class="form_row">
-            <div class="form_select js-form-select">
+            <div class="form_select">
                 <select>
                     <option>Option 1</option>
                     <option>Option 2</option>
