@@ -1,21 +1,31 @@
 <?php
-    /*
-     * Active or not BrowserSync code on footer
-     */
+    //------------------------------------------------------------------------------------------ //
+    // Active BrowserSync code on footer
+    //------------------------------------------------------------------------------------------ //
     $browserSync = TRUE;
 
-    /*
-     * Get $layout and $page params
-     */
+    //------------------------------------------------------------------------------------------ //
+    // Get $layout and $page params
+    //------------------------------------------------------------------------------------------ //
     $layout = (isset($_GET['layout'])) ? $_GET['layout'] : FALSE;
     $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
 
-    /*
-     * Load $page modules
-     */
+    //------------------------------------------------------------------------------------------ //
+    // Load $page modules
+    //------------------------------------------------------------------------------------------ //
     if(isset($page) && $page == TRUE){
         include 'pages/'.$page.'.php';
     }
+
+    //------------------------------------------------------------------------------------------ //
+    // Find Browser Sync version
+    //------------------------------------------------------------------------------------------ //
+    $file_url  = "node_modules/grunt-browser-sync/package.json";
+    $file_open = fopen($file_url, "r");
+    $file_read = fread($file_open, filesize($file_url));
+    fclose($file_open);
+    $json = json_decode($file_read);
+    $browserSync_version = $json->version;
 
     /**
      * Generate Lorem Ipsum text
@@ -33,13 +43,3 @@
 
         return simplexml_load_file($url)->lipsum;
     }
-
-    /*
-     * Find Browser Sync version
-     */
-    $file_url  = "node_modules/grunt-browser-sync/package.json";
-    $file_open = fopen($file_url, "r");
-    $file_read = fread($file_open, filesize($file_url));
-    fclose($file_open);
-    $json = json_decode($file_read);
-    $browserSync_version = $json->version;
