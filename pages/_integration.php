@@ -45,12 +45,12 @@
                     text-decoration: none;
                 }
                 .page_inte .note {
-                    background: #FBFBFB;
+                    background: #F9F9F9;
                     font-family: "Arial", sans-serif;
                     color: #777;
                     padding: 10px 15px;
-                    border-top: dashed 1px #CCC;
-                    border-bottom: dashed 1px #CCC;
+                    border-top: solid 1px #CCC;
+                    border-bottom: solid 1px #CCC;
                 }
                 .page_inte .note p,
                 .page_inte .note ul {
@@ -65,7 +65,7 @@
                 .page_inte .note ul > li {
                     background-color: transparent;
                     list-style-type: disc;
-                    margin: 5px 0 0 25px;
+                    margin: 0 0 0 15px;
                 }
                 .page_inte li .note {
                     margin: 0 15px 15px 15px;
@@ -74,7 +74,7 @@
             <div class="page_inte">
                 <div class="note">
                     <p><strong>NOTE</strong>: this project uses <em><a href="http://sass-lang.com" target="_blank">Sass</a></em> with <em><a href="http://compass-style.org" target="_blank">Compass</a></em> combined with <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em> and dependency management is done with <em><a href="http://bower.io" target="_blank">Bower</a></em>.</p>
-                    <p>To initialize the project:</p>
+                    <p><u>To initialize the project:</u></p>
                     <ul>
                         <li>Run <em><strong>"npm install"</strong></em> to download <strong>Grunt's plugins</strong></li>
                         <li>Run <em><strong>"bower install"</strong></em> to download <strong>Bower's packages</strong></li>
