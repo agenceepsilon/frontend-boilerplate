@@ -45,12 +45,12 @@
                     text-decoration: none;
                 }
                 .page_inte .note {
-                    background: #F9F9F9;
+                    background: #FBFBFB;
                     font-family: "Arial", sans-serif;
                     color: #777;
                     padding: 10px 15px;
-                    border-top: solid 1px #CCC;
-                    border-bottom: solid 1px #CCC;
+                    border-top: dashed 1px #CCC;
+                    border-bottom: dashed 1px #CCC;
                 }
                 .page_inte .note p,
                 .page_inte .note ul {
