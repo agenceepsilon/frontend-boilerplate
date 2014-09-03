@@ -1,6 +1,6 @@
 {
   "name": "meduseld-boilerplate",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "devDependencies": {
     "glob": "~4.0.5",
     "grunt": "~0.4.5",
