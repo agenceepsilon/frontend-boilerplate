@@ -34,6 +34,18 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.10
+
+* Clean ``.js-`` class unused
+* CSS:
+    * Editor:
+        * Default CSS zone for ``bold`` and ``italic`` styles
+        * New default colors for tables
+* Functions:
+    * Comments updates
+* NPM Packages updates:
+    * ``grunt-browser-sync`` 1.3.6
+
 ### 1.2.9
 
 * Functions:
