@@ -21,11 +21,14 @@
     // Find Browser Sync version
     //------------------------------------------------------------------------------------------ //
     $file_url  = "node_modules/grunt-browser-sync/package.json";
-    $file_open = fopen($file_url, "r");
-    $file_read = fread($file_open, filesize($file_url));
-    fclose($file_open);
-    $json = json_decode($file_read);
-    $browserSync_version = $json->version;
+
+    if(file_exists($file_url)){
+        $file_open = fopen($file_url, "r");
+        $file_read = fread($file_open, filesize($file_url));
+        fclose($file_open);
+        $json                = json_decode($file_read);
+        $browserSync_version = $json->version;
+    }
 
     /**
      * Generate Lorem Ipsum text
