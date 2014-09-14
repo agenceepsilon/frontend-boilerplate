@@ -46,7 +46,6 @@
                 }
                 .page_inte .note {
                     background: #FBFBFB;
-                    font-family: "Arial", sans-serif;
                     color: #777;
                     padding: 10px 15px;
                     border-top: dashed 1px #CCC;
