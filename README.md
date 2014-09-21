@@ -34,6 +34,12 @@ Use the ``bower`` command to download the Bower dependencies : ``bower install``
 
 ## Changelog
 
+### 1.2.11
+
+* NPM Packages updates:
+    * ``grunt-browser-sync`` 1.3.7
+    * ``grunt-contrib-compass`` 1.0.1
+
 ### 1.2.10
 
 * Clean ``.js-`` class unused
