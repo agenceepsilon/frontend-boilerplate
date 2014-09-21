@@ -94,7 +94,7 @@
                     <li class="clearfix">
                         <a href="index.php?layout=int-1col&amp;page=wysiwyg">Typography</a>
                     </li>
-                    <li>
+                    <li class="clearfix">
                         <a href="index.php?layout=int-1col&amp;page=forms">Forms</a>
                     </li>
                 </ul>
