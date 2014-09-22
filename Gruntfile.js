@@ -31,4 +31,7 @@ module.exports = function(grunt){
         'browserSync',
         'watch'
     ]);
+    grunt.registerTask('theme', [
+        'compass:theme'
+    ]);
 };
