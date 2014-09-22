@@ -82,4 +82,6 @@ html {
 // ------------------------------------------- //
 
 #footer {
+    background: url("images/test.png");
+    @include retina-legacy("images/test", 100, 50);
 }

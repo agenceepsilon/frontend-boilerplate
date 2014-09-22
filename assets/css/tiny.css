@@ -1,102 +1,79 @@
 .left, .alignleft {
-  float: left;
-}
+  float: left; }
 
 .right, .alignright {
-  float: right;
-}
+  float: right; }
 
 .center, .aligncenter {
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 .clearfix {
-  *zoom: 1;
-}
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
+  *zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: " ";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
 
 .clear {
-  clear: both;
-}
+  clear: both; }
 
 .clearfix--reset {
-  *zoom: normal;
-}
-.clearfix--reset:before, .clearfix--reset:after {
-  content: "";
-  display: inline;
-}
-.clearfix--reset:after {
-  clear: none;
-}
+  *zoom: normal; }
+  .clearfix--reset:before, .clearfix--reset:after {
+    content: "";
+    display: inline; }
+  .clearfix--reset:after {
+    clear: none; }
 
 .clear--reset {
-  clear: none;
-}
+  clear: none; }
 
 .hidden, .hidden--mobile {
   display: none;
-  visibility: hidden;
-}
+  visibility: hidden; }
 
 .hidden--mobile {
   display: block;
-  visibility: visible;
-}
+  visibility: visible; }
 
 .hidden--tablet {
   display: none;
-  visibility: hidden;
-}
+  visibility: hidden; }
 
 .hidden--desktop {
   display: none;
-  visibility: hidden;
-}
+  visibility: hidden; }
 
 p,
 li,
 table {
   font-size: 12px;
-  text-align: justify;
-}
+  text-align: justify; }
 
 p {
   line-height: 1.5;
-  margin: 15px 0 0 0;
-}
-p:first-child {
-  margin-top: 0;
-}
+  margin: 15px 0 0 0; }
+  p:first-child {
+    margin-top: 0; }
 
 img {
-  display: block;
-}
+  display: block; }
 
 ul,
 ol {
   margin: 15px 0 0 0;
-  padding: 0;
-}
-ul:first-child,
-ol:first-child {
-  margin-top: 0;
-}
+  padding: 0; }
+  ul:first-child,
+  ol:first-child {
+    margin-top: 0; }
 
 li {
   line-height: 1.5;
-  margin-left: 15px;
-}
-li > ul,
-li > ol {
-  margin-bottom: 0;
-}
+  margin-left: 15px; }
+  li > ul,
+  li > ol {
+    margin-bottom: 0; }
 
 h1,
 h2,
@@ -104,100 +81,79 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
-}
+  font-weight: normal; }
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 10px 0;
-}
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
-  margin-top: 0;
-}
+  margin: 20px 0 10px 0; }
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child,
+  h6:first-child {
+    margin-top: 0; }
 
 h2 {
-  font-size: 24px;
-}
+  font-size: 24px; }
 
 h3 {
-  font-size: 22px;
-}
+  font-size: 22px; }
 
 h4 {
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 h5 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 h6 {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 blockquote {
   quotes: "\201C" "\201D";
   margin: 20px 40px;
   *margin: 8px 20px;
   *padding: 15px;
-  *border: dashed 1px #333;
-}
-blockquote p {
-  margin-bottom: 0;
-  position: relative;
-}
-blockquote p:before, blockquote p:after {
-  font-size: 60px;
-  position: absolute;
-}
-blockquote p:before {
-  content: open-quote;
-  left: -30px;
-  top: -23px;
-}
-blockquote p:after {
-  content: close-quote;
-  margin: -17px 0 0 10px;
-}
+  *border: dashed 1px #333; }
+  blockquote p {
+    margin-bottom: 0;
+    position: relative; }
+    blockquote p:before, blockquote p:after {
+      font-size: 60px;
+      position: absolute; }
+    blockquote p:before {
+      content: open-quote;
+      left: -30px;
+      top: -23px; }
+    blockquote p:after {
+      content: close-quote;
+      margin: -17px 0 0 10px; }
 
 table {
   width: 100%;
-  text-align: left;
-}
-table th,
-table td {
-  padding: 10px;
-  border: solid 1px #ECECEC;
-}
-table tr:nth-child(even) {
-  background: #F9F9F9;
-}
-table tr:nth-child(odd) {
-  background: #FFF;
-}
+  text-align: left; }
+  table th,
+  table td {
+    padding: 10px;
+    border: solid 1px #ECECEC; }
+  table tr:nth-child(even) {
+    background: #F9F9F9; }
+  table tr:nth-child(odd) {
+    background: #FFF; }
 
 .alignleft {
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
 .alignright {
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 .wp-caption .wp-caption-text {
   font-size: 12px;
   margin: 0 10px 0 0;
   padding: 5px;
   border: dashed 1px #333;
-  border-top: none;
-}
+  border-top: none; }
 .wp-caption.alignleft {
-  margin-right: 0;
-}
+  margin-right: 0; }
