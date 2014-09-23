@@ -16,7 +16,6 @@ select {
 // ------------------------------------------- //
 
 .form {
-    padding: 10px;
     label {
         @include rem-size(13);
     }
