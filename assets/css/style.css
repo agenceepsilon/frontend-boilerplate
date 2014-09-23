@@ -553,13 +553,6 @@ table {
     .l-col {
       float: left; } }
 
-#footer {
-  background: url("images/test.png"); }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-    #footer {
-      background-image: url("images/test_2x.png");
-      background-size: "images/test.png"; } }
-
 .btn,
 label,
 input,
