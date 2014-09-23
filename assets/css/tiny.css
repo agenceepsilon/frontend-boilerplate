@@ -20,11 +20,6 @@
 .clearfix:after {
   clear: both;
 }
-
-.clear {
-  clear: both;
-}
-
 .clearfix--reset {
   *zoom: normal;
 }
@@ -36,26 +31,34 @@
   clear: none;
 }
 
+.clear {
+  clear: both;
+}
 .clear--reset {
   clear: none;
 }
 
-.hidden, .hidden--mobile {
+.hidden {
   display: none;
   visibility: hidden;
 }
-
 .hidden--mobile {
+  display: none;
+  visibility: hidden;
   display: block;
   visibility: visible;
 }
-
 .hidden--tablet {
+  display: block;
+  visibility: visible;
   display: none;
   visibility: hidden;
+  display: block;
+  visibility: visible;
 }
-
 .hidden--desktop {
+  display: block;
+  visibility: visible;
   display: none;
   visibility: hidden;
 }

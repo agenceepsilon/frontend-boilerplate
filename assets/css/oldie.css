@@ -416,11 +416,6 @@ th {
 .clearfix:after {
   clear: both;
 }
-
-.clear {
-  clear: both;
-}
-
 .clearfix--reset {
   *zoom: normal;
 }
@@ -432,26 +427,34 @@ th {
   clear: none;
 }
 
+.clear {
+  clear: both;
+}
 .clear--reset {
   clear: none;
 }
 
-.hidden, .hidden--mobile {
+.hidden {
   display: none;
   visibility: hidden;
 }
-
 .hidden--mobile {
+  display: none;
+  visibility: hidden;
   display: block;
   visibility: visible;
 }
-
 .hidden--tablet {
+  display: block;
+  visibility: visible;
   display: none;
   visibility: hidden;
+  display: block;
+  visibility: visible;
 }
-
 .hidden--desktop {
+  display: block;
+  visibility: visible;
   display: none;
   visibility: hidden;
 }
@@ -476,14 +479,14 @@ html {
 }
 
 ::selection {
-  background: #c23e00;
-  color: white;
+  background: #C23E00;
+  color: #FFF;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #c23e00;
-  color: white;
+  background: #C23E00;
+  color: #FFF;
   text-shadow: none;
 }
 
@@ -658,9 +661,6 @@ select {
   outline: none;
 }
 
-.form {
-  padding: 10px;
-}
 .form label {
   font-size: 13px;
 }
