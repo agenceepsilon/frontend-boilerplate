@@ -31,7 +31,11 @@ module.exports = function(grunt){
         'browserSync',
         'watch'
     ]);
-    
+
+    // ------------------------------------------ //
+    // TASKS - Theme
+    // Generate CSS files
+    // ------------------------------------------ //
     grunt.registerTask('theme', [
         'compass:theme'
     ]);
@@ -52,6 +56,4 @@ module.exports = function(grunt){
         'concat',
         'uglify'
     ]);
-
-
 };
