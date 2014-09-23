@@ -7,7 +7,7 @@ module.exports = {
             "assets/sass/**/*.scss"
         ],
         tasks: [
-            "compass:theme"
+            "sass:theme"
         ]
     }
 };
