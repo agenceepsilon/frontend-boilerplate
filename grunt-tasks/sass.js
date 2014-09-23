@@ -1,9 +1,9 @@
 module.exports = {
     options: {
+        debugInfo: false,
+        noCache: true,
         precision: 3,
-        sourceMap: false,
-        style: "nested",
-        update: true
+        style: "expanded"
     },
     theme: {
         files: {
