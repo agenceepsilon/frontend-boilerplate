@@ -39,4 +39,21 @@ module.exports = function(grunt){
     grunt.registerTask('theme', [
         'sass'
     ]);
+
+    // ------------------------------------------ //
+    // TASKS - MinCSS
+    // Minify CSS files.
+    // ------------------------------------------ //
+    grunt.registerTask('mincss', [
+        'cssmin'
+    ]);
+
+    // ------------------------------------------ //
+    // TASKS - MinJS
+    // Minify the JavaScript files.
+    // ------------------------------------------ //
+    grunt.registerTask('minjs', [
+        'concat',
+        'uglify'
+    ]);
 };
