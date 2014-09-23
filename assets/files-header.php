@@ -1,8 +1,16 @@
 <!-- CSS files -->
-<link rel="stylesheet" href="assets/css/style.css">
+<?php if($environment == "local"): ?>
+    <link rel="stylesheet" href="assets/css/style.css">
+<?php elseif($environment == "prod"): ?>
+    <link rel="stylesheet" href="assets/css/dist/style.min.css">
+<?php endif ?>
 
 <!--[if lte IE 8]>
-<link rel="stylesheet" href="assets/css/oldie.css">
+<?php if($environment == "local"): ?>
+    <link rel="stylesheet" href="assets/css/oldie.css">
+<?php elseif($environment == "prod"): ?>
+    <link rel="stylesheet" href="assets/css/dist/oldie.min.css">
+<?php endif ?>
 <![endif]-->
 
 <!-- JS files -->
