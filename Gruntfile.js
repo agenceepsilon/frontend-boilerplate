@@ -31,6 +31,11 @@ module.exports = function(grunt){
         'browserSync',
         'watch'
     ]);
+
+    // ------------------------------------------ //
+    // TASKS - Theme
+    // Generate CSS files
+    // ------------------------------------------ //
     grunt.registerTask('theme', [
         'sass'
     ]);
