@@ -1,20 +1,20 @@
 // --------------------------------------------------------------------------------------------- //
 // CHECK INSTANCE
 // --------------------------------------------------------------------------------------------- //
-if(typeof teq == 'undefined' || !teq){
-    var teq = {};
+if(typeof app == 'undefined' || !app){
+    var app = {};
 }
-if(typeof teq.BOILERPLATE == 'undefined' || !teq.BOILERPLATE){
-    teq.BOILERPLATE = {};
+if(typeof app.BOILERPLATE == 'undefined' || !app.BOILERPLATE){
+    app.BOILERPLATE = {};
 }
-teq.BOILERPLATE.Main = function(){
+app.BOILERPLATE.Main = function(){
     this.init();
 };
 
 // --------------------------------------------------------------------------------------------- //
 // PROTOTYPE
 // --------------------------------------------------------------------------------------------- //
-teq.BOILERPLATE.Main.prototype = {
+app.BOILERPLATE.Main.prototype = {
     init: function(){
         jQuery(document).ready(jQuery.proxy(this, 'onDocumentReady'));
         jQuery(window).load(jQuery.proxy(this, 'onWindowLoad'));
@@ -40,4 +40,4 @@ teq.BOILERPLATE.Main.prototype = {
 // --------------------------------------------------------------------------------------------- //
 // RUN INSTANCE
 // --------------------------------------------------------------------------------------------- //
-var teqBOILERPLATE = new teq.BOILERPLATE.Main();
+var appBOILERPLATE = new app.BOILERPLATE.Main();
