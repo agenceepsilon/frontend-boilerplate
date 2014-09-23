@@ -1,7 +1,7 @@
 module.exports = {
     js: {
         files: {
-            "assets/js/main.min.js": "assets/js/main.js"
+            "assets/js/dist/build.min.js": "assets/js/dist/build.js"
         }
     }
 };

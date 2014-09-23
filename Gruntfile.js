@@ -45,6 +45,7 @@ module.exports = function(grunt){
     // Minify the JavaScript files.
     // ------------------------------------------ //
     grunt.registerTask('minjs', [
+        'concat',
         'uglify'
     ]);
 
