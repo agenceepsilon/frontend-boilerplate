@@ -3,7 +3,11 @@
 <script src="bower_components/jquery.notready/assets/js/jquery.ready.js"></script>
 
 <!-- JS main file -->
-<script src="assets/js/main.js"></script>
+<?php if($environment == "local"): ?>
+    <script src="assets/js/main.js"></script>
+<?php elseif($environment == "prod"): ?>
+    <script src="assets/js/dist/build.min.js"></script>
+<?php endif ?>
 
 <!-- Grunt Browser Sync - NOT for the production -->
 <?php if(isset($browserSync) && $browserSync == TRUE): ?>
