@@ -1,5 +1,7 @@
 ## Files
 *.css.map
+*.min.css
+*.min.js
 
 ## Folders
 .idea/*

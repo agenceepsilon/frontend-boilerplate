@@ -416,6 +416,11 @@ th {
 .clearfix:after {
   clear: both;
 }
+
+.clear {
+  clear: both;
+}
+
 .clearfix--reset {
   *zoom: normal;
 }
@@ -427,34 +432,26 @@ th {
   clear: none;
 }
 
-.clear {
-  clear: both;
-}
 .clear--reset {
   clear: none;
 }
 
-.hidden {
+.hidden, .hidden--mobile {
   display: none;
   visibility: hidden;
 }
+
 .hidden--mobile {
-  display: none;
-  visibility: hidden;
   display: block;
   visibility: visible;
 }
+
 .hidden--tablet {
-  display: block;
-  visibility: visible;
   display: none;
   visibility: hidden;
-  display: block;
-  visibility: visible;
 }
+
 .hidden--desktop {
-  display: block;
-  visibility: visible;
   display: none;
   visibility: hidden;
 }
@@ -479,14 +476,14 @@ html {
 }
 
 ::selection {
-  background: #C23E00;
-  color: #FFF;
+  background: #c23e00;
+  color: white;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #C23E00;
-  color: #FFF;
+  background: #c23e00;
+  color: white;
   text-shadow: none;
 }
 

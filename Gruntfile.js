@@ -36,7 +36,7 @@ module.exports = function(grunt){
     // Generate CSS files
     // ------------------------------------------ //
     grunt.registerTask('theme', [
-        'compass:theme'
+        'sass'
     ]);
 
     // ------------------------------------------ //
