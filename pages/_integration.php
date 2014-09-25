@@ -29,6 +29,9 @@
                     margin: 0;
                     padding: 0;
                 }
+                .page_inte li {
+                    overflow: hidden;
+                }
                 .page_inte li:nth-child(2n+1) {
                     background: #EEE;
                 }
@@ -72,7 +75,7 @@
             </style>
             <div class="page_inte">
                 <div class="note">
-                    <p><strong>NOTE</strong>: this project uses <em><a href="http://sass-lang.com" target="_blank">Sass</a></em> with <em><a href="http://compass-style.org" target="_blank">Compass</a></em> combined with <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em> and dependency management is done with <em><a href="http://bower.io" target="_blank">Bower</a></em>.</p>
+                    <p><strong>NOTE</strong>: this project uses <em><a href="http://sass-lang.com" target="_blank">Sass</a></em> combined with <em><a href="http://gruntjs.com" target="_blank">Grunt</a></em> and dependency management is done with <em><a href="http://bower.io" target="_blank">Bower</a></em>.</p>
                     <p><u>To initialize the project:</u></p>
                     <ul>
                         <li>Run <em><strong>"npm install"</strong></em> to download <strong>Grunt's plugins</strong></li>
@@ -81,7 +84,7 @@
                 </div>
                 <h2>Pages</h2>
                 <ul>
-                    <li class="clearfix">
+                    <li>
                         <a href="index.php?layout=hp&amp;page=hp">Home</a>
 
                         <div class="note">
@@ -91,10 +94,10 @@
                 </ul>
                 <h2>Common styles</h2>
                 <ul>
-                    <li class="clearfix">
+                    <li>
                         <a href="index.php?layout=int-1col&amp;page=wysiwyg">Typography</a>
                     </li>
-                    <li class="clearfix">
+                    <li>
                         <a href="index.php?layout=int-1col&amp;page=forms">Forms</a>
                     </li>
                 </ul>
