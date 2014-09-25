@@ -4,6 +4,6 @@
 
     $modules = array(
         'main' => array(
-            '1' => ''
+            '1' => 'mod-ex'
         )
     );
