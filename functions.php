@@ -7,11 +7,6 @@
     $environment = "local";
 
     //------------------------------------------------------------------------------------------ //
-    // Active BrowserSync code on footer
-    //------------------------------------------------------------------------------------------ //
-    $browserSync = FALSE;
-
-    //------------------------------------------------------------------------------------------ //
     // Get $layout and $page params
     //------------------------------------------------------------------------------------------ //
     $layout = (isset($_GET['layout'])) ? $_GET['layout'] : FALSE;
@@ -22,21 +17,6 @@
     //------------------------------------------------------------------------------------------ //
     if(isset($page) && $page == TRUE){
         include 'pages/'.$page.'.php';
-    }
-
-    //------------------------------------------------------------------------------------------ //
-    // Find Browser Sync version
-    //------------------------------------------------------------------------------------------ //
-    if($browserSync){
-        $file_url = "node_modules/grunt-browser-sync/package.json";
-
-        if(file_exists($file_url)){
-            $file_open = fopen($file_url, "r");
-            $file_read = fread($file_open, filesize($file_url));
-            fclose($file_open);
-            $json                = json_decode($file_read);
-            $browserSync_version = $json->version;
-        }
     }
 
     /**

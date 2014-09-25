@@ -8,12 +8,3 @@
 <?php elseif($environment == "prod"): ?>
     <script src="assets/js/dist/build.min.js"></script>
 <?php endif ?>
-
-<!-- Grunt Browser Sync - NOT for the production -->
-<?php if(isset($browserSync) && $browserSync == TRUE): ?>
-    <script type='text/javascript'>
-        //<![CDATA[
-        document.write("<script async src='//HOST:3000/browser-sync-client.<?php echo $browserSync_version; ?>.js'><\/script>".replace(/HOST/g, location.hostname));
-        //]]>
-    </script>
-<?php endif ?>

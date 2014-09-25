@@ -28,7 +28,6 @@ module.exports = function(grunt){
     // TASKS
     // ------------------------------------------ //
     grunt.registerTask('default', [
-        'browserSync',
         'watch'
     ]);
 
