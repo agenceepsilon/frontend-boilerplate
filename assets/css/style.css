@@ -413,11 +413,6 @@ th {
 .clearfix:after {
   clear: both;
 }
-
-.clear {
-  clear: both;
-}
-
 .clearfix--reset:before, .clearfix--reset:after {
   content: "";
   display: inline;
@@ -426,22 +421,31 @@ th {
   clear: none;
 }
 
+.clear {
+  clear: both;
+}
 .clear--reset {
   clear: none;
 }
 
-.hidden, .hidden--mobile {
+.hidden {
   display: none;
   visibility: hidden;
 }
-
+.hidden--mobile {
+  display: none;
+  visibility: hidden;
+}
 @media all and (min-width: 768px) {
   .hidden--mobile {
     display: block;
     visibility: visible;
   }
 }
-
+.hidden--tablet {
+  display: block;
+  visibility: visible;
+}
 @media all and (min-width: 768px) and (max-width: 960px) {
   .hidden--tablet {
     display: none;
@@ -449,6 +453,16 @@ th {
   }
 }
 
+@media all and (min-width: 960px) {
+  .hidden--tablet {
+    display: block;
+    visibility: visible;
+  }
+}
+.hidden--desktop {
+  display: block;
+  visibility: visible;
+}
 @media all and (min-width: 960px) {
   .hidden--desktop {
     display: none;
@@ -476,14 +490,14 @@ html {
 }
 
 ::selection {
-  background: #c23e00;
-  color: white;
+  background: #C23E00;
+  color: #FFF;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #c23e00;
-  color: white;
+  background: #C23E00;
+  color: #FFF;
   text-shadow: none;
 }
 
