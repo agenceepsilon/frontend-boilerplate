@@ -25,7 +25,8 @@ module.exports = function(grunt){
     require('load-grunt-tasks')(grunt);
 
     // ------------------------------------------ //
-    // TASKS
+    // TASKS - Default
+    // Grunt default task
     // ------------------------------------------ //
     grunt.registerTask('default', [
         'watch'
