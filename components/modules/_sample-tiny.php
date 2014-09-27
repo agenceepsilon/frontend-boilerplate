@@ -6,7 +6,7 @@
 <article class="mod article">
     <h1 class="article_title"><?php echo((isset($pageTitle[$page])) ? $pageTitle[$page].' ' : 'Page : '.$page.' '); ?></h1>
 
-    <div class="article_content editor">
+    <div class="article_content">
         <h2>H2. Heading</h2>
 
         <h3>H3. Heading</h3>
