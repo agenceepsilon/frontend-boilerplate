@@ -100,6 +100,10 @@ h6 {
     }
 }
 
+h1 {
+    @include rem-size(26);
+}
+
 h2 {
     @include rem-size(24);
 }
