@@ -1,5 +1,28 @@
 # Changelog
 
+## Future version
+
+* Compass: no need to use it to generate CSS
+* Functions:
+    * Choose the environment you want to test:
+        * ``local``: load CSS and JS files uncompressed.
+        * ``prod``: load CSS and JS files compressed.
+* NPM Packages:
+    * ``glob`` 4.0.6
+    * ``grunt-contrib-sass`` added
+    * ``grunt-contrib-concat`` added
+    * ``grunt-contrib-cssmin`` added
+    * ``grunt-browser-uglify`` added
+    * ``grunt-browser-sync`` deleted
+* Grunt tasks:
+    * ``grunt`` or ``grunt default`` -> Launch ``watch`` plugin
+    * ``grunt theme`` -> Generate CSS files
+    * ``grunt mincss`` -> Minify CSS files
+    * ``grunt minjs`` -> Concat and minify JS files
+* CSS:
+    * Editor:
+        * Default H1 title style
+
 ## 1.2.11
 
 * NPM Packages updates:
