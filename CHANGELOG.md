@@ -15,10 +15,10 @@
     * ``grunt-browser-uglify`` added
     * ``grunt-browser-sync`` deleted
 * Grunt tasks:
-    * ``grunt`` or ``grunt default`` -> Launch ``watch`` plugin
-    * ``grunt theme`` -> Generate CSS files
-    * ``grunt mincss`` -> Minify CSS files
-    * ``grunt minjs`` -> Concat and minify JS files
+    * ``grunt`` or ``grunt default``: launch ``watch`` plugin
+    * ``grunt theme``: generate CSS files
+    * ``grunt mincss``: minify CSS files
+    * ``grunt minjs``: concat and minify JS files
 * CSS:
     * Editor:
         * Default H1 title style
