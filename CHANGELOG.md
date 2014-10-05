@@ -9,6 +9,7 @@
         * ``prod``: load CSS and JS files compressed.
 * NPM Packages:
     * ``glob`` 4.0.6
+    * ``grunt-bower_concat`` added
     * ``grunt-contrib-sass`` added
     * ``grunt-contrib-concat`` added
     * ``grunt-contrib-cssmin`` added
