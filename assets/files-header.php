@@ -14,5 +14,5 @@
 <![endif]-->
 
 <!-- JS files -->
-<script src="bower_components/jquery.notready/assets/js/jquery.notready.js"></script>
 <script src="bower_components/modernizr/modernizr.js"></script>
+<script src="bower_components/jquery.notready/assets/js/jquery.notready.js"></script>
