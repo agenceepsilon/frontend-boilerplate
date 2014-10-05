@@ -2,7 +2,7 @@ module.exports = {
     options: {
         separator: ';'
     },
-    js: {
+    theme: {
         src: [
             'assets/js/**.js',
             '!assets/js/dist/build.js',
