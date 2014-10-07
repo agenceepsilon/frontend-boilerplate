@@ -1,4 +1,4 @@
-# Meduseld Boilerplate [![GitHub version](https://badge.fury.io/gh/agenceepsilon%2Fmeduseld-boilerplate.png)](http://badge.fury.io/gh/agenceepsilon%2Fmeduseld-boilerplate) [![devDependency Status](https://david-dm.org/agenceepsilon/meduseld-boilerplate/dev-status.png)](https://david-dm.org/agenceepsilon/meduseld-boilerplate#info=devDependencies)
+# Meduseld Boilerplate [![release](http://img.shields.io/github/release/agenceepsilon/meduseld-boilerplate.svg?style=flat-square)](https://github.com/agenceepsilon/meduseld-boilerplate/releases) [![devDependencies](http://img.shields.io/david/dev/agenceepsilon/meduseld-boilerplate.svg?style=flat-square)](https://david-dm.org/agenceepsilon/meduseld-boilerplate#info=devDependencies)
 
 ## Requirements
 
