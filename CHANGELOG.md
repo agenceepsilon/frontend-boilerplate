@@ -1,6 +1,6 @@
 # Changelog
 
-## Future version
+## 2.0.0
 
 * Compass: no need to use it to generate CSS
 * Functions:
