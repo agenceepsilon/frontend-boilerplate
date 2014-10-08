@@ -1,5 +1,11 @@
 # Changelog
 
+## Future version
+
+* NPM Packages:
+    * ``grunt-bower_concat`` 0.4.0
+    * ``grunt-browser-uglify`` 0.6.0
+
 ## 2.0.0
 
 * Compass: no need to use it to generate CSS
