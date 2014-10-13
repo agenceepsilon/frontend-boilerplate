@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Layout : H.P.
+    // Layout: H.P.
 ?>
 
 <section id="wrapper">

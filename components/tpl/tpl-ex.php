@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Template : template example
+    // Template: template example
 ?>
 
 <div class="tpl tpl--?">

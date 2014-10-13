@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Module : module example
+    // Module: module example
 ?>
 
 <div class="mod mod--?">

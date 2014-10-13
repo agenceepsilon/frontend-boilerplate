@@ -1,6 +1,6 @@
 <?php
     // INT to DEV
-    // Module : Typography common style sample
+    // Module: Typography common style sample
 ?>
 
 <article class="mod article">
