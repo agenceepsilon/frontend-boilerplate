@@ -6,7 +6,7 @@
 ## Folders
 .idea/*
 .sass-cache/*
-assets/js/dist/*
 assets/css/dist/*
+assets/js/dist/*
 bower_components/*
 node_modules/*
