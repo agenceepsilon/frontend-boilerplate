@@ -37,7 +37,8 @@ module.exports = function(grunt){
     // Generate CSS files
     // --------------------------------------- //
     grunt.registerTask('theme', [
-        'sass'
+        'sass',
+        'version'
     ]);
 
     // --------------------------------------- //
@@ -45,7 +46,8 @@ module.exports = function(grunt){
     // Minify CSS files.
     // --------------------------------------- //
     grunt.registerTask('mincss', [
-        'cssmin'
+        'cssmin',
+        'version'
     ]);
 
     // --------------------------------------- //
@@ -55,6 +57,16 @@ module.exports = function(grunt){
     grunt.registerTask('minjs', [
         'bower_concat',
         'concat',
-        'uglify'
+        'uglify',
+        'version'
     ]);
+
+    // -------------------------------------------- //
+    // TASKS - Version
+    // Generate file with number for assets version
+    // -------------------------------------------- //
+
+    grunt.registerTask('version', function(){
+        grunt.file.write('assets/version', (new Date()).getTime());
+    });
 };

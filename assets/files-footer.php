@@ -1,18 +1,18 @@
 <?php if(ENVIRONMENT == "local"): ?>
 
     <!-- JS libraries files -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/jquery.notready/assets/js/jquery.ready.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
+    <script src="bower_components/jquery.notready/assets/js/jquery.ready.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
     <!-- JS main file -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
 <?php elseif(ENVIRONMENT == "prod"): ?>
 
     <!-- JS libraries files -->
-    <script src="assets/js/dist/bower.min.js"></script>
+    <script src="assets/js/dist/bower.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
     <!-- JS main file -->
-    <script src="assets/js/dist/build.min.js"></script>
+    <script src="assets/js/dist/build.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
 <?php endif ?>
