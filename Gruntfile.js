@@ -71,7 +71,6 @@ module.exports = function(grunt){
     // TASKS - Version
     // Generate file with number for assets version
     // -------------------------------------------- //
-
     grunt.registerTask('version', function(){
         grunt.file.write('assets/version', (new Date()).getTime());
     });
