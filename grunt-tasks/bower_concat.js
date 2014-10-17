@@ -1,6 +1,6 @@
 module.exports = {
     all: {
-        dest: 'assets/js/dist/bower.js',
+        dest: '<%= assets.js %>/dist/bower.js',
         exclude: [
             'modernizr',
             'sass-mercury'

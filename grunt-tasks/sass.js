@@ -8,9 +8,9 @@ module.exports = {
     },
     theme: {
         files: {
-            'assets/css/style.css': 'assets/sass/style.scss',
-            'assets/css/oldie.css': 'assets/sass/oldie.scss',
-            'assets/css/tiny.css': 'assets/sass/tiny.scss'
+            '<%= assets.css %>/style.css': '<%= assets.sass %>/style.scss',
+            '<%= assets.css %>/oldie.css': '<%= assets.sass %>/oldie.scss',
+            '<%= assets.css %>/tiny.css': '<%= assets.sass %>/tiny.scss'
         }
     }
 };

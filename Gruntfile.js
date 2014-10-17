@@ -1,7 +1,13 @@
 module.exports = function(grunt){
     var config = {
         pkg: grunt.file.readJSON('package.json'),
-        env: process.env
+        env: process.env,
+        assets: {
+            sass: "assets/sass",
+            css: "assets/css",
+            js: "assets/js",
+            medias: "assets/medias"
+        }
     };
     grunt.util._.extend(config, loadConfig('./grunt-tasks/'));
     grunt.initConfig(config);
