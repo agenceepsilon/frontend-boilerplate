@@ -1,14 +1,14 @@
 <!-- CSS files -->
-<?php if($environment == "local"): ?>
+<?php if(ENVIRONMENT == "local"): ?>
     <link rel="stylesheet" href="assets/css/style.css">
-<?php elseif($environment == "prod"): ?>
+<?php elseif(ENVIRONMENT == "prod"): ?>
     <link rel="stylesheet" href="assets/css/dist/style.min.css">
 <?php endif ?>
 
 <!--[if lte IE 8]>
-<?php if($environment == "local"): ?>
+<?php if(ENVIRONMENT == "local"): ?>
     <link rel="stylesheet" href="assets/css/oldie.css">
-<?php elseif($environment == "prod"): ?>
+<?php elseif(ENVIRONMENT == "prod"): ?>
     <link rel="stylesheet" href="assets/css/dist/oldie.min.css">
 <?php endif ?>
 <![endif]-->

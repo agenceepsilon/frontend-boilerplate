@@ -1,4 +1,4 @@
-<?php if($environment == "local"): ?>
+<?php if(ENVIRONMENT == "local"): ?>
 
     <!-- JS libraries files -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -7,7 +7,7 @@
     <!-- JS main file -->
     <script src="assets/js/main.js"></script>
 
-<?php elseif($environment == "prod"): ?>
+<?php elseif(ENVIRONMENT == "prod"): ?>
 
     <!-- JS libraries files -->
     <script src="assets/js/dist/bower.min.js"></script>
