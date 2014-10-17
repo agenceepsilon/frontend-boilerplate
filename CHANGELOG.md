@@ -2,6 +2,12 @@
 
 ## Future version
 
+* Functions:
+    * Using PHP constant *([#5](https://github.com/agenceepsilon/meduseld-boilerplate/issues/5))*
+    * Add version on assets for kill browser cache *([#6](https://github.com/agenceepsilon/meduseld-boilerplate/issues/6))*
+* Grunt:
+    * Global URL variables *([#7](https://github.com/agenceepsilon/meduseld-boilerplate/issues/7))*
+    * ``version`` task
 * NPM Packages:
     * ``grunt-bower_concat`` 0.4.0
     * ``grunt-browser-uglify`` 0.6.0
