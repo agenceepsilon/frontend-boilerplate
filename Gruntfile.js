@@ -64,6 +64,7 @@ module.exports = function(grunt){
         'bower_concat',
         'concat',
         'uglify',
+        'clean',
         'version'
     ]);
 

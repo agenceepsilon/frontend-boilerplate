@@ -8,9 +8,12 @@
 * Grunt:
     * Global URL variables *([#7](https://github.com/agenceepsilon/meduseld-boilerplate/issues/7))*
     * ``version`` task
+    * ``clean`` task
 * NPM Packages:
     * ``grunt-bower_concat`` 0.4.0
     * ``grunt-browser-uglify`` 0.6.0
+    * ``grunt-contrib-clean`` added
+* Comments spaces fix
 
 ## 2.0.0
 
@@ -34,7 +37,7 @@
     * ``grunt minjs``: concat and minify JS files
 * CSS:
     * Editor:
-        * Default H1 title style
+        * Default ``h1`` title style
 
 ## 1.2.11
 
