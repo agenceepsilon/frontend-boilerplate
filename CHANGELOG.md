@@ -9,6 +9,7 @@
     * Global URL variables *([#7](https://github.com/agenceepsilon/meduseld-boilerplate/issues/7))*
     * ``version`` task
     * ``clean`` task
+    * ``uglify``: banner option
 * NPM Packages:
     * ``grunt-bower_concat`` 0.4.0
     * ``grunt-browser-uglify`` 0.6.0
