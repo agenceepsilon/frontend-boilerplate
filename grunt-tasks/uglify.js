@@ -1,4 +1,7 @@
 module.exports = {
+    options: {
+        banner: '/*! <%= pkg.name %> - <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+    },
     bower: {
         files: {
             "<%= assets.js %>/dist/bower.min.js": "<%= assets.js %>/dist/bower.js"
