@@ -1,6 +1,6 @@
 # Changelog
 
-## Future version
+## 2.1.0
 
 * Functions:
     * Using PHP constant *([#5](https://github.com/agenceepsilon/meduseld-boilerplate/issues/5))*
