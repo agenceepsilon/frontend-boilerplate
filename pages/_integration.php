@@ -66,8 +66,13 @@
                 }
                 .page_inte .note ul > li {
                     background-color: transparent;
+                    line-height: normal;
                     list-style-type: disc;
                     margin: 0 0 0 15px;
+                    overflow: visible;
+                }
+                .page_inte .note ul > li + li {
+                    margin-top: 3px;
                 }
                 .page_inte li .note {
                     margin: 0 15px 15px 15px;
