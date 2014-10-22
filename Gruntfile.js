@@ -31,7 +31,7 @@ module.exports = function(grunt){
     require('load-grunt-tasks')(grunt);
 
     // --------------------------------------- //
-    // TASKS - Default
+    // TASK - Default
     // Grunt default task
     // --------------------------------------- //
     grunt.registerTask('default', [
@@ -39,7 +39,7 @@ module.exports = function(grunt){
     ]);
 
     // --------------------------------------- //
-    // TASKS - Theme
+    // TASK - Theme
     // Generate CSS files
     // --------------------------------------- //
     grunt.registerTask('theme', [
@@ -48,7 +48,7 @@ module.exports = function(grunt){
     ]);
 
     // --------------------------------------- //
-    // TASKS - MinCSS
+    // TASK - MinCSS
     // Minify CSS files.
     // --------------------------------------- //
     grunt.registerTask('mincss', [
@@ -57,7 +57,7 @@ module.exports = function(grunt){
     ]);
 
     // --------------------------------------- //
-    // TASKS - MinJS
+    // TASK - MinJS
     // Minify the JavaScript files.
     // --------------------------------------- //
     grunt.registerTask('minjs', [
@@ -69,7 +69,7 @@ module.exports = function(grunt){
     ]);
 
     // -------------------------------------------- //
-    // TASKS - Version
+    // TASK - Version
     // Generate file with number for assets version
     // -------------------------------------------- //
     grunt.registerTask('version', function(){
