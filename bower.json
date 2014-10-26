@@ -1,5 +1,5 @@
 {
-    "name": "boilerplate",
+    "name": "frontend-boilerplate",
     "version": "2.1.0",
     "dependencies": {
         "jquery": "~1.11.1",

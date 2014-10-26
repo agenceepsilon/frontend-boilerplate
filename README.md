@@ -1,6 +1,6 @@
-# Meduseld Boilerplate 
+# Front-End Boilerplate 
 
-[![GitHub version](http://img.shields.io/github/release/agenceepsilon/meduseld-boilerplate.svg?style=flat-square)](https://github.com/agenceepsilon/meduseld-boilerplate/releases) [![devDependency Status](http://img.shields.io/david/dev/agenceepsilon/meduseld-boilerplate.svg?style=flat-square)](https://david-dm.org/agenceepsilon/meduseld-boilerplate#info=devDependencies)
+[![GitHub version](http://img.shields.io/github/release/agenceepsilon/frontend-boilerplate.svg?style=flat-square)](https://github.com/agenceepsilon/frontend-boilerplate/releases) [![devDependency Status](http://img.shields.io/david/dev/agenceepsilon/frontend-boilerplate.svg?style=flat-square)](https://david-dm.org/agenceepsilon/frontend-boilerplate#info=devDependencies)
 
 ## Requirements
 
@@ -13,6 +13,6 @@
 
 ## Quick start
 
-* [Download the latest release](https://github.com/agenceepsilon/meduseld-boilerplate/archive/master.zip)
+* [Download the latest release](https://github.com/agenceepsilon/frontend-boilerplate/archive/master.zip)
 * Install Grunt Plugins: ``npm install``
 * Install Bower Packages: ``bower install``
