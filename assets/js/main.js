@@ -4,17 +4,17 @@
 if(typeof app == 'undefined' || !app){
     var app = {};
 }
-if(typeof app.BOILERPLATE == 'undefined' || !app.BOILERPLATE){
-    app.BOILERPLATE = {};
+if(typeof app.FRONTEND == 'undefined' || !app.FRONTEND){
+    app.FRONTEND = {};
 }
-app.BOILERPLATE.Main = function(){
+app.FRONTEND.Main = function(){
     this.init();
 };
 
 // --------------------------------------------------------------------------------------------- //
 // PROTOTYPE
 // --------------------------------------------------------------------------------------------- //
-app.BOILERPLATE.Main.prototype = {
+app.FRONTEND.Main.prototype = {
     init: function(){
         jQuery(document).ready(jQuery.proxy(this, 'onDocumentReady'));
         jQuery(window).load(jQuery.proxy(this, 'onWindowLoad'));
@@ -40,4 +40,4 @@ app.BOILERPLATE.Main.prototype = {
 // --------------------------------------------------------------------------------------------- //
 // RUN INSTANCE
 // --------------------------------------------------------------------------------------------- //
-var appBOILERPLATE = new app.BOILERPLATE.Main();
+var appFRONTEND = new app.FRONTEND.Main();
