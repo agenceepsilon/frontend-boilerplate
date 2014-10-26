@@ -11,7 +11,7 @@
     // Get assets version
     // --------------------------------------------------------------------------------------------- //
 
-    define("ASSETS_VERSION", file_get_contents('assets/version'));
+    define("ASSETS_VERSION", file_get_contents('assets/.version'));
 
     // --------------------------------------------------------------------------------------------- //
     // Get URL variables parameters
