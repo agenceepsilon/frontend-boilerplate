@@ -28,12 +28,14 @@ module.exports = function(grunt){
     // --------------------------------------- //
     // GLOBAL PLUGINS LOADING
     // --------------------------------------- //
+
     require('load-grunt-tasks')(grunt);
 
     // --------------------------------------- //
     // TASK - Default
     // Grunt default task
     // --------------------------------------- //
+
     grunt.registerTask('default', [
         'watch'
     ]);
@@ -42,6 +44,7 @@ module.exports = function(grunt){
     // TASK - Theme
     // Generate CSS files
     // --------------------------------------- //
+
     grunt.registerTask('theme', [
         'sass',
         'version'
@@ -51,6 +54,7 @@ module.exports = function(grunt){
     // TASK - MinCSS
     // Minify CSS files.
     // --------------------------------------- //
+
     grunt.registerTask('mincss', [
         'cssmin',
         'version'
@@ -60,6 +64,7 @@ module.exports = function(grunt){
     // TASK - MinJS
     // Minify the JavaScript files.
     // --------------------------------------- //
+
     grunt.registerTask('minjs', [
         'bower_concat',
         'concat',
@@ -72,6 +77,7 @@ module.exports = function(grunt){
     // TASK - Version
     // Generate file with number for assets version
     // -------------------------------------------- //
+
     grunt.registerTask('version', function(){
         grunt.file.write('assets/.version', (new Date()).getTime());
     });
