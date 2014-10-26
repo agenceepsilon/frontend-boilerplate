@@ -32,7 +32,7 @@
                 .page_inte li {
                     overflow: hidden;
                 }
-                .page_inte li:nth-child(2n+1) {
+                .page_inte li:nth-child(odd) {
                     background: #EEE;
                 }
                 .page_inte ul li a {
