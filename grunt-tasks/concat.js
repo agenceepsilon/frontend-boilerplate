@@ -1,3 +1,7 @@
+// ============================================================================================= //
+//                                        GRUNT - CONCAT                                         //
+// ============================================================================================= //
+
 module.exports = {
     options: {
         separator: ';'
@@ -5,8 +9,7 @@ module.exports = {
     theme: {
         src: [
             '<%= assets.js %>/**.js',
-            '!<%= assets.js %>/dist/build.js',
-            '!<%= assets.js %>/dist/build.min.js'
+            '!<%= assets.js %>/dist/*.js'
         ],
         dest: '<%= assets.js %>/dist/build.js'
     }
