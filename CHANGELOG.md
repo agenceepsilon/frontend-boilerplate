@@ -1,6 +1,6 @@
 # Changelog
 
-## Future version
+## 2.2.0
 
 * New name
 * Grunt:
