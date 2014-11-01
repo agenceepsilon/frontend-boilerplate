@@ -1,5 +1,13 @@
 # Changelog
 
+## Future version
+
+* New name
+* Grunt:
+    * CSS minify banner option
+    * ``load-grunt-tasks`` 1.0.0
+* Global comments update
+
 ## 2.1.0
 
 * Functions:
