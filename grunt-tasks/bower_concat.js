@@ -11,7 +11,7 @@ module.exports = {
         ],
         mainFiles: {
             'jquery': 'dist/jquery.js',
-            'jquery.notready': 'assets/js/jquery.ready.js'
+            'jquery.notready': 'dist/jquery.ready.min.js'
         },
         bowerOptions: {
             relative: false

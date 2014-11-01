@@ -2,7 +2,7 @@
 
     <!-- JS libraries files -->
     <script src="bower_components/jquery/dist/jquery.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
-    <script src="bower_components/jquery.notready/assets/js/jquery.ready.js?v=<?php echo ASSETS_VERSION ?>"></script>
+    <script src="bower_components/jquery.notready/dist/jquery.ready.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
     <!-- JS main file -->
     <script src="assets/js/main.js?v=<?php echo ASSETS_VERSION ?>"></script>

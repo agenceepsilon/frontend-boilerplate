@@ -20,4 +20,4 @@
 
 <!-- JS files -->
 <script src="bower_components/modernizr/modernizr.js?v=<?php echo ASSETS_VERSION ?>"></script>
-<script src="bower_components/jquery.notready/assets/js/jquery.notready.js?v=<?php echo ASSETS_VERSION ?>"></script>
+<script src="bower_components/jquery.notready/dist/jquery.notready.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
