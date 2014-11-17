@@ -1,5 +1,10 @@
 # Changelog
 
+## Future release
+
+* NPM Packages:
+    * ``glob`` 4.1.6
+
 ## 2.2.0
 
 * New name
