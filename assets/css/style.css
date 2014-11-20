@@ -678,12 +678,27 @@ select {
   outline: none;
 }
 
-.form label {
-  font-size: 0.813rem;
-}
-
 .form_row + .form_row {
   margin-top: 10px;
+}
+
+.form_label {
+  font-size: 0.813rem;
+  margin-bottom: 5px;
+}
+
+.has-error {
+  position: relative;
+}
+
+.help-block {
+  display: none;
+  font-size: 0.688rem;
+  color: #B94A48;
+  margin-top: 5px;
+}
+.has-error .help-block {
+  display: block;
 }
 
 @media print {

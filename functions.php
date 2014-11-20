@@ -21,10 +21,12 @@
     // Get URL variables parameters
     // - $layout => get "layout" name
     // - $page   => get "page" name
+    // - $error  => get "error" parameter
     // ----------------------------------------------------------------------------------------- //
 
     $layout = (isset($_GET['layout'])) ? $_GET['layout'] : FALSE;
     $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
+    $error  = (isset($_GET['error'])) ? $_GET['error'] : FALSE;
 
     // ----------------------------------------------------------------------------------------- //
     // Load page modules
@@ -32,6 +34,14 @@
 
     if(isset($page) && $page == TRUE){
         include 'pages/'.$page.'.php';
+    }
+
+    // ----------------------------------------------------------------------------------------- //
+    // Define error class
+    // ----------------------------------------------------------------------------------------- //
+
+    if(isset($error) && $error == TRUE){
+        define("ERROR_CLASS", " has-error");
     }
 
     // ========================================================================================= //

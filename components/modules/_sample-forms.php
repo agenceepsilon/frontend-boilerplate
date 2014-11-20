@@ -11,23 +11,26 @@
             <div class="form_row">
                 <h2>Inputs / Textarea</h2>
             </div>
-            <div class="form_row">
+            <div class="form_row<?php echo defined('ERROR_CLASS') ? ERROR_CLASS : ''; ?>">
                 <label class="form_label">Input</label>
 
                 <div class="form_input">
                     <input type="text" placeholder="Type Text">
                 </div>
+                <span class="help-block">This value is too short. It should have 5 characters or more.</span>
             </div>
-            <div class="form_row">
+            <div class="form_row<?php echo defined('ERROR_CLASS') ? ERROR_CLASS : ''; ?>">
                 <label class="form_label">Input password</label>
 
                 <div class="form_input">
-                    <input type="password" value="Type Password">
+                    <input type="password" placeholder="Type Password">
                 </div>
+                <span class="help-block">This value is too short. It should have 5 characters or more.</span>
             </div>
             <div class="form_row">
                 <label class="form_label">Textarea</label>
                 <textarea placeholder="Textarea"></textarea>
+                <span class="help-block">This value is too short. It should have 5 characters or more.</span>
             </div>
             <div class="form_row">
                 <h2>Buttons</h2>

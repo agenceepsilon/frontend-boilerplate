@@ -105,6 +105,9 @@
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=forms">Forms</a>
                     </li>
+                    <li>
+                        <a href="index.php?layout=int-1col&amp;page=forms&error=true">Forms - Errors</a>
+                    </li>
                 </ul>
             </div>
         </section>
