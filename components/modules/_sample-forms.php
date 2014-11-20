@@ -54,7 +54,7 @@
             <div class="form_row">
                 <h2>Selects</h2>
             </div>
-            <div class="form_row">
+            <div class="form_row<?php echo defined('ERROR_CLASS') ? ERROR_CLASS : ''; ?>">
                 <label class="form_label">Select</label>
 
                 <div class="form_select">
@@ -64,6 +64,7 @@
                         <option>Option 3</option>
                     </select>
                 </div>
+                <span class="help-block">This value is too short. It should have 5 characters or more.</span>
             </div>
             <div class="form_row">
                 <h2>Checkbox</h2>

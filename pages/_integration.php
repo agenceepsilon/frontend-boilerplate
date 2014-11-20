@@ -91,22 +91,30 @@
                 <ul>
                     <li>
                         <a href="index.php?layout=hp&amp;page=hp">Home</a>
-
-                        <div class="note">
-                            <p>Note...</p>
-                        </div>
                     </li>
                 </ul>
                 <h2>Common styles</h2>
                 <ul>
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=wysiwyg">Typography</a>
+
+                        <div class="note">
+                            <p>Common text style content.</p>
+                        </div>
                     </li>
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=forms">Forms</a>
+
+                        <div class="note">
+                            <p>Common forms style.</p>
+                        </div>
                     </li>
                     <li>
                         <a href="index.php?layout=int-1col&amp;page=forms&error=true">Forms - Errors</a>
+
+                        <div class="note">
+                            <p>Error display in forms.</p>
+                        </div>
                     </li>
                 </ul>
             </div>

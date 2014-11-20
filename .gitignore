@@ -4,7 +4,5 @@
 ## Folders
 .idea/*
 .sass-cache/*
-assets/css/dist/*
-assets/js/dist/*
 bower_components/*
 node_modules/*
