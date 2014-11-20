@@ -12,21 +12,22 @@
                 <h2>Inputs / Textarea</h2>
             </div>
             <div class="form_row">
-                <label>Input</label>
+                <label class="form_label">Input</label>
 
                 <div class="form_input">
                     <input type="text" placeholder="Type Text">
                 </div>
             </div>
             <div class="form_row">
-                <label>Input password</label>
+                <label class="form_label">Input password</label>
 
                 <div class="form_input">
                     <input type="password" value="Type Password">
                 </div>
             </div>
             <div class="form_row">
-                <label>Textarea</label> <textarea placeholder="Textarea"></textarea>
+                <label class="form_label">Textarea</label>
+                <textarea placeholder="Textarea"></textarea>
             </div>
             <div class="form_row">
                 <h2>Buttons</h2>
@@ -51,7 +52,7 @@
                 <h2>Selects</h2>
             </div>
             <div class="form_row">
-                <label>Select</label>
+                <label class="form_label">Select</label>
 
                 <div class="form_select">
                     <select>
@@ -66,13 +67,13 @@
             </div>
             <div class="form_row">
                 <div class="form_checkbox">
-                    <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" id="checkbox-1"> <label for="checkbox-1">Checkbox</label>
                 </div>
                 <div class="form_checkbox">
-                    <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" id="checkbox-2"> <label for="checkbox-2">Checkbox</label>
                 </div>
                 <div class="form_checkbox">
-                    <input type="checkbox" id="checkbox"> <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" id="checkbox-3"> <label for="checkbox-3">Checkbox</label>
                 </div>
             </div>
             <div class="form_row">
@@ -80,13 +81,13 @@
             </div>
             <div class="form_row">
                 <div class="form_radio">
-                    <input type="radio" id="radio"> <label for="radio">Radio</label>
+                    <input type="radio" id="radio-1" name="group-1"> <label for="radio-1">Radio</label>
                 </div>
                 <div class="form_radio">
-                    <input type="radio" id="radio"> <label for="radio">Radio</label>
+                    <input type="radio" id="radio-2" name="group-1"> <label for="radio-2">Radio</label>
                 </div>
                 <div class="form_radio">
-                    <input type="radio" id="radio"> <label for="radio">Radio</label>
+                    <input type="radio" id="radio-3" name="group-1"> <label for="radio-3">Radio</label>
                 </div>
             </div>
         </form>
