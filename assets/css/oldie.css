@@ -642,6 +642,11 @@ table tr:nth-child(odd) {
 #wrapper,
 #footer {
   position: relative;
+}
+
+#header,
+#wrapper,
+#footer {
   z-index: 5;
 }
 
