@@ -2,8 +2,12 @@
 
 ## Future release
 
+* Functions:
+    * Error class
 * NPM Packages:
-    * ``glob`` 4.1.6
+    * ``glob`` 4.2.1
+* CSS:
+    * Forms error
 
 ## 2.2.0
 
