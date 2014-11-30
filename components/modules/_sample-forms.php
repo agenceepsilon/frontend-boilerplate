@@ -27,7 +27,7 @@
                 </div>
                 <span class="help-block">This value is too short. It should have 5 characters or more.</span>
             </div>
-            <div class="form_row">
+            <div class="form_row<?php echo defined('ERROR_CLASS') ? ERROR_CLASS : ''; ?>">
                 <label class="form_label">Textarea</label>
                 <textarea placeholder="Textarea"></textarea>
                 <span class="help-block">This value is too short. It should have 5 characters or more.</span>
