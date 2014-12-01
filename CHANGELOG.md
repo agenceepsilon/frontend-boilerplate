@@ -5,7 +5,7 @@
 * Functions:
     * Error class
 * NPM Packages:
-    * ``glob`` 4.2.1
+    * ``glob`` 4.3.0
 * CSS:
     * Forms error
 
