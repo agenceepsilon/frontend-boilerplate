@@ -1,6 +1,6 @@
 # Changelog
 
-## Future release
+## 2.2.1
 
 * Functions:
     * Lorem function update
