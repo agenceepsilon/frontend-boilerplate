@@ -51,16 +51,16 @@
     /**
      * Generate Lorem Ipsum text
      *
-     * @param int    $minLenght
+     * @param int    $minLenght (5 words minimum)
      * @param int    $maxLenght
-     * @param string $type (paras, words, bytes & lists)
+     * @param string $type (para, words, bytes & lists)
      * @param bool   $lorem (Choose to start with the text "Lorem ipsum...")
      *
      * @return SimpleXMLElement[]
      */
-    function lipsum($minLenght = 1, $maxLenght = 10, $type = 'words', $lorem = TRUE){
+    function lipsum($minLenght = 5, $maxLenght = 50, $type = 'words', $lorem = TRUE){
         $lenght = mt_rand($minLenght, $maxLenght);
-        $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? 'yes' : 'no');
+        $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? '0' : '1');
 
         return simplexml_load_file($url)->lipsum;
     }
