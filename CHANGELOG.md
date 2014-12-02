@@ -3,9 +3,10 @@
 ## Future release
 
 * Functions:
+    * Lorem function update
     * Error class
 * NPM Packages:
-    * ``glob`` 4.3.0
+    * ``glob`` 4.3.1
 * CSS:
     * Forms error
 
