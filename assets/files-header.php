@@ -10,10 +10,10 @@
 <?php elseif(ENVIRONMENT == "prod"): ?>
 
     <!-- CSS files -->
-    <link rel="stylesheet" href="assets/css/dist/style.min.css?v=<?php echo ASSETS_VERSION ?>">
+    <link rel="stylesheet" href="assets/css/style.min.css?v=<?php echo ASSETS_VERSION ?>">
 
     <!--[if lte IE 8]>
-        <link rel="stylesheet" href="assets/css/dist/oldie.min.css?v=<?php echo ASSETS_VERSION ?>">
+        <link rel="stylesheet" href="assets/css/oldie.min.css?v=<?php echo ASSETS_VERSION ?>">
     <![endif]-->
 
 <?php endif ?>
