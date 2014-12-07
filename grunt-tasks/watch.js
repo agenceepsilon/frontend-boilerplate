@@ -11,7 +11,8 @@ module.exports = {
             "<%= assets.sass %>/**/*.scss"
         ],
         tasks: [
-            "sass:theme"
+            "sass:theme",
+            'cssmin'
         ]
     }
 };
