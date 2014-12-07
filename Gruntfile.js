@@ -70,7 +70,6 @@ module.exports = function(grunt){
     // --------------------------------------- //
 
     grunt.registerTask('minjs', [
-        'bower_concat',
         'concat',
         'uglify',
         'clean',

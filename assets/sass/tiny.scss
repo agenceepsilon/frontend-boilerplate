@@ -11,13 +11,14 @@ $media-queries: false;
 // MAIN LIBRARIES
 // ------------------------------------------- //
 
-@import "../../bower_components/sass-mercury/_mercury";
-@import "../../bower_components/sass-mercury/_helpers";
+@import "vendors/sass-mercury/_mercury";
+@import "vendors/sass-mercury/_helpers";
 
 // ------------------------------------------- //
 // CSS IMPORTS
 // ------------------------------------------- //
 
+@import "fonts";
 @import "editor";
 @import "templates";
 
