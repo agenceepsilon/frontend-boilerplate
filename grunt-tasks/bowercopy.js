@@ -4,12 +4,11 @@
 
 module.exports = {
     options: {
-        runBower: true,
-        clean: true
+        runBower: true
     },
     libs: {
         options: {
-            destPrefix: 'assets/js/vendors'
+            destPrefix: '<%= assets.js.vendor %>'
         },
         files: {
             'jquery.js': 'jquery/dist/jquery.js',
@@ -20,10 +19,10 @@ module.exports = {
     },
     sass: {
         options: {
-            destPrefix: 'assets/sass/vendors'
+            destPrefix: '<%= assets.sass.vendor %>'
         },
         files: {
-            'assets/sass/vendors/sass-mercury': 'sass-mercury'
+            '<%= assets.sass.vendor %>/sass-mercury': 'sass-mercury'
         }
     }
 };
