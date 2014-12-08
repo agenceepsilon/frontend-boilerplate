@@ -6,9 +6,9 @@ module.exports = {
     options: {
         banner: '/*! <%= pkg.name %> - <%= grunt.template.today("yyyy-mm-dd") %> */\n'
     },
-    bower: {
+    libs: {
         files: {
-            "<%= assets.js.dist %>/bower.min.js": "<%= assets.js.dist %>/bower.js"
+            "<%= assets.js.dist %>/libs.min.js": "<%= assets.js.dist %>/libs.js"
         }
     },
     theme: {

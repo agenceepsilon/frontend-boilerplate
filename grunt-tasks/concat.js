@@ -11,7 +11,7 @@ module.exports = {
             '<%= assets.js.vendor %>/jquery.js',
             '<%= assets.js.vendor %>/jquery.ready.min.js'
         ],
-        dest: '<%= assets.js.dist %>/bower.js'
+        dest: '<%= assets.js.dist %>/libs.js'
     },
     theme: {
         src: [
