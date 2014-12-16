@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.2.2
+
+* NPM Packages:
+    * ``grunt-bowercopy`` 1.2.0
+    * ``grunt-bower-concat`` deleted
+* Grunt tasks:
+    * ``bower``: Run Bower and copy libs on vendors folders
+    
 ## 2.2.1
 
 * Functions:

@@ -683,10 +683,6 @@ select {
   outline: none;
 }
 
-.form_row + .form_row {
-  margin-top: 10px;
-}
-
 .form_label {
   font-size: 0.813rem;
   margin-bottom: 5px;
