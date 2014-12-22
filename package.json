@@ -2,7 +2,7 @@
   "name": "frontend-boilerplate",
   "version": "2.2.2",
   "devDependencies": {
-    "glob": "~4.3.1",
+    "glob": "~4.3.2",
     "grunt": "~0.4.5",
     "grunt-bowercopy": "^1.2.0",
     "grunt-contrib-clean": "^0.6.0",
@@ -11,6 +11,6 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-uglify": "^0.6.0",
     "grunt-contrib-watch": "~0.6.1",
-    "load-grunt-tasks": "~1.0.0"
+    "load-grunt-tasks": "~2.0.0"
   }
 }

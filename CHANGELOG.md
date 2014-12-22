@@ -1,5 +1,11 @@
 # Changelog
 
+## Future version
+
+* NPM Packages:
+    * ``glob`` 4.3.2
+    * ``load-grunt-tasks`` 2.0.0
+    
 ## 2.2.2
 
 * NPM Packages:
