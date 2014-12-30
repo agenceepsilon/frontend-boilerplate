@@ -4,6 +4,8 @@
 
 * NPM Packages:
     * ``glob`` 4.3.2
+    * ``grunt-contrib-cssmin`` 0.11.0
+    * ``grunt-contrib-uglify`` 0.7.0
     * ``load-grunt-tasks`` 2.0.0
     
 ## 2.2.2
