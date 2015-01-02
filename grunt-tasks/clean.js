@@ -5,6 +5,6 @@
 module.exports = {
     js: [
         "<%= assets.js.dist %>/libs.js",
-        "<%= assets.js.dist %>/build.js"
+        "<%= assets.js.dist %>/theme.js"
     ]
 };

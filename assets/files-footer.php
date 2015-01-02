@@ -13,6 +13,6 @@
     <script src="<?php echo ASSETS_JAVASCRIPT ?>/dist/libs.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
     <!-- JS main file -->
-    <script src="<?php echo ASSETS_JAVASCRIPT ?>/dist/build.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
+    <script src="<?php echo ASSETS_JAVASCRIPT ?>/dist/theme.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
 <?php endif ?>

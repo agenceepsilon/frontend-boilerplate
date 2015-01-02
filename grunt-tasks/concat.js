@@ -17,6 +17,6 @@ module.exports = {
         src: [
             '<%= assets.js.main %>/main.js'
         ],
-        dest: '<%= assets.js.dist %>/build.js'
+        dest: '<%= assets.js.dist %>/theme.js'
     }
 };

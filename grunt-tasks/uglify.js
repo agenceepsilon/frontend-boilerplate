@@ -13,7 +13,7 @@ module.exports = {
     },
     theme: {
         files: {
-            "<%= assets.js.dist %>/build.min.js": "<%= assets.js.dist %>/build.js"
+            "<%= assets.js.dist %>/theme.min.js": "<%= assets.js.dist %>/theme.js"
         }
     }
 };
