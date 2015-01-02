@@ -1,6 +1,6 @@
 # Changelog
 
-## Future version
+## 2.2.3
 
 * NPM Packages:
     * ``glob`` 4.3.2
