@@ -658,23 +658,6 @@ table tr:nth-child(odd) {
   z-index: 5;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.l-col {
-  width: 100%;
-  float: none;
-}
-@media all and (min-width: 768px) {
-  .l-col {
-    float: left;
-  }
-}
-
-.btn,
 label,
 input,
 textarea,
@@ -700,6 +683,27 @@ select {
 }
 .has-error .help-block {
   display: block;
+}
+
+.btn {
+  display: block;
+  outline: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.l-col {
+  width: 100%;
+  float: none;
+}
+@media all and (min-width: 768px) {
+  .l-col {
+    float: left;
+  }
 }
 
 @media print {

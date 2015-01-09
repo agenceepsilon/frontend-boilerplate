@@ -1,36 +1,49 @@
-@charset "UTF-8";
-
 // ============================================================================================= //
-//                               WYSIWYG CSS STYLES IN BACK OFFICE                               //
+//                                        MAIN CSS STYLE                                         //
 // ============================================================================================= //
 
-$oldie: true;
-$media-queries: false;
+html,
+body {
+    background: #FFF;
+    font-family: "Arial", "Verdana", sans-serif;
+    font-size: 100%;
+    color: #000;
+}
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+    &:before,
+    &:after {
+        box-sizing: inherit;
+    }
+}
 
 // ------------------------------------------------------------------------- //
-// VENDORS
+// MOUSSE SELECTION
 // ------------------------------------------------------------------------- //
 
-@import "vendors/sass-mercury/_mercury";
-@import "vendors/sass-mercury/_helpers";
+@include selection(#C23E00, #FFF, true);
+
+// ------------------------------------------------------------------------- //
+// WYSIWYG MAIN CSS
+// ------------------------------------------------------------------------- //
+
+@import "_editor";
 
 // ------------------------------------------------------------------------- //
 // GLOBAL
 // ------------------------------------------------------------------------- //
 
-@import "_global/colors";
-@import "_global/fonts";
-@import "_global/editor";
+#header,
+#wrapper,
+#footer {
+    position: relative;
+}
 
-// ------------------------------------------------------------------------- //
-// COMPONENTS
-// ------------------------------------------------------------------------- //
-
-@import "_components/_my-template";
-
-// ------------------------------------------------------------------------- //
-// ONLY FOR TINYMCE
-// ------------------------------------------------------------------------- //
-
-#tinymce {
+#header,
+#wrapper,
+#footer {
+    z-index: 5;
 }
