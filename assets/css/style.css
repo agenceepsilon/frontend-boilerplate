@@ -1,3 +1,79 @@
+.left, .alignleft {
+  float: left;
+}
+
+.right, .alignright {
+  float: right;
+}
+
+.center, .aligncenter {
+  margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix--reset:before, .clearfix--reset:after {
+  content: "";
+  display: inline;
+}
+.clearfix--reset:after {
+  clear: none;
+}
+
+.clear {
+  clear: both;
+}
+.clear--reset {
+  clear: none;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.hidden--mobile {
+  display: none;
+  visibility: hidden;
+}
+@media all and (min-width: 768px) {
+  .hidden--mobile {
+    display: block;
+    visibility: visible;
+  }
+}
+.hidden--tablet {
+  display: block;
+  visibility: visible;
+}
+@media all and (min-width: 768px) and (max-width: 959px) {
+  .hidden--tablet {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media all and (min-width: 960px) {
+  .hidden--tablet {
+    display: block;
+    visibility: visible;
+  }
+}
+.hidden--desktop {
+  display: block;
+  visibility: visible;
+}
+@media all and (min-width: 960px) {
+  .hidden--desktop {
+    display: none;
+    visibility: hidden;
+  }
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -394,82 +470,6 @@ table {
 td,
 th {
   padding: 0;
-}
-
-.left, .alignleft {
-  float: left;
-}
-
-.right, .alignright {
-  float: right;
-}
-
-.center, .aligncenter {
-  margin: 0 auto;
-}
-
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after {
-  clear: both;
-}
-.clearfix--reset:before, .clearfix--reset:after {
-  content: "";
-  display: inline;
-}
-.clearfix--reset:after {
-  clear: none;
-}
-
-.clear {
-  clear: both;
-}
-.clear--reset {
-  clear: none;
-}
-
-.hidden {
-  display: none;
-  visibility: hidden;
-}
-.hidden--mobile {
-  display: none;
-  visibility: hidden;
-}
-@media all and (min-width: 768px) {
-  .hidden--mobile {
-    display: block;
-    visibility: visible;
-  }
-}
-.hidden--tablet {
-  display: block;
-  visibility: visible;
-}
-@media all and (min-width: 768px) and (max-width: 959px) {
-  .hidden--tablet {
-    display: none;
-    visibility: hidden;
-  }
-}
-
-@media all and (min-width: 960px) {
-  .hidden--tablet {
-    display: block;
-    visibility: visible;
-  }
-}
-.hidden--desktop {
-  display: block;
-  visibility: visible;
-}
-@media all and (min-width: 960px) {
-  .hidden--desktop {
-    display: none;
-    visibility: hidden;
-  }
 }
 
 html,
