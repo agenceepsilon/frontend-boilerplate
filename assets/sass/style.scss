@@ -9,13 +9,13 @@
 // ------------------------------------------------------------------------- //
 
 @import "vendors/sass-mercury/_mercury";
-@import "vendors/sass-mercury/_normalize";
 @import "vendors/sass-mercury/_helpers";
 
 // ------------------------------------------------------------------------- //
 // GLOBAL
 // ------------------------------------------------------------------------- //
 
+@import "normalize";
 @import "_global/colors";
 @import "_global/fonts";
 @import "_global/main";
