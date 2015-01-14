@@ -2,7 +2,7 @@
     "name": "frontend-boilerplate",
     "version": "2.2.3",
     "dependencies": {
-        "jquery": "~1.11.1",
+        "jquery": "~1.11.2",
         "jquery.notready": "latest",
         "modernizr": "~2.8.3"
     },
