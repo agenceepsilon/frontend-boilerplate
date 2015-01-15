@@ -4,7 +4,7 @@
 
 module.exports = {
     js: [
-        "<%= assets.js.dist %>/libs.js",
-        "<%= assets.js.dist %>/theme.js"
+        '<%= assets.js.dist %>/libs.js',
+        '<%= assets.js.dist %>/theme.js'
     ]
 };

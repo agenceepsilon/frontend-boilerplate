@@ -7,8 +7,8 @@ module.exports = {
         debugInfo: false,
         noCache: true,
         precision: 3,
-        style: "expanded",
-        sourcemap: "none"
+        style: 'expanded',
+        sourcemap: 'none'
     },
     theme: {
         files: {

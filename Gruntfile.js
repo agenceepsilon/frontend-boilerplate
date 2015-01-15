@@ -18,16 +18,16 @@ module.exports = function(grunt){
         env: process.env,
         assets: {
             sass: {
-                main: "assets/sass",
-                vendor: "assets/sass/vendors"
+                main: 'assets/sass',
+                vendor: 'assets/sass/vendors'
             },
-            css: "assets/css",
+            css: 'assets/css',
             js: {
-                main: "assets/js",
-                dist: "assets/js/dist",
-                vendor: "assets/js/vendors"
+                main: 'assets/js',
+                dist: 'assets/js/dist',
+                vendor: 'assets/js/vendors'
             },
-            medias: "assets/medias"
+            medias: 'assets/medias'
         }
     };
     grunt.util._.extend(config, loadConfig('./grunt-tasks/'));
