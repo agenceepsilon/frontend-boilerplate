@@ -20,7 +20,7 @@ module.exports = function(grunt){
             css: 'assets/css',
             js: {
                 main: 'assets/js',
-                dist: "assets/js/dist"
+                dist: 'assets/js/dist'
             },
             medias: 'assets/medias',
             sass:  'assets/sass',
