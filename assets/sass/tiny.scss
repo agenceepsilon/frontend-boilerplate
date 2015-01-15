@@ -11,8 +11,8 @@ $media-queries: false;
 // MAIN LIBRARIES
 // ------------------------------------------- //
 
-@import "vendors/sass-mercury/_mercury";
-@import "vendors/sass-mercury/_helpers";
+@import "../vendor/sass-mercury/mercury";
+@import "../vendor/sass-mercury/_helpers";
 
 // ------------------------------------------- //
 // CSS IMPORTS

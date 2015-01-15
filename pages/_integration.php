@@ -84,7 +84,7 @@
                     <p><u>To initialize the project:</u></p>
                     <ul>
                         <li>Run <em><strong>"npm install"</strong></em> to download <strong>Grunt's plugins</strong></li>
-                        <li>Run <em><strong>"grunt bower"</strong></em> to download <strong>Bower's packages</strong></li>
+                        <li>Run <em><strong>"bower install"</strong></em> to download <strong>Bower's packages</strong></li>
                     </ul>
                 </div>
                 <h2>Pages</h2>
