@@ -8,12 +8,12 @@ module.exports = {
     },
     libs: {
         files: {
-            "<%= assets.js.dist %>/libs.min.js": "<%= assets.js.dist %>/libs.js"
+            '<%= assets.js.dist %>/libs.min.js': '<%= assets.js.dist %>/libs.js'
         }
     },
     theme: {
         files: {
-            "<%= assets.js.dist %>/theme.min.js": "<%= assets.js.dist %>/theme.js"
+            '<%= assets.js.dist %>/theme.min.js': '<%= assets.js.dist %>/theme.js'
         }
     }
 };

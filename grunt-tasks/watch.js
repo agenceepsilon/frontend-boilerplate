@@ -8,12 +8,12 @@ module.exports = {
     },
     css: {
         files: [
-            "<%= assets.sass %>/**/*.scss"
+            '<%= assets.sass %>/**/*.scss'
         ],
         tasks: [
-            "sass",
+            'sass',
             'cssmin',
-            "version"
+            'version'
         ]
     }
 };
