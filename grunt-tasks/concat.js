@@ -8,8 +8,8 @@ module.exports = {
     },
     libs: {
         src: [
-            '<%= assets.js.vendor %>/jquery.js',
-            '<%= assets.js.vendor %>/jquery.ready.min.js'
+            '<%= assets.vendor %>/jquery/dist/jquery.js',
+            '<%= assets.vendor %>/jquery.notready/dist/jquery.ready.min.js'
         ],
         dest: '<%= assets.js.dist %>/libs.js'
     },
