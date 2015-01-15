@@ -17,19 +17,17 @@ module.exports = function(grunt){
         pkg: grunt.file.readJSON('package.json'),
         env: process.env,
         assets: {
-            sass: {
-                main: "assets/sass",
-                vendor: "assets/sass/vendors"
-            },
             css: "assets/css",
             js: {
                 main: "assets/js",
-                dist: "assets/js/dist",
-                vendor: "assets/js/vendors"
+                dist: "assets/js/dist"
             },
-            medias: "assets/medias"
+            medias: "assets/medias",
+            sass:  "assets/sass",
+            vendor: "assets/vendor"
         }
     };
+
     grunt.util._.extend(config, loadConfig('./grunt-tasks/'));
     grunt.initConfig(config);
 
@@ -59,15 +57,6 @@ module.exports = function(grunt){
 
     grunt.registerTask('default', [
         'watch'
-    ]);
-
-    // ------------------------------------------- //
-    // TASK - Bower
-    // Generate CSS files
-    // ------------------------------------------- //
-
-    grunt.registerTask('bower', [
-        'bowercopy'
     ]);
 
     // ------------------------------------------- //
