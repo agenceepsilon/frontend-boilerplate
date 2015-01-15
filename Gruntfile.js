@@ -17,14 +17,14 @@ module.exports = function(grunt){
         pkg: grunt.file.readJSON('package.json'),
         env: process.env,
         assets: {
-            css: "assets/css",
+            css: 'assets/css',
             js: {
-                main: "assets/js",
+                main: 'assets/js',
                 dist: "assets/js/dist"
             },
-            medias: "assets/medias",
-            sass:  "assets/sass",
-            vendor: "assets/vendor"
+            medias: 'assets/medias',
+            sass:  'assets/sass',
+            vendor: 'assets/vendor'
         }
     };
 
