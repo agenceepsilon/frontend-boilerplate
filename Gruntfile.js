@@ -3,15 +3,15 @@
 // ============================================================================================= //
 
 module.exports = function(grunt){
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
     // PLUGIN - TIME GRUNT
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
 
     require('time-grunt')(grunt);
 
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
     // CONFIGURATION
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
 
     var config = {
         pkg: grunt.file.readJSON('package.json'),
@@ -44,47 +44,47 @@ module.exports = function(grunt){
         return object;
     }
 
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
     // GLOBAL PLUGINS LOADING
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
 
     require('load-grunt-tasks')(grunt);
 
-    // ------------------------------------------- //
-    // TASK - Default
-    // Grunt default task
-    // ------------------------------------------- //
+    // ------------------------------------------------------------------------- //
+    // TASKS
+    // ------------------------------------------------------------------------- //
 
+    /**
+     * Task: default
+     * Description: Grunt default task.
+     */
     grunt.registerTask('default', [
         'watch'
     ]);
 
-    // ------------------------------------------- //
-    // TASK - Theme
-    // Generate CSS files
-    // ------------------------------------------- //
-
+    /**
+     * Task: theme
+     * Description: Generate CSS files.
+     */
     grunt.registerTask('theme', [
         'sass',
         'cssmin',
         'version'
     ]);
 
-    // ------------------------------------------- //
-    // TASK - MinCSS
-    // Minify CSS files.
-    // ------------------------------------------- //
-
+    /**
+     * Task: mincss
+     * Description: Minify CSS files.
+     */
     grunt.registerTask('mincss', [
         'cssmin',
         'version'
     ]);
 
-    // ------------------------------------------- //
-    // TASK - MinJS
-    // Minify the JavaScript files.
-    // ------------------------------------------- //
-
+    /**
+     * Task: minjs
+     * Description: Minify the JavaScript files.
+     */
     grunt.registerTask('minjs', [
         'concat',
         'uglify',
@@ -92,11 +92,10 @@ module.exports = function(grunt){
         'version'
     ]);
 
-    // -------------------------------------------- //
-    // TASK - Version
-    // Generate file with number for assets version
-    // -------------------------------------------- //
-
+    /**
+     * Task: version
+     * Description: Generate file with number for assets version.
+     */
     grunt.registerTask('version', function(){
         grunt.file.write('assets/.version', (new Date()).getTime());
     });
