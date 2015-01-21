@@ -12,9 +12,9 @@ module.exports = {
     },
     theme: {
         files: {
-            '<%= assets.css %>/style.css': '<%= assets.sass %>/style.scss',
-            '<%= assets.css %>/oldie.css': '<%= assets.sass %>/oldie.scss',
-            '<%= assets.css %>/tiny.css': '<%= assets.sass %>/tiny.scss'
+            '<%= css %>/style.css': '<%= assets %>/sass/style.scss',
+            '<%= css %>/oldie.css': '<%= assets %>/sass/oldie.scss',
+            '<%= css %>/tiny.css': '<%= assets %>/sass/tiny.scss'
         }
     }
 };

@@ -13,42 +13,14 @@ module.exports = function(grunt){
     // CONFIGURATION
     // ------------------------------------------------------------------------- //
 
-    var config = {
-        pkg: grunt.file.readJSON('package.json'),
-        env: process.env,
-        assets: {
+    require('load-grunt-config')(grunt, {
+        data: {
+            assets: 'assets',
             css: 'assets/css',
-            js: {
-                main: 'assets/js',
-                dist: 'assets/js/dist'
-            },
-            medias: 'assets/medias',
-            sass:  'assets/sass',
+            js: 'assets/js',
             vendor: 'assets/vendor'
         }
-    };
-
-    grunt.util._.extend(config, loadConfig('./grunt-tasks/'));
-    grunt.initConfig(config);
-
-    function loadConfig(path){
-        var glob = require('glob');
-        var object = {};
-        var key;
-
-        glob.sync('*', {cwd: path}).forEach(function(option){
-            key = option.replace(/\.js$/, '');
-            object[key] = require(path + option);
-        });
-
-        return object;
-    }
-
-    // ------------------------------------------------------------------------- //
-    // GLOBAL PLUGINS LOADING
-    // ------------------------------------------------------------------------- //
-
-    require('load-grunt-tasks')(grunt);
+    });
 
     // ------------------------------------------------------------------------- //
     // TASKS

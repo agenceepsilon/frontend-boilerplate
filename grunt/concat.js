@@ -8,15 +8,15 @@ module.exports = {
     },
     libs: {
         src: [
-            '<%= assets.vendor %>/jquery/dist/jquery.js',
-            '<%= assets.vendor %>/jquery.notready/dist/jquery.ready.min.js'
+            '<%= vendor %>/vendor/jquery/dist/jquery.js',
+            '<%= vendor %>/vendor/jquery.notready/dist/jquery.ready.min.js'
         ],
-        dest: '<%= assets.js.dist %>/libs.js'
+        dest: '<%= js %>/dist/libs.js'
     },
     theme: {
         src: [
-            '<%= assets.js.main %>/main.js'
+            '<%= js %>/main.js'
         ],
-        dest: '<%= assets.js.dist %>/theme.js'
+        dest: '<%= js %>/dist/theme.js'
     }
 };
