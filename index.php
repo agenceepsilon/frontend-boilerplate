@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Front-End Boilerplate.</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <?php require 'assets/files-header.php'; ?>
+    <?php require 'assets/assets-header.php'; ?>
 </head>
 <body>
 <?php
@@ -46,7 +46,7 @@
     /**
      * JavaScript files
      */
-    require 'assets/files-footer.php';
+    require 'assets/assets-footer.php';
 ?>
 </body>
 </html>
