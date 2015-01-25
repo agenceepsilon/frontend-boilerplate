@@ -1,5 +1,35 @@
 # Changelog
 
+## Future release
+
+* NPM Packages:
+    * Deleted:
+        * ``glob``
+        * ``grunt-contrib-clean``
+        * ``load-grunt-tasks``
+    * Add:
+        * ``grunt-contrib-jshint`` 0.11.0
+        * ``load-grunt-config`` 0.16.0 *(#10)*
+        * ``time-grunt`` 1.0.0
+* Grunt:
+    * Move config files on new folder
+    * ``load-grunt-config`` replace ``glob`` and ``load-grunt-tasks`` *(#10)*
+    * Add ``time-grunt`` plugin
+    * Add ``jshint`` task
+    * Delete ``clean`` task
+* JavaScript:
+    * jQuery update to 1.11.2
+    * Modernizr remove from ``bower.json``
+* Bower:
+    * Change directory structure
+* Functions:
+    * Vendor assets
+* CSS:
+    * Add normalize by default
+    * Print default CSS update
+* Global comments update
+* Global clean code
+
 ## 2.2.3
 
 * NPM Packages:
