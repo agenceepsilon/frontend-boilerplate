@@ -4,6 +4,8 @@
 
 module.exports = {
     theme: [
-        'assets/js/**/*.js'
+        'assets/js/**/*.js',
+        '!assets/js/dist/*.js',
+        '!assets/js/vendor/*.js'
     ]
 };
