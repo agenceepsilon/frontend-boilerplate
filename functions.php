@@ -50,7 +50,7 @@
     // Load page modules
     // --------------------------------------------------------------------------------------------- //
 
-    if(isset($page) && $page == TRUE){
+    if(isset($page) && $page === TRUE){
         include 'pages/'.$page.'.php';
     }
 
@@ -58,7 +58,7 @@
     // Define error class
     // --------------------------------------------------------------------------------------------- //
 
-    if(isset($error) && $error == TRUE){
+    if(isset($error) && $error === TRUE){
         define('ERROR_CLASS', ' has-error');
     }
 
