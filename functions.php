@@ -42,15 +42,15 @@
     // - $error  => Get error parameter
     // --------------------------------------------------------------------------------------------- //
 
-    $layout = (isset($_GET['layout'])) ? $_GET['layout'] : FALSE;
-    $page   = (isset($_GET['page'])) ? $_GET['page'] : FALSE;
-    $error  = (isset($_GET['error'])) ? $_GET['error'] : FALSE;
+    $layout = filter_input(INPUT_GET, 'layout');
+    $page   = filter_input(INPUT_GET, 'page');
+    $error  = filter_input(INPUT_GET, 'error');
 
     // --------------------------------------------------------------------------------------------- //
     // Load page modules
     // --------------------------------------------------------------------------------------------- //
 
-    if(isset($page) && $page == TRUE){
+    if(isset($page)){
         include 'pages/'.$page.'.php';
     }
 
@@ -58,7 +58,7 @@
     // Define error class
     // --------------------------------------------------------------------------------------------- //
 
-    if(isset($error) && $error == TRUE){
+    if(isset($error)){
         define('ERROR_CLASS', ' has-error');
     }
 
