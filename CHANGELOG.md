@@ -20,6 +20,7 @@
 * JavaScript:
     * jQuery update to 1.11.2
     * Modernizr remove from ``bower.json``
+    * Fix syntax *(#15)*
 * Bower:
     * Change directory structure
 * Functions:
@@ -27,6 +28,8 @@
 * CSS:
     * Add normalize by default
     * Print default CSS update
+* PHP:
+    * Fix PHP bug risk *(#13, #14)*
 * Global comments update
 * Global clean code
 
