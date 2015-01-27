@@ -15,4 +15,4 @@
     <!-- JS main file -->
     <script src="<?php echo ASSETS_JAVASCRIPT ?>/dist/theme.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
 
-<?php endif ?>
+<?php endif;
