@@ -26,6 +26,7 @@
 * Functions:
     * Vendor assets
 * CSS:
+    * Sass files news structures
     * Add normalize by default
     * Print default CSS update
 * PHP:
