@@ -3,6 +3,6 @@
     // Template: template example
 ?>
 
-<div class="tpl tpl--?">
+<div class="tpl">
     WYSIWYG template...
 </div>
