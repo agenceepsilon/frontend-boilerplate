@@ -5,7 +5,5 @@
 ## Folders
 .idea/*
 .sass-cache/*
-bower_components/*
 node_modules/*
-/*/vendor/*
-/*/vendors/*
+assets/vendor/*
