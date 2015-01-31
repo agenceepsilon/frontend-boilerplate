@@ -1,10 +1,10 @@
 // --------------------------------------------------------------------------------------------- //
 // CHECK INSTANCE
 // --------------------------------------------------------------------------------------------- //
-if(typeof app == 'undefined' || !app){
+if(typeof app === 'undefined' || !app){
     var app = {};
 }
-if(typeof app.FRONTEND == 'undefined' || !app.FRONTEND){
+if(typeof app.FRONTEND === 'undefined' || !app.FRONTEND){
     app.FRONTEND = {};
 }
 app.FRONTEND.Main = function(){
