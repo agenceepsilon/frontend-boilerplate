@@ -1,6 +1,6 @@
 # Changelog
 
-## Future release
+## 3.0.0
 
 * NPM Packages:
     * Deleted:
