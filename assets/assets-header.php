@@ -20,4 +20,4 @@
 
 <!-- JS files -->
 <script src="<?php echo ASSETS_JAVASCRIPT ?>/vendor/modernizr.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
-<script src="<?php echo ASSETS_VENDOR ?>/jquery.notready/dist/jquery.notready.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
+<script src="<?php echo ASSETS_JAVASCRIPT ?>/vendor/jquery.notready.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
