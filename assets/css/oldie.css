@@ -650,20 +650,6 @@ table tr:nth-child(odd) {
   z-index: 5;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  position: relative;
-  width: 960px;
-}
-
-.l-col {
-  width: 100%;
-  float: none;
-  float: left;
-}
-
-.btn,
 label,
 input,
 textarea,
@@ -691,8 +677,28 @@ select {
   display: block;
 }
 
+.btn {
+  display: block;
+  outline: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+}
+
+.l-col {
+  width: 100%;
+  float: none;
+  float: left;
+}
+
 @media print {
-  * {
+  *,
+  *:before,
+  *:after {
     background: transparent !important;
     color: #000 !important;
     box-shadow: none !important;
@@ -712,8 +718,8 @@ select {
     content: " (" attr(title) ")";
   }
 
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
     content: "";
   }
 

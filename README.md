@@ -1,4 +1,4 @@
-# Front-End Boilerplate 
+# Front-End Boilerplate
 
 [![GitHub version](http://img.shields.io/github/release/agenceepsilon/frontend-boilerplate.svg?style=flat-square)](https://github.com/agenceepsilon/frontend-boilerplate/releases) [![devDependency Status](http://img.shields.io/david/dev/agenceepsilon/frontend-boilerplate.svg?style=flat-square)](https://david-dm.org/agenceepsilon/frontend-boilerplate#info=devDependencies)
 
