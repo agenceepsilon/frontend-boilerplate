@@ -6,9 +6,11 @@
     * Deleted:
         * ``glob``
         * ``grunt-contrib-clean``
+        * ``grunt-contrib-sass``
         * ``load-grunt-tasks``
     * Add:
         * ``grunt-contrib-jshint`` 0.11.0
+        * ``grunt-sass`` 0.17.0
         * ``load-grunt-config`` 0.16.0 *(#10)*
         * ``time-grunt`` 1.0.0
 * Grunt:

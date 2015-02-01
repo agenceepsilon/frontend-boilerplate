@@ -4,11 +4,9 @@
 
 module.exports = {
     options: {
-        debugInfo: false,
-        noCache: true,
+        outputStyle: 'expanded',
         precision: 3,
-        style: 'expanded',
-        sourcemap: 'none'
+        sourcemap: false
     },
     theme: {
         files: {
