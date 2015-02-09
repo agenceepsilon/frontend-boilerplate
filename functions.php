@@ -5,8 +5,8 @@
 
     // --------------------------------------------------------------------------------------------- //
     // Choose your working environment for loading CSS and JS files.
-    // - local => Files not minified
-    // - prod  => Minified files
+    //  - local => Files not minified
+    //  - prod  => Minified files
     // --------------------------------------------------------------------------------------------- //
 
     define('ENVIRONMENT', 'local');
@@ -33,13 +33,13 @@
     // Define assets vendor
     // --------------------------------------------------------------------------------------------- //
 
-    define("ASSETS_VENDOR", 'assets/vendor');
+    define('ASSETS_VENDOR', 'assets/vendor');
 
     // --------------------------------------------------------------------------------------------- //
     // URL variables parameters
-    // - $layout => Get layout name
-    // - $page   => Get page name
-    // - $error  => Get error parameter
+    //  - $layout => Get layout name
+    //  - $page   => Get page name
+    //  - $error  => Get error parameter
     // --------------------------------------------------------------------------------------------- //
 
     $layout = filter_input(INPUT_GET, 'layout');
