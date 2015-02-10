@@ -1,6 +1,6 @@
 # Changelog
 
-## Future realase
+## 3.0.1
 
 * NPM Packages:
     * Update:
