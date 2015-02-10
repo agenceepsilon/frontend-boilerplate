@@ -22,6 +22,9 @@
                 .page_inte strong {
                     color: #C23E00;
                 }
+                .page_inte p {
+                    font-size: 11px;
+                }
                 .page_inte ul,
                 .page_inte li {
                     font-size: 11px;
@@ -56,7 +59,6 @@
                 }
                 .page_inte .note p,
                 .page_inte .note ul {
-                    font-size: 11px;
                     margin-top: 10px;
                     margin-bottom: 0;
                 }
