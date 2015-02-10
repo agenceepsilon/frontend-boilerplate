@@ -9,7 +9,7 @@
 // ------------------------------------------------------------------------- //
 
 @import "../vendor/sass-mercury/mercury";
-@import "../vendor/sass-mercury/_helpers";
+@import "../vendor/sass-mercury/helpers";
 
 // ------------------------------------------------------------------------- //
 // NORMALIZE
@@ -38,11 +38,11 @@
 // COMPONENTS
 // ------------------------------------------------------------------------- //
 
-@import "_components/_my-module";
-@import "_components/_my-template";
+@import "_components/my-module";
+@import "_components/my-template";
 
 // ------------------------------------------------------------------------- //
 // PRINT
 // ------------------------------------------------------------------------- //
 
-@import "_global/_print";
+@import "_global/print";
