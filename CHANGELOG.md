@@ -1,5 +1,16 @@
 # Changelog
 
+## Future realase
+
+* NPM Packages:
+    * Update:
+        * ``grunt-contrib-cssmin`` 0.10.0 *(for keep banner option)*
+* Sass:
+    * Vendor folder
+    * Underscore in path deleted
+* Functions:
+    * ``ERROR_CLASS`` refactor
+
 ## 3.0.0
 
 * NPM Packages:
