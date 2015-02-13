@@ -4,9 +4,9 @@
 
 module.exports = {
     options: {
-        outputStyle: 'expanded',
+        outputStyle: 'nested',
         precision: 3,
-        sourcemap: false
+        sourceMap: false
     },
     theme: {
         files: {
