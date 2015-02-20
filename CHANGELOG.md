@@ -1,10 +1,16 @@
 # Changelog
 
+## 3.0.2
+
+* NPM Packages:
+    * ``grunt-sass`` 0.18.0 *(work with Nodejs 0.12.0)*
+* Grunt:
+    * Update plugins patch
+
 ## 3.0.1
 
 * NPM Packages:
-    * Update:
-        * ``grunt-contrib-cssmin`` 0.10.0 *(for keep banner option)*
+    * ``grunt-contrib-cssmin`` 0.10.0 *(for keep banner option)*
 * Sass:
     * Vendor folder
     * Underscore in path deleted
