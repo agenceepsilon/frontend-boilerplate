@@ -2,7 +2,7 @@
 //                                       GRUNT - GRUNTFILE                                       //
 // ============================================================================================= //
 
-module.exports = function(grunt){
+module.exports = function (grunt) {
     // ------------------------------------------------------------------------- //
     // PLUGIN - TIME GRUNT
     // ------------------------------------------------------------------------- //
@@ -68,7 +68,7 @@ module.exports = function(grunt){
      * Task: version
      * Description: Generate file with number for assets version.
      */
-    grunt.registerTask('version', function(){
+    grunt.registerTask('version', function () {
         grunt.file.write('assets/.version', (new Date()).getTime());
     });
 };
