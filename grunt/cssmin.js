@@ -4,7 +4,7 @@
 
 module.exports = {
     options: {
-        banner: '/*! <%= package.name %> - <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+        roundingPrecision: 3
     },
     css: {
         files: {

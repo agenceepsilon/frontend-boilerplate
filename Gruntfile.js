@@ -41,6 +41,7 @@ module.exports = function (grunt) {
     grunt.registerTask('theme', [
         'sass',
         'cssmin',
+        'header:css',
         'version'
     ]);
 
@@ -50,6 +51,7 @@ module.exports = function (grunt) {
      */
     grunt.registerTask('mincss', [
         'cssmin',
+        'header:css',
         'version'
     ]);
 
@@ -61,6 +63,7 @@ module.exports = function (grunt) {
         'jshint',
         'concat',
         'uglify',
+        'header:js',
         'version'
     ]);
 
