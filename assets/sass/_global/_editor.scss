@@ -70,8 +70,7 @@ ol {
 li {
     line-height: 1.5;
     margin-left: 15px;
-    > ul,
-    > ol {
+    > ul, > ol {
         margin-bottom: 0;
     }
 }

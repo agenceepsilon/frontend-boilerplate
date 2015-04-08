@@ -3,6 +3,9 @@
 // ============================================================================================= //
 
 module.exports = {
+    options: {
+        banner: '/*! <%= package.name %> - <%= grunt.template.today("yyyy-mm-dd") %> */\r'
+    },
     libs: {
         files: {
             '<%= js %>/dist/libs.min.js': '<%= js %>/dist/libs.js'

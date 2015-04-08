@@ -39,6 +39,7 @@ module.exports = function (grunt) {
      * Description: Generate CSS files.
      */
     grunt.registerTask('theme', [
+        'newer:csscomb:sass',
         'sass',
         'cssmin',
         'header:css',
@@ -61,9 +62,8 @@ module.exports = function (grunt) {
      */
     grunt.registerTask('minjs', [
         'jshint',
-        'concat',
-        'uglify',
-        'header:js',
+        'newer:concat',
+        'newer:uglify',
         'version'
     ]);
 

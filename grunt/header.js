@@ -12,11 +12,5 @@ module.exports = {
             '<%= css %>/oldie.min.css': '<%= css %>/oldie.min.css',
             '<%= css %>/tiny.min.css': '<%= css %>/tiny.min.css'
         }
-    },
-    js: {
-        files: {
-            '<%= js %>/dist/libs.min.js': '<%= js %>/dist/libs.min.js',
-            '<%= js %>/dist/theme.min.js': '<%= js %>/dist/theme.min.js'
-        }
     }
 };
