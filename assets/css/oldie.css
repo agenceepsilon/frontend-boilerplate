@@ -14,39 +14,10 @@
     display: table; }
   .clearfix:after {
     clear: both; }
-  .clearfix--reset {
-    *zoom: normal; }
-    .clearfix--reset:before, .clearfix--reset:after {
-      content: "";
-      display: inline; }
-    .clearfix--reset:after {
-      clear: none; }
-
-.clear {
-  clear: both; }
-  .clear--reset {
-    clear: none; }
 
 .hidden {
   display: none;
   visibility: hidden; }
-  .hidden--mobile {
-    display: none;
-    visibility: hidden;
-    display: block;
-    visibility: visible; }
-  .hidden--tablet {
-    display: block;
-    visibility: visible;
-    display: none;
-    visibility: hidden;
-    display: block;
-    visibility: visible; }
-  .hidden--desktop {
-    display: block;
-    visibility: visible;
-    display: none;
-    visibility: hidden; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
