@@ -4,7 +4,7 @@
 
 module.exports = function (grunt) {
     // ------------------------------------------------------------------------- //
-    // PLUGIN - TIME GRUNT
+    // TIME GRUNT
     // ------------------------------------------------------------------------- //
 
     require('time-grunt')(grunt);
@@ -64,6 +64,7 @@ module.exports = function (grunt) {
         'jshint',
         'newer:concat',
         'newer:uglify',
+        'clean:js',
         'version'
     ]);
 
