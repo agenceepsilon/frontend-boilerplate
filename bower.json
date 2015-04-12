@@ -2,8 +2,7 @@
     "name": "frontend-boilerplate",
     "version": "3.0.2",
     "dependencies": {
-        "jquery": "~1.11.2",
-        "jquery.notready": "latest"
+        "jquery": "~1.11.2"
     },
     "devDependencies": {
         "sass-mercury": "~2.1.0"
