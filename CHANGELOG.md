@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.1.0
+
+* NPM Packages:
+    * ``grunt-contrib-clean`` 0.6.0
+    * ``grunt-contrib-jshint`` 0.11.1
+    * ``grunt-contrib-concat`` 0.5.1
+    * ``grunt-contrib-cssmin`` 0.12.2
+    * ``grunt-contrib-uglify`` 0.9.1
+    * ``grunt-csscomb`` 3.0.0
+    * ``grunt-header`` 1.0.0
+    * ``grunt-newer`` 1.1.0
+    * ``grunt-sass`` 0.18.1
+    * ``time-grunt`` 1.1.0
+* Grunt:
+    * Update plugins patch
+* Bower:
+    * Libraries updates
+
 ## 3.0.2
 
 * NPM Packages:
