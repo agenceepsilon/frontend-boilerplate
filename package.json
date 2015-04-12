@@ -13,7 +13,7 @@
     "grunt-header": "^1.0.0",
     "grunt-newer": "^1.1.0",
     "grunt-sass": "^0.18.1",
-    "load-grunt-config": "~0.16.0",
+    "load-grunt-config": "~0.17.0",
     "time-grunt": "^1.1.0"
   }
 }
