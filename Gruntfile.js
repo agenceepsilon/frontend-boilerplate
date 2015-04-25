@@ -17,6 +17,7 @@ module.exports = function (grunt) {
         data: {
             assets: 'assets',
             css: 'assets/css',
+            image: 'assets/css/images',
             js: 'assets/js',
             vendor: 'assets/vendor'
         }
@@ -43,6 +44,7 @@ module.exports = function (grunt) {
         'sass',
         'cssmin',
         'header:css',
+        'newer:imagemin',
         'version'
     ]);
 
