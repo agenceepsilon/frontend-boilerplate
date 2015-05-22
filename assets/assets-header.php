@@ -1,4 +1,4 @@
-<?php if(ENVIRONMENT == 'local'): ?>
+<?php if (ENVIRONMENT == 'local'): ?>
 
     <!-- CSS files -->
     <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/style.css?v=<?php echo ASSETS_VERSION ?>">
@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/oldie.css?v=<?php echo ASSETS_VERSION ?>">
     <![endif]-->
 
-<?php elseif(ENVIRONMENT == 'prod'): ?>
+<?php elseif (ENVIRONMENT == 'prod'): ?>
 
     <!-- CSS files -->
     <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/style.min.css?v=<?php echo ASSETS_VERSION ?>">
