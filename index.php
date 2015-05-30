@@ -15,7 +15,7 @@
 <?php
     /**
      * HEADER
-     * Displays the correct "header" depending on the chosen.
+     * Display the correct "header" depending on the chosen.
      */
     if (file_exists('components/header-'.$layout.'.php')) {
         require 'components/header-'.$layout.'.php';
@@ -35,7 +35,7 @@
 
     /**
      * FOOTER
-     * Displays the correct "footer" depending on the chosen.
+     * Display the correct "footer" depending on the chosen.
      */
     if (file_exists('components/footer-'.$layout.'.php')) {
         require 'components/footer-'.$layout.'.php';
