@@ -5,8 +5,8 @@
 ?>
 
 <section id="wrapper">
-    <div class="container l-1col clearfix">
-        <section class="main-content l-col">
+    <div class="container l-1col">
+        <section class="main-content">
             <?php
                 foreach ($modules['main'] as $module) {
                     if (file_exists('components/modules/'.$module.'.php')) {
