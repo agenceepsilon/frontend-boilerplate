@@ -22,7 +22,7 @@ select {
 // ------------------------------------------------------------------------- //
 
 .form_label {
-    @include rem-size(13);
+    font-size: rem(12);
     margin-bottom: 5px;
 }
 
@@ -36,7 +36,7 @@ select {
 
 .help-block {
     display: none;
-    @include rem-size(11);
+    font-size: rem(11);
     color: $c-error;
     margin-top: 5px;
     .has-error & {

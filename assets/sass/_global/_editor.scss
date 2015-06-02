@@ -9,8 +9,7 @@
 p,
 li,
 table {
-    @include rem-size(12);
-    text-align: justify;
+    font-size: rem(12);
 }
 
 // ------------------------------------------------------------------------- //
@@ -70,7 +69,8 @@ ol {
 li {
     line-height: 1.5;
     margin-left: 15px;
-    > ul, > ol {
+    > ul,
+    > ol {
         margin-bottom: 0;
     }
 }
@@ -100,27 +100,27 @@ h6 {
 }
 
 h1 {
-    @include rem-size(26);
+    font-size: rem(26);
 }
 
 h2 {
-    @include rem-size(24);
+    font-size: rem(24);
 }
 
 h3 {
-    @include rem-size(22);
+    font-size: rem(22);
 }
 
 h4 {
-    @include rem-size(20);
+    font-size: rem(20);
 }
 
 h5 {
-    @include rem-size(18);
+    font-size: rem(18);
 }
 
 h6 {
-    @include rem-size(16);
+    font-size: rem(16);
 }
 
 // ------------------------------------------------------------------------- //
@@ -135,7 +135,7 @@ blockquote {
         position: relative;
         &:before,
         &:after {
-            @include rem-size(60);
+            font-size: rem(60);
             position: absolute;
         }
         &:before {
@@ -149,9 +149,9 @@ blockquote {
         }
     }
     @if $oldie {
+        *border: dashed 1px #333;
         *margin: 8px 20px;
         *padding: 15px;
-        *border: dashed 1px #333;
     }
 }
 
@@ -161,11 +161,10 @@ blockquote {
 
 table {
     width: 100%;
-    text-align: left;
     th,
     td {
-        padding: 10px;
         border: solid 1px #ECECEC;
+        padding: 10px;
     }
     tr {
         &:nth-child(even) {
@@ -194,11 +193,11 @@ table {
 }
 .wp-caption {
     .wp-caption-text {
-        @include rem-size(12);
-        margin: 0 10px 0 0;
-        padding: 5px;
+        font-size: rem(12);
         border: dashed 1px #333;
         border-top: none;
+        margin: 0 10px 0 0;
+        padding: 5px;
     }
     &.alignleft {
         margin-right: 0;
