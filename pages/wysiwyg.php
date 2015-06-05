@@ -5,8 +5,8 @@
     /*
      * Display modules
      */
-    $modules = array(
-        'main' => array(
+    $modules = array (
+        'main' => array (
             '1' => '_sample-tiny'
         )
     );
