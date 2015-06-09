@@ -5,7 +5,7 @@
 ?>
 
 <section id="wrapper">
-    <div class="container l-1col">
+    <div class="container l-1col l-inside">
         <section class="main-content">
             <?php
                 foreach ($modules['main'] as $module) {
