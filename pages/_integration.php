@@ -3,8 +3,8 @@
     // Page: main pages list
 ?>
 <section id="wrapper">
-    <div class="container l-1col clearfix">
-        <section class="main-content l-col">
+    <div class="container l-1col l-inside">
+        <section class="main-content">
             <style scoped="scoped">
                 .page_inte {
                     padding: 10px 0 0 0;
@@ -72,6 +72,9 @@
                     list-style-type: disc;
                     margin: 0 0 0 15px;
                     overflow: visible;
+                }
+                .page_inte .note ul > li:before {
+                    display: none;
                 }
                 .page_inte .note ul > li + li {
                     margin-top: 3px;
