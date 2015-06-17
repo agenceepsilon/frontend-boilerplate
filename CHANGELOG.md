@@ -1,5 +1,24 @@
 # Changelog
 
+## 3.2.0
+
+* New install procedure
+* NPM Packages:
+    * ``grunt-contrib-cssmin`` 0.12.3
+    * ``grunt-contrib-imagemin`` 0.9.4
+    * ``grunt-contrib-jshint`` 0.11.2
+    * ``grunt-sass`` 1.0.0
+    * ``load-grunt-config`` 0.17.1
+    * ``time-grunt`` 1.2.0
+* Grunt:
+    * Add ``grunt-contrib-imagemin``
+* JavaScript:
+    * jQuery 1.11.3
+* CSS:
+    * Update CSS default style
+* PHP
+    * Global code update
+
 ## 3.1.0
 
 * NPM Packages:
