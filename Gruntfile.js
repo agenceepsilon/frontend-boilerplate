@@ -28,6 +28,20 @@ module.exports = function (grunt) {
     // ------------------------------------------------------------------------- //
 
     /**
+     * Task: inint
+     * Description: Init project.
+     */
+    grunt.registerTask('init', [
+        'sass',
+        'cssmin',
+        'header:css',
+        'newer:concat',
+        'newer:uglify',
+        'clean:js',
+        'version'
+    ]);
+
+    /**
      * Task: default
      * Description: Grunt default task.
      */
