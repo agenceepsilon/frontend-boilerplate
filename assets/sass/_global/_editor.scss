@@ -66,6 +66,7 @@ ol {
         margin-top: 0;
     }
 }
+
 li {
     line-height: 1.5;
     margin-left: 15px;
@@ -85,6 +86,7 @@ h3,
 h4,
 h5,
 h6 {
+    line-height: 1;
     font-weight: normal;
 }
 
@@ -161,11 +163,6 @@ blockquote {
 
 table {
     width: 100%;
-    th,
-    td {
-        border: solid 1px #ECECEC;
-        padding: 10px;
-    }
     tr {
         &:nth-child(even) {
             background: #F9F9F9;
@@ -173,6 +170,11 @@ table {
         &:nth-child(odd) {
             background: #FFF;
         }
+    }
+    th,
+    td {
+        border: solid 1px #ECECEC;
+        padding: 10px;
     }
 }
 
@@ -184,13 +186,16 @@ table {
     margin-right: 10px;
     @extend .left;
 }
+
 .alignright {
     margin-left: 10px;
     @extend .right;
 }
+
 .aligncenter {
     @extend .center;
 }
+
 .wp-caption {
     .wp-caption-text {
         font-size: rem(12);
