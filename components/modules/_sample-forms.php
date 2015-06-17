@@ -9,24 +9,25 @@
             <h2>Inputs / Textarea</h2>
         </div>
         <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
-            <label class="form_label">Input</label>
+            <label class="label">Input</label>
 
-            <div class="form_input">
+            <div class="input">
                 <input type="text" placeholder="Type Text">
             </div>
             <span class="help-block">This value is too short. It should have 5 characters or more.</span>
         </div>
         <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
-            <label class="form_label">Input password</label>
+            <label class="label">Input password</label>
 
-            <div class="form_input">
+            <div class="input">
                 <input type="password" placeholder="Type Password">
             </div>
             <span class="help-block">This value is too short. It should have 5 characters or more.</span>
         </div>
         <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
-            <label class="form_label">Textarea</label> <textarea placeholder="Textarea"></textarea> <span
-                class="help-block">This value is too short. It should have 5 characters or more.</span>
+            <label class="label">Textarea</label>
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+            <span class="help-block">This value is too short. It should have 5 characters or more.</span>
         </div>
         <div class="form_row">
             <h2>Buttons</h2>
@@ -37,8 +38,13 @@
             </div>
         </div>
         <div class="form_row">
-            <div class="btn">
+            <div class="btn btn--disable">
                 <input type="submit" disabled="disabled" value="Type Submit - Option Disabled">
+            </div>
+        </div>
+        <div class="form_row">
+            <div class="btn">
+                <button type="button">Type Button</button>
             </div>
         </div>
         <div class="form_row">
@@ -51,9 +57,9 @@
             <h2>Selects</h2>
         </div>
         <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
-            <label class="form_label">Select</label>
+            <label class="label">Select</label>
 
-            <div class="form_select">
+            <div class="select">
                 <select>
                     <option>Option 1</option>
                     <option>Option 2</option>
@@ -66,13 +72,13 @@
             <h2>Checkbox</h2>
         </div>
         <div class="form_row">
-            <div class="form_checkbox">
+            <div class="checkbox">
                 <input type="checkbox" id="checkbox-1"> <label for="checkbox-1">Checkbox</label>
             </div>
-            <div class="form_checkbox">
+            <div class="checkbox">
                 <input type="checkbox" id="checkbox-2"> <label for="checkbox-2">Checkbox</label>
             </div>
-            <div class="form_checkbox">
+            <div class="checkbox">
                 <input type="checkbox" id="checkbox-3"> <label for="checkbox-3">Checkbox</label>
             </div>
         </div>
@@ -80,13 +86,13 @@
             <h2>Radio</h2>
         </div>
         <div class="form_row">
-            <div class="form_radio">
+            <div class="radio">
                 <input type="radio" id="radio-1" name="group-1"> <label for="radio-1">Radio</label>
             </div>
-            <div class="form_radio">
+            <div class="radio">
                 <input type="radio" id="radio-2" name="group-1"> <label for="radio-2">Radio</label>
             </div>
-            <div class="form_radio">
+            <div class="radio">
                 <input type="radio" id="radio-3" name="group-1"> <label for="radio-3">Radio</label>
             </div>
         </div>
