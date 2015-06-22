@@ -2,7 +2,6 @@
 *.css.map
 
 ## Folders
-.idea/*
-.sass-cache/*
-node_modules/*
-assets/vendor/*
+.idea
+node_modules
+assets/vendor
