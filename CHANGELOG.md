@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.2.1
+
+* NPM Packages:
+    * ``grunt-contrib-cssmin`` 0.13.0
+* CSS:
+    * Fix label and image align classes
+
 ## 3.2.0
 
 * New install procedure
