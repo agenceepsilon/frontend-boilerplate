@@ -12,5 +12,5 @@ gulp.task('sass', function () {
         'assets/sass/tiny.scss'
     ])
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('assets2/css'));
+        .pipe(gulp.dest('assets/css'));
 });
