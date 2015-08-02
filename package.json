@@ -14,6 +14,8 @@
     "grunt-header": "^1.0.0",
     "grunt-newer": "^1.1.0",
     "grunt-sass": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
     "load-grunt-config": "~0.17.1",
     "time-grunt": "^1.2.0"
   }
