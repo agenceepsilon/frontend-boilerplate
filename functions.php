@@ -15,13 +15,13 @@
     // Define CSS assets
     // ------------------------------------------------------------------------- //
 
-    define('ASSETS_CSS', 'assets/css');
+    define('ASSETS_CSS', 'assets-gulp/css');
 
     // ------------------------------------------------------------------------- //
     // Define JavaScript assets
     // ------------------------------------------------------------------------- //
 
-    define('ASSETS_JAVASCRIPT', 'assets/js');
+    define('ASSETS_JAVASCRIPT', 'assets-gulp/js');
 
     // ------------------------------------------------------------------------- //
     // Define assets vendor
