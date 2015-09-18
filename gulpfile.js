@@ -13,11 +13,11 @@ gulp.task('sass', function () {
         'assets/sass/tiny.scss'
     ])
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('assets-gulp/css'));
+        .pipe(gulp.dest('assets/css'));
 });
 
 gulp.src('assets/sass/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass)
     .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('assets-gulp/css'));
+    .pipe(gulp.dest('assets/css'));
