@@ -14,6 +14,5 @@
 ## Quick start
 
 * [Download the latest release](https://github.com/agenceepsilon/frontend-boilerplate/archive/master.zip)
-* Install Grunt Plugins: ``npm install``
-* Install Bower Packages and move libraries on vendors folders: ``bower install``
+* Install npm packages: ``npm install``
 * Generate default styles files: ``grunt init``
