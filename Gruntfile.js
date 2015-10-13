@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             css: 'assets/css',
             image: 'assets/css/images',
             js: 'assets/js',
-            vendor: 'assets/vendor'
+            npm_vendor: 'node_modules'
         }
     });
 

@@ -15,8 +15,8 @@ $media-queries: false;
 // VENDORS
 // ------------------------------------------------------------------------- //
 
-@import "../vendor/sass-mercury/mercury";
-@import "../vendor/sass-mercury/_helpers";
+@import "../../node_modules/sass-mercury/mercury";
+@import "../../node_modules/sass-mercury/_helpers";
 
 // ------------------------------------------------------------------------- //
 // GLOBAL
