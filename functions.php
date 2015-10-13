@@ -9,7 +9,7 @@
     //  - prod  => Minified files
     // ------------------------------------------------------------------------- //
 
-    define('ENVIRONMENT', 'local');
+    define('ENVIRONMENT', 'prod');
 
     // ------------------------------------------------------------------------- //
     // Define CSS assets
@@ -24,10 +24,10 @@
     define('ASSETS_JAVASCRIPT', 'assets/js');
 
     // ------------------------------------------------------------------------- //
-    // Define assets vendor
+    // Define npm vendor
     // ------------------------------------------------------------------------- //
 
-    define('ASSETS_VENDOR', 'assets/vendor');
+    define('NPM_VENDOR', 'node_modules');
 
     // ------------------------------------------------------------------------- //
     // Define error class

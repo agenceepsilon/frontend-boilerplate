@@ -8,7 +8,7 @@ module.exports = {
     },
     libs: {
         src: [
-            '<%= vendor %>/jquery/dist/jquery.js'
+            '<%= npm_vendor %>/jquery/dist/jquery.js'
         ],
         dest: '<%= js %>/dist/libs.js'
     },
