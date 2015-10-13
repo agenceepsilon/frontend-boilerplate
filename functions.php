@@ -57,7 +57,7 @@
     // ------------------------------------------------------------------------- //
 
     if (isset($page)) {
-        include 'pages/'.$page.'.php';
+        include 'pages/' . $page . '.php';
     }
 
     // ============================================================================================= //
@@ -74,7 +74,7 @@
      *
      * @return SimpleXMLElement[]
      */
-    function lipsum ($minLenght = 5, $maxLenght = 50, $type = 'words', $lorem = TRUE) {
+    function lipsum ($minLenght = 5, $maxLenght = 50, $type = 'words', $lorem = true) {
         $lenght = mt_rand($minLenght, $maxLenght);
         $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? '0' : '1');
 
