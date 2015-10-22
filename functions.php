@@ -9,7 +9,7 @@
     //  - prod  => Minified files
     // ------------------------------------------------------------------------- //
 
-    define('ENVIRONMENT', 'local');
+    define('ENVIRONMENT', 'prod');
 
     // ------------------------------------------------------------------------- //
     // Define CSS assets
@@ -24,10 +24,10 @@
     define('ASSETS_JAVASCRIPT', 'assets/js');
 
     // ------------------------------------------------------------------------- //
-    // Define assets vendor
+    // Define npm vendor
     // ------------------------------------------------------------------------- //
 
-    define('ASSETS_VENDOR', 'assets/vendor');
+    define('NPM_VENDOR', 'node_modules');
 
     // ------------------------------------------------------------------------- //
     // Define error class
@@ -57,7 +57,7 @@
     // ------------------------------------------------------------------------- //
 
     if (isset($page)) {
-        include 'pages/'.$page.'.php';
+        include 'pages/' . $page . '.php';
     }
 
     // ============================================================================================= //
@@ -74,7 +74,7 @@
      *
      * @return SimpleXMLElement[]
      */
-    function lipsum ($minLenght = 5, $maxLenght = 50, $type = 'words', $lorem = TRUE) {
+    function lipsum ($minLenght = 5, $maxLenght = 50, $type = 'words', $lorem = true) {
         $lenght = mt_rand($minLenght, $maxLenght);
         $url    = "http://www.lipsum.com/feed/xml?amount=$lenght&what=$type&start=".($lorem ? '0' : '1');
 

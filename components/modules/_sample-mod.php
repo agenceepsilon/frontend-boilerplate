@@ -4,5 +4,5 @@
 ?>
 
 <div class="mod">
-   Hello I'm a module !
+    Hello I'm a module !
 </div>
