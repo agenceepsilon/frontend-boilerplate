@@ -5,8 +5,8 @@
 
     // ------------------------------------------------------------------------- //
     // Choose your working environment for loading CSS and JS files.
-    //  - local => Files not minified
-    //  - prod  => Minified files
+    //  - local => Files not compressed
+    //  - prod  => Compressed files
     // ------------------------------------------------------------------------- //
 
     define('ENVIRONMENT', 'prod');
