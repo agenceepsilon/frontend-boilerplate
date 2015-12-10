@@ -25,18 +25,18 @@
             sed cursus ante. Cras tincidunt neque sit amet nunc pellentesque tempus. Fusce suscipit velit id turpis
             euismod ac accumsan velit tincidunt.</p>
 
-        <p><?php echo lipsum(70, 90, "words", FALSE); ?></p>
+        <p><?php echo lipsum(70, 90, "words", false); ?></p>
 
         <p>
             <img class="alignleft" alt="" src="http://placehold.it/100x100" height="100" width="100">
-            <?php echo lipsum(70, 90, "words", FALSE); ?>
+            <?php echo lipsum(70, 90, "words", false); ?>
         </p>
 
-        <p><?php echo lipsum(100, 110, "words", FALSE); ?></p>
+        <p><?php echo lipsum(100, 110, "words", false); ?></p>
 
         <p>
             <img class="alignright" alt="" src="http://placehold.it/100x100" height="100" width="100">
-            <?php echo lipsum(100, 120, "words", FALSE); ?>
+            <?php echo lipsum(100, 120, "words", false); ?>
         </p>
 
         <p>
@@ -83,7 +83,7 @@
         </ol>
         <h2>Blockquote</h2>
         <blockquote>
-            <p><?php echo lipsum(45, 65, "words", FALSE); ?></p>
+            <p><?php echo lipsum(45, 65, "words", false); ?></p>
         </blockquote>
         <h2>Table</h2>
         <table>
