@@ -49,15 +49,15 @@
     // ------------------------------------------------------------------------- //
 
     $layout = filter_input(INPUT_GET, 'layout');
-    $page   = filter_input(INPUT_GET, 'page');
-    $error  = filter_input(INPUT_GET, 'error');
+    $page = filter_input(INPUT_GET, 'page');
+    $error = filter_input(INPUT_GET, 'error');
 
     // ------------------------------------------------------------------------- //
     // Load page modules
     // ------------------------------------------------------------------------- //
 
     if (isset($page)) {
-        include 'pages/' . $page . '.php';
+        include 'pages/'.$page.'.php';
     }
 
     // ============================================================================================= //
@@ -65,7 +65,7 @@
     // ============================================================================================= //
 
     /**
-     * Generate Lorem Ipsum text
+     * Generate Lorem Ipsum text.
      *
      * @param int    $minLength (5 words minimum)
      * @param int    $maxLength
@@ -74,9 +74,10 @@
      *
      * @return SimpleXMLElement[]
      */
-    function lipsum ($minLength = 5, $maxLength = 50, $type = 'words', $lorem = true) {
+    function lipsum($minLength = 5, $maxLength = 50, $type = 'words', $lorem = true)
+    {
         $length = mt_rand($minLength, $maxLength);
-        $url    = "http://www.lipsum.com/feed/xml?amount=$length&what=$type&start=".($lorem ? '0' : '1');
+        $url = "http://www.lipsum.com/feed/xml?amount=$length&what=$type&start=".($lorem ? '0' : '1');
 
         return simplexml_load_file($url)->lipsum;
     }

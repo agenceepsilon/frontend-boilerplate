@@ -8,7 +8,7 @@
         <div class="form_row">
             <h2>Inputs / Textarea</h2>
         </div>
-        <div class="form_row<?php echo isset($error) ? ' ' . ERROR_CLASS : '' ?>">
+        <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
             <label class="label">Input</label>
 
             <div class="input">
@@ -16,7 +16,7 @@
             </div>
             <span class="help-block">This value is too short. It should have 5 characters or more.</span>
         </div>
-        <div class="form_row<?php echo isset($error) ? ' ' . ERROR_CLASS : '' ?>">
+        <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
             <label class="label">Input password</label>
 
             <div class="input">
@@ -24,7 +24,7 @@
             </div>
             <span class="help-block">This value is too short. It should have 5 characters or more.</span>
         </div>
-        <div class="form_row<?php echo isset($error) ? ' ' . ERROR_CLASS : '' ?>">
+        <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
             <label class="label">Textarea</label>
             <textarea class="textarea" placeholder="Textarea"></textarea>
             <span class="help-block">This value is too short. It should have 5 characters or more.</span>
@@ -56,7 +56,7 @@
         <div class="form_row">
             <h2>Selects</h2>
         </div>
-        <div class="form_row<?php echo isset($error) ? ' ' . ERROR_CLASS : '' ?>">
+        <div class="form_row<?php echo isset($error) ? ' '.ERROR_CLASS : '' ?>">
             <label class="label">Select</label>
 
             <div class="select">

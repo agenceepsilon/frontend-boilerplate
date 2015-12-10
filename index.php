@@ -17,34 +17,34 @@
      * HEADER
      * Display the correct "header" depending on the chosen.
      */
-    if (file_exists('components/header-' . $layout . '.php')) {
-        require 'components/header-' . $layout . '.php';
+    if (file_exists('components/header-'.$layout.'.php')) {
+        require 'components/header-'.$layout.'.php';
     } else {
         require 'components/header.php';
     }
 
-    /**
+    /*
      * MAIN
      * If the layout does not or is not called there, it loads the "integration" page.
      */
-    if (file_exists('layouts/layout-' . $layout . '.php')) {
-        require 'layouts/layout-' . $layout . '.php';
+    if (file_exists('layouts/layout-'.$layout.'.php')) {
+        require 'layouts/layout-'.$layout.'.php';
     } else {
         require 'pages/_integration.php';
     }
 
-    /**
+    /*
      * FOOTER
      * Display the correct "footer" depending on the chosen.
      */
-    if (file_exists('components/footer-' . $layout . '.php')) {
-        require 'components/footer-' . $layout . '.php';
+    if (file_exists('components/footer-'.$layout.'.php')) {
+        require 'components/footer-'.$layout.'.php';
     } else {
         require 'components/footer.php';
     }
 
     /**
-     * JavaScript files
+     * JavaScript files.
      */
     require 'assets/assets-footer.php';
 ?>
