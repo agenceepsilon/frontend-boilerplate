@@ -74,7 +74,8 @@
      *
      * @return SimpleXMLElement[]
      */
-    function lipsum ($minLength = 5, $maxLength = 50, $type = 'words', $lorem = true) {
+    function lipsum($minLength = 5, $maxLength = 50, $type = 'words', $lorem = true)
+    {
         $length = mt_rand($minLength, $maxLength);
         $url    = "http://www.lipsum.com/feed/xml?amount=$length&what=$type&start=".($lorem ? '0' : '1');
 
