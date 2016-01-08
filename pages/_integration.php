@@ -35,6 +35,9 @@
                 .page_inte li {
                     overflow: hidden;
                 }
+                .page_inte li:before {
+                    display: none;
+                }
                 .page_inte li:nth-child(odd) {
                     background: #EEE;
                 }
@@ -101,10 +104,10 @@
                 <h2>Common styles</h2>
                 <ul>
                     <li>
-                        <a href="index.php?layout=int-1col&amp;page=wysiwyg">Typography</a>
+                        <a href="index.php?layout=int-1col&amp;page=typography">Typography</a>
 
                         <div class="note">
-                            <p>Common text style content.</p>
+                            <p>Common typography style content.</p>
                         </div>
                     </li>
                     <li>

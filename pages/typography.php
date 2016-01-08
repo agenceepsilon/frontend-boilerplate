@@ -7,6 +7,6 @@
      */
     $modules = array (
         'main' => array (
-            '1' => '_sample-tiny'
+            '1' => '_sample-typography'
         )
     );

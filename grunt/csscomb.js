@@ -7,7 +7,7 @@ module.exports = {
         expand: true,
         src: [
             '<%= assets %>/sass/**/*.scss',
-            '!<%= assets %>/sass/_vendor/*.scss'
+            '!<%= assets %>/sass/vendor/*.scss'
         ]
     }
 };
