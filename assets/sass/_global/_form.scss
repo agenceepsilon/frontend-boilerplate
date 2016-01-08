@@ -85,6 +85,7 @@ select {
     font-size: rem(11);
     color: $c-error;
     margin-top: 5px;
+
     .has-error & {
         display: block;
     }

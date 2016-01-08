@@ -19,6 +19,7 @@ table {
 p {
     line-height: 1.5;
     margin: 15px 0 0 0;
+
     &:first-child {
         margin-top: 0;
     }
@@ -62,6 +63,7 @@ ul,
 ol {
     margin: 15px 0 0 0;
     padding: 0;
+
     &:first-child {
         margin-top: 0;
     }
@@ -70,6 +72,7 @@ ol {
 li {
     line-height: 1.5;
     margin-left: 15px;
+
     > ul,
     > ol {
         margin-bottom: 0;
@@ -96,6 +99,7 @@ h4,
 h5,
 h6 {
     margin: 20px 0 10px 0;
+
     &:first-child {
         margin-top: 0;
     }
@@ -132,24 +136,29 @@ h6 {
 blockquote {
     quotes: "\201C" "\201D";
     margin: 20px 40px;
+
     p {
         margin-bottom: 0;
         position: relative;
+
         &:before,
         &:after {
             font-size: rem(60);
             position: absolute;
         }
+
         &:before {
             content: open-quote;
             left: -30px;
             top: -23px;
         }
+
         &:after {
             content: close-quote;
             margin: -17px 0 0 10px;
         }
     }
+
     @if $oldie {
         *border: dashed 1px #333;
         *margin: 8px 20px;
@@ -163,10 +172,12 @@ blockquote {
 
 table {
     width: 100%;
+
     tr {
         &:nth-child(even) {
             background: #F9F9F9;
         }
+
         &:nth-child(odd) {
             background: #FFF;
         }
