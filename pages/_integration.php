@@ -35,6 +35,9 @@
                 .page_inte li {
                     overflow: hidden;
                 }
+                .page_inte li:before {
+                    display: none;
+                }
                 .page_inte li:nth-child(odd) {
                     background: #EEE;
                 }
