@@ -1,5 +1,6 @@
 ## Files
 *.css.map
+scss-lint-report.xml
 
 ## Folders
 .idea

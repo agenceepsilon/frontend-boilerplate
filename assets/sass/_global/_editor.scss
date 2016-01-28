@@ -18,7 +18,7 @@ table {
 
 p {
     line-height: 1.5;
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
 
     &:first-child {
         margin-top: 0;
@@ -61,7 +61,7 @@ a {
 
 ul,
 ol {
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
     padding: 0;
 
     &:first-child {
@@ -98,7 +98,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 20px 0 10px 0;
+    margin: 20px 0 10px;
 
     &:first-child {
         margin-top: 0;
@@ -169,17 +169,17 @@ table {
 
     tr {
         &:nth-child(even) {
-            background: #F9F9F9;
+            background: #f9f9f9;
         }
 
         &:nth-child(odd) {
-            background: #FFF;
+            background: #fff;
         }
     }
 
     th,
     td {
-        border: solid 1px #ECECEC;
+        border: solid 1px #ececec;
         padding: 10px;
     }
 }
@@ -190,16 +190,16 @@ table {
 
 .alignleft {
     margin-right: 10px;
-    @extend .left;
+    float: left;
 }
 
 .alignright {
     margin-left: 10px;
-    @extend .right;
+    float: right;
 }
 
 .aligncenter {
     max-width: 100%;
     height: auto;
-    @extend .center;
+    margin: 0 auto;
 }
