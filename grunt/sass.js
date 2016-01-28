@@ -10,6 +10,7 @@ module.exports = {
     },
     theme: {
         files: {
+            '<%= css %>/boilerplate.css': '<%= assets %>/sass/boilerplate.scss',
             '<%= css %>/style.css': '<%= assets %>/sass/style.scss',
             '<%= css %>/oldie.css': '<%= assets %>/sass/oldie.scss',
             '<%= css %>/tiny.css': '<%= assets %>/sass/tiny.scss'

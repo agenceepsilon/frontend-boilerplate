@@ -4,7 +4,7 @@
 ?>
 
 <section id="wrapper">
-    <div class="container l-hp">
+    <div class="l-hp container">
         <section class="main-content">
             <?php
                 foreach ($modules['main'] as $module) {

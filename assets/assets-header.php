@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/oldie.css?v=<?php echo ASSETS_VERSION ?>">
     <![endif]-->
 
+    <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/boilerplate.css?v=<?php echo ASSETS_VERSION ?>">
+
 <?php elseif (ENVIRONMENT == 'prod'): ?>
 
     <!-- CSS files -->
@@ -15,6 +17,8 @@
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/oldie.min.css?v=<?php echo ASSETS_VERSION ?>">
     <![endif]-->
+
+    <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/boilerplate.css?v=<?php echo ASSETS_VERSION ?>">
 
 <?php endif ?>
 
