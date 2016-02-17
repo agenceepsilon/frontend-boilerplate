@@ -74,18 +74,6 @@ module.exports = function (grunt) {
     ]);
 
     /**
-     * Task: minjs
-     * Description: Minify the JavaScript files.
-     */
-    grunt.registerTask('minjs', [
-        'jshint',
-        'newer:concat',
-        'newer:uglify',
-        'clean:js',
-        'version'
-    ]);
-
-    /**
      * Task: version
      * Description: Generate file with number for assets version.
      */
