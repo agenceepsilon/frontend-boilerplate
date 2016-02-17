@@ -28,16 +28,12 @@ module.exports = function (grunt) {
     // ------------------------------------------------------------------------- //
 
     /**
-     * Task: inint
+     * Task: init
      * Description: Init project.
      */
     grunt.registerTask('init', [
         'sass',
-        'cssmin',
         'header:css',
-        'newer:concat',
-        'newer:uglify',
-        'clean:js',
         'version'
     ]);
 
@@ -57,19 +53,8 @@ module.exports = function (grunt) {
         'scsslint',
         'newer:sass',
         'sass',
-        'cssmin',
         'header:css',
         'newer:imagemin',
-        'version'
-    ]);
-
-    /**
-     * Task: mincss
-     * Description: Minify CSS files.
-     */
-    grunt.registerTask('mincss', [
-        'cssmin',
-        'header:css',
         'version'
     ]);
 

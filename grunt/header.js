@@ -8,9 +8,9 @@ module.exports = {
     },
     css: {
         files: {
-            '<%= css %>/style.min.css': '<%= css %>/style.min.css',
-            '<%= css %>/oldie.min.css': '<%= css %>/oldie.min.css',
-            '<%= css %>/tiny.min.css': '<%= css %>/tiny.min.css'
+            '<%= css %>/style.css': '<%= css %>/style.css',
+            '<%= css %>/oldie.css': '<%= css %>/oldie.css',
+            '<%= css %>/tiny.css': '<%= css %>/tiny.css'
         }
     }
 };
