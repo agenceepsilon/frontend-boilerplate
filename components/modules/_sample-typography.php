@@ -29,21 +29,7 @@
 
     <p><?php echo lipsum(70, 90, "words", false); ?></p>
 
-    <p>
-        <img class="alignleft" alt="" src="http://placehold.it/100x100" height="100" width="100">
-        <?php echo lipsum(70, 90, "words", false); ?>
-    </p>
-
-    <p><?php echo lipsum(100, 110, "words", false); ?></p>
-
-    <p>
-        <img class="alignright" alt="" src="http://placehold.it/100x100" height="100" width="100">
-        <?php echo lipsum(100, 120, "words", false); ?>
-    </p>
-
-    <p>
-        <img class="aligncenter" alt="" src="http://placehold.it/360x150" height="150" width="360">
-    </p>
+    <p><?php echo lipsum(100, 120, "words", false); ?></p>
 
     <h2>Lists</h2>
 
