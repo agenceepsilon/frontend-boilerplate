@@ -25,11 +25,11 @@
 
     <h2>Paragraphs</h2>
 
-    <p><?php echo lipsum(80, 100, "words", false); ?></p>
+    <p><?php echo lipsum(80, 100, 'words', false); ?></p>
 
-    <p><?php echo lipsum(70, 90, "words", false); ?></p>
+    <p><?php echo lipsum(70, 90, 'words', false); ?></p>
 
-    <p><?php echo lipsum(100, 120, "words", false); ?></p>
+    <p><?php echo lipsum(100, 120, 'words', false); ?></p>
 
     <h2>Lists</h2>
 
@@ -76,7 +76,7 @@
     <h2>Blockquote</h2>
 
     <blockquote>
-        <p><?php echo lipsum(45, 65, "words", false); ?></p>
+        <p><?php echo lipsum(45, 65, 'words', false); ?></p>
     </blockquote>
 
     <h2>Table</h2>
