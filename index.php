@@ -23,7 +23,7 @@
         require 'components/header.php';
     }
 
-    /**
+    /*
      * MAIN
      * If the layout does not or is not called there, it loads the "integration" page.
      */
@@ -33,7 +33,7 @@
         require 'pages/_integration.php';
     }
 
-    /**
+    /*
      * FOOTER
      * Display the correct "footer" depending on the chosen.
      */
@@ -44,7 +44,7 @@
     }
 
     /**
-     * JavaScript files
+     * JavaScript files.
      */
     require 'assets/assets-footer.php';
 ?>
