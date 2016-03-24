@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php
-    /**
+    /*
      * HEADER
      * Display the correct "header" depending on the chosen.
      */
@@ -43,7 +43,7 @@
         require 'components/footer.php';
     }
 
-    /**
+    /*
      * JavaScript files.
      */
     require 'assets/assets-footer.php';
