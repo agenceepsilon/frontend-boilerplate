@@ -28,16 +28,6 @@ module.exports = function (grunt) {
     // ------------------------------------------------------------------------- //
 
     /**
-     * Task: init
-     * Description: Init project.
-     */
-    grunt.registerTask('init', [
-        'sass',
-        'header:css',
-        'version'
-    ]);
-
-    /**
      * Task: default
      * Description: Grunt default task.
      */
@@ -51,9 +41,7 @@ module.exports = function (grunt) {
      */
     grunt.registerTask('theme', [
         'scsslint',
-        'newer:sass',
         'sass',
-        'header:css',
         'newer:imagemin',
         'version'
     ]);
