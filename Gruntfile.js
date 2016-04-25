@@ -42,15 +42,6 @@ module.exports = function (grunt) {
     grunt.registerTask('theme', [
         'scsslint',
         'sass',
-        'newer:imagemin',
-        'version'
+        'newer:imagemin'
     ]);
-
-    /**
-     * Task: version
-     * Description: Generate file with number for assets version.
-     */
-    grunt.registerTask('version', function () {
-        grunt.file.write('assets/.version', (new Date()).getTime());
-    });
 };

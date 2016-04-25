@@ -1,11 +1,11 @@
 <!-- CSS files -->
-<link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/style.css?v=<?php echo ASSETS_VERSION ?>">
+<link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/style.css">
 
 <!--[if lte IE 8]>
-    <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/oldie.css?v=<?php echo ASSETS_VERSION ?>">
+    <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/oldie.css">
 <![endif]-->
 
-<link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/boilerplate.css?v=<?php echo ASSETS_VERSION ?>">
+<link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/boilerplate.css">
 
 <!-- JS files -->
-<script src="<?php echo ASSETS_JAVASCRIPT ?>/vendor/modernizr.min.js?v=<?php echo ASSETS_VERSION ?>"></script>
+<script src="<?php echo ASSETS_JAVASCRIPT ?>/vendor/modernizr.min.js"></script>
