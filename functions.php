@@ -36,12 +36,6 @@
     define('ERROR_CLASS', 'has-error');
 
     // ------------------------------------------------------------------------- //
-    // Get assets version
-    // ------------------------------------------------------------------------- //
-
-    define('ASSETS_VERSION', file_get_contents('assets/.version'));
-
-    // ------------------------------------------------------------------------- //
     // URL variables parameters
     //  - $layout => Get layout name
     //  - $page   => Get page name
