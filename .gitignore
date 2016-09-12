@@ -3,5 +3,5 @@
 scss-lint-report.xml
 
 ## Folders
-.idea
-node_modules
+/.idea
+/node_modules
