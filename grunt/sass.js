@@ -6,14 +6,15 @@ module.exports = {
     options: {
         outputStyle: 'nested',
         precision: 3,
-        sourceMap: false
+        sourceMap: true
     },
-    theme: {
+
+    app: {
         files: {
-            '<%= css %>/boilerplate.css': '<%= assets %>/sass/boilerplate.scss',
-            '<%= css %>/style.css': '<%= assets %>/sass/style.scss',
-            '<%= css %>/oldie.css': '<%= assets %>/sass/oldie.scss',
-            '<%= css %>/tiny.css': '<%= assets %>/sass/tiny.scss'
+            '<%= css %>/boilerplate.css': '<%= resources.sass %>/boilerplate.scss',
+            '<%= css %>/app.css': '<%= resources.sass %>/app.scss',
+            '<%= css %>/oldie.css': '<%= resources.sass %>/oldie.scss',
+            '<%= css %>/tiny.css': '<%= resources.sass %>/tiny.scss'
         }
     }
 };

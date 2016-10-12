@@ -141,19 +141,19 @@ blockquote {
         margin-bottom: 0;
         position: relative;
 
-        &:before,
-        &:after {
+        &::before,
+        &::after {
             font-size: rem(60);
             position: absolute;
         }
 
-        &:before {
+        &::before {
             content: open-quote;
             left: -30px;
             top: -23px;
         }
 
-        &:after {
+        &::after {
             content: close-quote;
             margin: -17px 0 0 10px;
         }

@@ -1,68 +1,49 @@
+@charset "UTF-8";
+
 // ============================================================================================= //
-//                                             MAIN                                              //
+//                                       IMPORT MAIN FILES                                       //
 // ============================================================================================= //
 
-html,
-body {
-    background: #fff;
-    font-family: "Arial", "Verdana", sans-serif;
-    font-size: 100%;
-    color: #000;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-* {
-    box-sizing: inherit;
-
-    &:before,
-    &:after {
-        box-sizing: inherit;
-    }
-}
-
 // ------------------------------------------------------------------------- //
-// MOUSSE SELECTION
+// CONFIGURATION
 // ------------------------------------------------------------------------- //
 
-@include selection(#c23e00, #fff);
+@import "_config/config";
 
 // ------------------------------------------------------------------------- //
-// TYPOGRAPHY MAIN STYLE
+// VENDORS
 // ------------------------------------------------------------------------- //
 
-@import "editor";
+@import "../../../node_modules/sass-mercury/mercury";
+@import "../../../node_modules/sass-mercury/helpers";
+@import "vendor/normalize";
 
 // ------------------------------------------------------------------------- //
-// GLOBAL SECTIONS
+// GLOBAL
 // ------------------------------------------------------------------------- //
 
-#header,
-#wrapper,
-#footer {
-    position: relative;
-    z-index: 5;
-}
+@import "_global/colors";
+@import "_global/fonts";
+@import "_global/main";
+@import "_global/form";
+@import "_global/buttons";
 
 // ------------------------------------------------------------------------- //
-// HEADER
+// PROJECT
 // ------------------------------------------------------------------------- //
 
-#header {
-}
+@import "_project/layout-global";
+@import "_project/layout-hp";
+@import "_project/layout-1col";
 
 // ------------------------------------------------------------------------- //
-// WRAPPER
+// COMPONENTS
 // ------------------------------------------------------------------------- //
 
-#wrapper {
-}
+//@import "_components/my-module";
 
 // ------------------------------------------------------------------------- //
-// FOOTER
+// PRINT
 // ------------------------------------------------------------------------- //
 
-#footer {
-}
+@import "_global/print";

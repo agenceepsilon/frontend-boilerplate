@@ -6,9 +6,10 @@ module.exports = {
     options: {
         livereload: false
     },
+
     css: {
         files: [
-            '<%= assets %>/sass/**/*.scss'
+            '<%= resources.sass %>/**/*.scss'
         ],
         tasks: [
             'theme'

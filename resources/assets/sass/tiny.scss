@@ -1,22 +1,22 @@
 @charset "UTF-8";
 
 // ============================================================================================= //
-//                                       IMPORT MAIN FILES                                       //
+//                               WYSIWYG CSS STYLES IN BACK OFFICE                               //
 // ============================================================================================= //
 
 // ------------------------------------------------------------------------- //
 // CONFIGURATION
 // ------------------------------------------------------------------------- //
 
-@import "_config/config";
+$oldie: true;
+$media-queries: false;
 
 // ------------------------------------------------------------------------- //
 // VENDORS
 // ------------------------------------------------------------------------- //
 
-@import "../../node_modules/sass-mercury/mercury";
-@import "../../node_modules/sass-mercury/helpers";
-@import "vendor/normalize";
+@import "../../../node_modules/sass-mercury/mercury";
+@import "../../../node_modules/sass-mercury/helpers";
 
 // ------------------------------------------------------------------------- //
 // GLOBAL
@@ -24,26 +24,16 @@
 
 @import "_global/colors";
 @import "_global/fonts";
-@import "_global/main";
-@import "_global/form";
-@import "_global/buttons";
-
-// ------------------------------------------------------------------------- //
-// PROJECT
-// ------------------------------------------------------------------------- //
-
-@import "_project/layout-global";
-@import "_project/layout-hp";
-@import "_project/layout-1col";
+@import "_global/editor";
 
 // ------------------------------------------------------------------------- //
 // COMPONENTS
 // ------------------------------------------------------------------------- //
 
-//@import "_components/my-module";
+//@import "_components/_my-template";
 
 // ------------------------------------------------------------------------- //
-// PRINT
+// ONLY FOR WYSIWYG
 // ------------------------------------------------------------------------- //
 
-@import "_global/print";
+// ...

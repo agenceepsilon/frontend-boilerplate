@@ -15,9 +15,11 @@ module.exports = function (grunt) {
 
     require('load-grunt-config')(grunt, {
         data: {
+            resources: {
+              sass: 'resources/assets/sass'
+            },
             assets: 'assets',
             css: 'assets/css',
-            image: 'assets/css/images',
             js: 'assets/js',
             npm_vendor: 'node_modules'
         }
@@ -41,7 +43,6 @@ module.exports = function (grunt) {
      */
     grunt.registerTask('theme', [
         'scsslint',
-        'sass',
-        'newer:imagemin'
+        'sass'
     ]);
 };

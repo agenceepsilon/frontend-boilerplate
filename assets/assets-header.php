@@ -1,5 +1,5 @@
 <!-- CSS files -->
-<link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/style.css">
+<link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/app.css">
 
 <!--[if lte IE 8]>
     <link rel="stylesheet" href="<?php echo ASSETS_CSS ?>/oldie.css">
