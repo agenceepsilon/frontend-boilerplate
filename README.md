@@ -6,12 +6,12 @@
 
 | Requirements                   | Versions |
 | ------------------------------ | -------- |
-| [Node.js](http://nodejs.org)   | ~0.12.0  |
-| [Sass](http://sass-lang.com)   | ~3.4.0   |
-| [Grunt.js](http://gruntjs.com) | ~0.4.5   |
+| [Node.js](http://nodejs.org)   | ^6.9.0   |
+| [Sass](http://sass-lang.com)   | ^3.4.0   |
+| [Grunt.js](http://gruntjs.com) | ^1.0.0   |
 
 ## Quick start
 
 * [Download the latest release](https://github.com/agenceepsilon/frontend-boilerplate/archive/master.zip)
 * Install npm packages: ``npm install``
-* Generate default styles files: ``grunt init``
+* Generate default styles files: ``grunt theme``
