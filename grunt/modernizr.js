@@ -6,7 +6,7 @@ module.exports = {
     dist: {
         "crawl": false,
         "customTests": [],
-        "dest": "assets/js/modernizr.min.js",
+        "dest": "<%= assets.js %>/modernizr.min.js",
         "tests": [
             "touchevents"
         ],

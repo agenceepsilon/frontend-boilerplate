@@ -6,12 +6,12 @@ module.exports = {
     options: {
         mangle: false,
         sourceMap: true,
-        sourceMapName: 'assets/js/app.map'
+        sourceMapName: '<%= assets.js %>/app.map'
     },
 
     app: {
         files: {
-            'assets/js/app.min.js': 'resources/assets/js/app.js'
+            '<%= assets.js %>/app.min.js': '<%= resources.js %>/app.js'
         }
     }
 };

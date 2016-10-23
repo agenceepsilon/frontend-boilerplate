@@ -11,10 +11,10 @@ module.exports = {
 
     app: {
         files: {
-            '<%= css %>/boilerplate.css': '<%= resources.sass %>/boilerplate.scss',
-            '<%= css %>/app.css': '<%= resources.sass %>/app.scss',
-            '<%= css %>/oldie.css': '<%= resources.sass %>/oldie.scss',
-            '<%= css %>/tiny.css': '<%= resources.sass %>/tiny.scss'
+            '<%= assets.css %>/boilerplate.css': '<%= resources.sass %>/boilerplate.scss',
+            '<%= assets.css %>/app.css': '<%= resources.sass %>/app.scss',
+            '<%= assets.css %>/oldie.css': '<%= resources.sass %>/oldie.scss',
+            '<%= assets.css %>/tiny.css': '<%= resources.sass %>/tiny.scss'
         }
     }
 };

@@ -15,12 +15,14 @@ module.exports = function (grunt) {
 
     require('load-grunt-config')(grunt, {
         data: {
+            assets: {
+                css: 'assets/css',
+                js: 'assets/js'
+            },
             resources: {
+              js: 'resources/assets/js',
               sass: 'resources/assets/sass'
             },
-            assets: 'assets',
-            css: 'assets/css',
-            js: 'assets/js',
             npm_vendor: 'node_modules'
         }
     });
@@ -42,6 +44,7 @@ module.exports = function (grunt) {
      * Description: Generate JS file.
      */
     grunt.registerTask('js', [
+        'uglify',
         'modernizr'
     ]);
 
