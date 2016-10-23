@@ -38,11 +38,20 @@ module.exports = function (grunt) {
     ]);
 
     /**
+     * Task: js
+     * Description: Generate JS file.
+     */
+    grunt.registerTask('js', [
+        'modernizr'
+    ]);
+
+    /**
      * Task: theme
      * Description: Generate CSS files.
      */
     grunt.registerTask('theme', [
         'scsslint',
-        'sass'
+        'sass',
+        'js'
     ]);
 };
