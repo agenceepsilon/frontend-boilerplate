@@ -1,5 +1,6 @@
 ## Files
 *.css.map
+*.log
 *.map
 scss-lint-report.xml
 
