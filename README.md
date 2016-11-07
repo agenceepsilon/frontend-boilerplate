@@ -14,4 +14,4 @@
 
 * [Download the latest release](https://github.com/agenceepsilon/frontend-boilerplate/archive/master.zip)
 * Install npm packages: ``npm install``
-* Generate default styles files: ``grunt theme``
+* Generate default styles files: ``grunt build``
