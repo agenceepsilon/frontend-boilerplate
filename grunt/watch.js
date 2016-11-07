@@ -7,12 +7,21 @@ module.exports = {
         livereload: false
     },
 
-    css: {
+    styles: {
         files: [
             '<%= resources.sass %>/**/*.scss'
         ],
         tasks: [
-            'theme'
+            'sass'
+        ]
+    },
+
+    scripts: {
+        files: [
+            '<%= resources.js %>/**/*.js'
+        ],
+        tasks: [
+            'uglify'
         ]
     }
 };

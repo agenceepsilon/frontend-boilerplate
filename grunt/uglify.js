@@ -9,7 +9,7 @@ module.exports = {
         sourceMapName: '<%= assets.js %>/app.map'
     },
 
-    app: {
+    dist: {
         files: {
             '<%= assets.js %>/app.min.js': '<%= resources.js %>/app.js'
         }

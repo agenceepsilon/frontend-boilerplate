@@ -15,7 +15,7 @@ module.exports = {
         ]
     },
 
-    app: [
+    dist: [
         '<%= resources.sass %>/**/*.scss'
     ]
 };

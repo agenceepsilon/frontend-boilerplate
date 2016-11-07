@@ -9,7 +9,7 @@ module.exports = {
         sourceMap: true
     },
 
-    app: {
+    dist: {
         files: {
             '<%= assets.css %>/boilerplate.css': '<%= resources.sass %>/boilerplate.scss',
             '<%= assets.css %>/app.css': '<%= resources.sass %>/app.scss',

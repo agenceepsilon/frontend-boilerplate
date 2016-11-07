@@ -44,16 +44,22 @@ module.exports = function (grunt) {
      * Description: Generate JS file.
      */
     grunt.registerTask('js', [
-        'uglify',
-        'modernizr'
+        'modernizr',
+        'uglify'
     ]);
 
     /**
-     * Task: theme
-     * Description: Generate CSS files.
+     * Task: validation
      */
-    grunt.registerTask('theme', [
-        'scsslint',
+    grunt.registerTask('validation', [
+        'scsslint'
+    ]);
+
+    /**
+     * Task: build
+     * Description: Generate assets files.
+     */
+    grunt.registerTask('build', [
         'sass',
         'js'
     ]);
