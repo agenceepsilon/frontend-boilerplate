@@ -19,10 +19,12 @@ module.exports = function (grunt) {
                 css: 'assets/css',
                 js: 'assets/js'
             },
+
             resources: {
               js: 'resources/assets/js',
               sass: 'resources/assets/sass'
             },
+
             npm_vendor: 'node_modules'
         }
     });
