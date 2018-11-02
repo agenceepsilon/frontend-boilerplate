@@ -5,10 +5,10 @@
 // ============================================================================================= //
 
 // ------------------------------------------------------------------------- //
-// CONFIGURATION
+// VARIABLES
 // ------------------------------------------------------------------------- //
 
-@import "_config/config";
+@import "_variables/colors";
 
 // ------------------------------------------------------------------------- //
 // VENDORS
@@ -16,31 +16,31 @@
 
 @import "../../../node_modules/sass-mercury/mercury";
 @import "../../../node_modules/sass-mercury/helpers";
-@import "../../../node_modules/normalize.css/normalize.css";
+@import "../../../node_modules/normalize.css/normalize";
 
 // ------------------------------------------------------------------------- //
 // GLOBAL
 // ------------------------------------------------------------------------- //
 
-@import "_global/colors";
-@import "_global/fonts";
 @import "_global/main";
-@import "_global/form";
-@import "_global/buttons";
+@import "_global/fonts";
+@import "_global/typography";
 
 // ------------------------------------------------------------------------- //
-// PROJECT
+// LAYOUTS
 // ------------------------------------------------------------------------- //
 
-@import "_project/layout-global";
-@import "_project/layout-hp";
-@import "_project/layout-1col";
+@import "_layouts/layout-global";
+@import "_layouts/layout-hp";
+@import "_layouts/layout-1col";
 
 // ------------------------------------------------------------------------- //
 // COMPONENTS
 // ------------------------------------------------------------------------- //
 
-//@import "_components/my-module";
+@import "_components/boilerplate";
+@import "_components/buttons";
+@import "_components/form";
 
 // ------------------------------------------------------------------------- //
 // PRINT

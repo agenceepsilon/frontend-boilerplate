@@ -9,7 +9,7 @@ module.exports = {
         colorizeOutput: true,
         force: true,
         exclude: [
-            '<%= resources.sass %>/boilerplate.scss',
+            '<%= resources.sass %>/_boilerplate.scss',
             '<%= resources.sass %>/_global/_print.scss',
             '<%= resources.sass %>/vendor/*.scss'
         ]

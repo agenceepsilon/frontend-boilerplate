@@ -22,9 +22,9 @@ $media-queries: false;
 // GLOBAL
 // ------------------------------------------------------------------------- //
 
-@import "_global/colors";
+@import "_variables/colors";
 @import "_global/fonts";
-@import "_global/editor";
+@import "_global/typography";
 
 // ------------------------------------------------------------------------- //
 // COMPONENTS
