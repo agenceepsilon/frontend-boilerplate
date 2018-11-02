@@ -2,8 +2,11 @@
 //                                         GRUNT - SASS                                          //
 // ============================================================================================= //
 
+const sass = require('node-sass');
+
 module.exports = {
     options: {
+        implementation: sass,
         outputStyle: 'nested',
         precision: 3,
         sourceMap: true

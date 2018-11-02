@@ -12,7 +12,7 @@
                     <p><u>To initialize the project:</u></p>
                     <ul>
                         <li>Run <em><strong>"npm install"</strong></em> to download the <strong>npm packages</strong></li>
-                        <li>Run <em><strong>"grunt theme"</strong></em> to generate the default assets files</li>
+                        <li>Run <em><strong>"grunt build"</strong></em> to generate the default assets files</li>
                     </ul>
                 </div>
                 <h2>Pages</h2>
